@@ -1,0 +1,148 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 11/02 a 15/02/2026",
+  "resumo_executivo": "A semana foi marcada por alta volatilidade no mercado de crédito, com destaque para o rebaixamento crítico da Raízen pela Moody's (de AAA.Br para CCC+.Br) e revisões negativas nos preços-teto dos leilões térmicos da ANEEL. O setor elétrico dominou as discussões com múltiplas reuniões regulatórias e ajustes de expectativas. Simultaneamente, observamos avanços em reestruturações complexas como Trinity e Agrogalaxy, além de intensa atividade no pipeline de emissões de debêntures e CRAs. A agenda foi especialmente densa com 15 reuniões em 5 dias, refletindo o momento crítico de diversos créditos sob monitoramento.",
+  "principais_temas": [
+    {
+      "tema": "Leilões de Capacidade/ANEEL",
+      "frequencia": 8,
+      "resumo": "Preços-teto considerados baixos pelo mercado geraram reação negativa, forçando MME a recalcular e ANEEL a convocar reunião extraordinária. Impacto direto em Eneva e demais térmicas.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Crise Raízen",
+      "frequencia": 6,
+      "resumo": "Rebaixamento para CCC+ com perspectiva negativa, prejuízo de R$ 14,7 bi no 3Q26 e dúvida sobre continuidade operacional. Discussões de reestruturação entre Cosan, Shell e BTG iniciadas.",
+      "status": "escalado"
+    },
+    {
+      "tema": "Reestruturações em Curso",
+      "frequencia": 5,
+      "resumo": "Trinity avançando com descaracterização de debêntures via AGD; Agrogalaxy sob gestão Tauá com downsizing profundo; Café Brasil aprovando waiver com amortização extraordinária.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico/Utilities",
+      "frequencia": 7,
+      "resumo": "Além dos leilões, discussões sobre reajustes tarifários de ~15% em 2026, situação da Enel SP e leilão pioneiro de baterias até junho. Múltiplas análises setoriais divulgadas.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline de Emissões",
+      "frequencia": 4,
+      "resumo": "Bookbuilding da Eneva concluído com spreads apertados, CRA Caramuru executado, Eletrobras com nova oferta de R$ 2 bi e múltiplas ofertas CVM registradas.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 6,
+      "contexto": "Rebaixamento crítico para CCC+, prejuízo bilionário e início de discussões de reestruturação com acionistas e BTG",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 5,
+      "contexto": "Duplo impacto negativo dos preços-teto baixos e questões regulatórias, mas bookbuilding de debêntures executado com sucesso",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Trinity",
+      "mencoes": 3,
+      "contexto": "Progresso consistente na descaracterização de debêntures com minutas de AGD e aditamentos sendo finalizados",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Agrogalaxy",
+      "mencoes": 3,
+      "contexto": "Situação crítica confirmada com Tauá assumindo gestão completa, downsizing iniciado e saída de executivos programada",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Café Brasil",
+      "mencoes": 2,
+      "contexto": "Waiver aprovado em assembleia com amortização extraordinária e venda de ativos para capitalização",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "CEO Conference - Alexandre Silveira (MME)",
+      "data": "2026-02-12",
+      "impacto": "Esclarecimentos sobre ajustes nos leilões de capacidade e confirmação do leilão pioneiro de baterias, gerando revisões nas expectativas do setor"
+    },
+    {
+      "titulo": "Agrogalaxy - Reestruturação sob gestão Tauá",
+      "data": "2026-02-12",
+      "impacto": "Confirmação da gravidade da situação com necessidade de empresa significativamente menor, impactando estratégia de recovery"
+    },
+    {
+      "titulo": "Update Enel (Itaú BBA)",
+      "data": "2026-02-13",
+      "impacto": "Análise indicando uso da pressão regulatória para forçar alienação de controle, com múltiplos atrativos identificados"
+    },
+    {
+      "titulo": "Assembleia CRA 190ª - Café Brasil",
+      "data": "2026-02-13",
+      "impacto": "Aprovação de waiver fundamental para continuidade do crédito, com mecanismo de Cash Sweep implementado"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Debêntures Eneva",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Bookbuilding executado com spreads finais de 6,84% e 6,89% para as duas séries, resultado dentro das expectativas"
+    },
+    {
+      "operacao": "CRA Caramuru",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Bookbuilding realizado via BTG Prime Services no dia 12/02 das 10h-11h"
+    },
+    {
+      "operacao": "Debêntures Eletrobras",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Nova oferta de R$ 2 bilhões em 3 séries para público profissional em regime misto"
+    },
+    {
+      "operacao": "Trinity Descaracterização",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Minutas de AGD e aditamentos sendo finalizados com ajustes mínimos pendentes"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 15,
+    "total_emails": 449,
+    "total_followups": 0,
+    "followups_pendentes": "Não identificados follow-ups específicos pendentes",
+    "analise": "Semana extremamente intensa com 5 reuniões/dia em média, demonstrando alta demanda por acompanhamento de créditos críticos. Volume de 150 emails/dia está acima da média, reflexo da volatilidade do período. A ausência de follow-ups formais pode indicar execução imediata ou necessidade de melhor tracking de pendências."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Indefinição metodologia leilões ANEEL",
+      "desde": "11/02",
+      "impacto": "Continua gerando incerteza sobre viabilidade de projetos térmicos e precificação de créditos do setor"
+    },
+    {
+      "tema": "Estrutura de reestruturação Raízen",
+      "desde": "13/02",
+      "impacto": "Sem definição clara da estrutura final, mantém pressão sobre todo o agronegócio e créditos relacionados"
+    },
+    {
+      "tema": "Timeline definição Enel SP",
+      "desde": "13/02",
+      "impacto": "Incerteza sobre timing da alienação impacta precificação e estratégia para o setor de distribuição"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar desdobramentos da reestruturação Raízen e impactos sistêmicos no agronegócio",
+    "Monitorar reunião extraordinária ANEEL sobre metodologia de leilões e ajustes nos preços-teto",
+    "Finalizar documentação Trinity e acompanhar execução da AGD para descaracterização",
+    "Avaliar oportunidades no secundário de utilities dado o stress regulatório",
+    "Acompanhar execução do plano de reestruturação Agrogalaxy under Tauá management"
+  ]
+}
