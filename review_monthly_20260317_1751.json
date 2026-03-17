@@ -1,0 +1,177 @@
+{
+  "tipo_review": "monthly",
+  "periodo": "February 2026",
+  "resumo_executivo": "Fevereiro de 2026 foi marcado por crises significativas no mercado de crédito brasileiro, com destaque para o rebaixamento crítico da Raízen (AAA.Br para CCC+.Br) e a reestruturação da Agrogalaxy sob gestão da Tauá Partners. O setor elétrico enfrentou turbulências com preços-teto do leilão térmico considerados baixos pelo mercado, impactando negativamente Eneva e gerando revisões de metodologia pela ANEEL. Trinity apresentou progresso na descaracterização de debêntures 12.431, enquanto o pipeline de emissões manteve ritmo com Copasa, Caramuru e Eletrobras. A gestão da Gabriela demonstrou alta produtividade com 25 reuniões e 957 emails processados, focando em situações especiais e reestruturações que demandaram acompanhamento próximo.",
+  "principais_temas": [
+    {
+      "tema": "Crise Raízen e Agronegócio",
+      "frequencia": 8,
+      "resumo": "Rebaixamento crítico da Raízen com possível recuperação extrajudicial, reestruturação da Agrogalaxy com queima de R$ 350 milhões, e pressões no setor",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Leilão de Capacidade Energética",
+      "frequencia": 6,
+      "resumo": "Preços-teto considerados baixos, impacto negativo na Eneva, revisão de metodologia pela ANEEL após reação do mercado",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Trinity - Descaracterização Debêntures",
+      "frequencia": 4,
+      "resumo": "Progresso consistente na descaracterização das debêntures 12.431, com minutas sendo aprovadas por investidores",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Reestruturações e Special Situations",
+      "frequencia": 7,
+      "resumo": "Múltiplas situações especiais incluindo Agrogalaxy, Prime Agro, Café Brasil com necessidade de acompanhamento próximo",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline de Emissões",
+      "frequencia": 12,
+      "resumo": "Atividade intensa com Copasa (10 anos CDI+0,65%), Caramuru, Eletrobras e diversos CRAs em bookbuilding",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico/Utilities",
+      "frequencia": 9,
+      "resumo": "Discussões sobre reajustes tarifários esperados de ~15%, impactos regulatórios, e análises setoriais detalhadas",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 6,
+      "contexto": "Rebaixamento crítico de rating, prejuízo de R$ 14,7 bi, R$ 4,9 bi em ativos à venda, possível recuperação extrajudicial",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Agrogalaxy",
+      "mencoes": 5,
+      "contexto": "Reestruturação profunda sob gestão Tauá, queima de R$ 350 mi, caixa para 2-3 meses, downsizing iniciado",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Trinity",
+      "mencoes": 4,
+      "contexto": "Progresso na descaracterização de debêntures 12.431, minutas sendo aprovadas pelos investidores",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 5,
+      "contexto": "Impacto negativo do leilão térmico, recebimento de R$ 293 mi de acordo, oportunidades de trading",
+      "status": "normal"
+    },
+    {
+      "empresa": "Copasa",
+      "mencoes": 2,
+      "contexto": "Emissão de debêntures 10 anos CDI+0,65% confirmada, potencial leilão pela Aegea",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 2,
+      "contexto": "Três frentes de equity em andamento, spin-off biológicos, CRA em liquidação",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "CEO Conference MME/PSR",
+      "data": "2026-02-12",
+      "impacto": "Definições sobre leilão de baterias até junho e ajustes no leilão de capacidade"
+    },
+    {
+      "titulo": "Agrogalaxy Reestruturação",
+      "data": "2026-02-12",
+      "impacto": "Confirmação da situação crítica e necessidade de downsizing significativo"
+    },
+    {
+      "titulo": "Tauá Partners x JGP",
+      "data": "2026-02-23",
+      "impacto": "Alinhamento sobre múltiplas situações especiais no portfolio"
+    },
+    {
+      "titulo": "Update Enel (Itaú BBA)",
+      "data": "2026-02-13",
+      "impacto": "Análise indicando chance zero de caducidade, pressão para alienação de controle"
+    },
+    {
+      "titulo": "Comitê de Crédito",
+      "data": "2026-02-23",
+      "impacto": "Deliberações sobre exposições e aprovação Mottu Locação de Veículos"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Copasa Debêntures",
+      "tipo": "emissão",
+      "status": "confirmado",
+      "resumo": "10 anos CDI+0,65% e IPCA não isenta"
+    },
+    {
+      "operacao": "Caramuru CRA",
+      "tipo": "emissão",
+      "status": "bookbuilding 24/02",
+      "resumo": "Bookbuilding programado via BTG Prime Services"
+    },
+    {
+      "operacao": "Eletrobras Debêntures",
+      "tipo": "emissão",
+      "status": "bookbuilding 23/02",
+      "resumo": "R$ 2 bilhões, 3 séries, público profissional"
+    },
+    {
+      "operacao": "Café Brasil CRA",
+      "tipo": "reestruturação",
+      "status": "concluído",
+      "resumo": "Waiver aprovado com amortização 10% e liquidação até dezembro"
+    },
+    {
+      "operacao": "Trinity Debêntures 12.431",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Descaracterização em processo de aprovação pelos investidores"
+    },
+    {
+      "operacao": "Fiagril CRA",
+      "tipo": "assembleia",
+      "status": "convocada 27/02",
+      "resumo": "Assembleia especial de investidores convocada"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 25,
+    "total_emails": 957,
+    "total_followups": 0,
+    "followups_pendentes": "Follow-up Agrogalaxy primeira semana março, acompanhamento Trinity aditamento, monitoramento Raízen reestruturação",
+    "analise": "Alta produtividade com média de 2,8 reuniões/dia e 160 emails/dia. Foco eficiente em situações especiais demandou acompanhamento próximo de múltiplas reestruturações. Ausência de follow-ups formais registrados indica necessidade de melhor tracking de pendências críticas."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Agrogalaxy funding via FDIC",
+      "desde": "início fevereiro",
+      "impacto": "Empresa com caixa para apenas 2-3 meses, funding travado compromete continuidade operacional"
+    },
+    {
+      "tema": "Trinity condição suspensiva",
+      "desde": "20/02",
+      "impacto": "Decisões pendentes sobre riscos percebidos podem atrasar conclusão da descaracterização"
+    },
+    {
+      "tema": "Raízen estrutura de capital",
+      "desde": "13/02",
+      "impacto": "Incerteza sobre reestruturação entre Cosan, Shell e BTG afeta todo o setor de agronegócio"
+    }
+  ],
+  "proximas_prioridades": [
+    "Follow-up crítico Agrogalaxy primeira semana março - situação de caixa urgente",
+    "Monitoramento Trinity - finalização aprovação aditamento pelos investidores",
+    "Acompanhamento evolução Raízen - impacto sistêmico no agronegócio",
+    "Execução pipeline emissões Caramuru e Eletrobras",
+    "Implementação sistema de tracking de follow-ups para melhor gestão de pendências"
+  ]
+}
