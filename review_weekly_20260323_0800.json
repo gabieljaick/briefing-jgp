@@ -1,0 +1,159 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 18/03 a 22/03/2026",
+  "resumo_executivo": "A semana foi marcada por uma intensificação das atividades de reestruturação e distressed assets, com destaque para os casos Lavoro e Prime Agro que demandaram múltiplas reuniões de coordenação. O setor de energia teve protagonismo com o sucesso expressivo da Eneva no LRCAP 2026, contratando 5,1 GW e anunciando R$ 18,2 bilhões em investimentos. O mercado de crédito privado apresentou sinais claros de deterioração, com demanda de debêntures próxima a zero devido ao elevado volume de recuperações extrajudiciais. A semana também foi caracterizada por múltiplos rebaixamentos de rating (CSN, Compass, TRSP, Raízen) e uma agenda intensa de reuniões (4,7 por dia) focadas em situações de distress.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações e Distressed Assets",
+      "frequencia": 8,
+      "resumo": "Lavoro com troca de controle complexa para AGI gerando vencimento antecipado de CRAs, Prime Agro negociando alongamento com assembleia para sustação de efeitos, Gran Coffee com proposta de dívida subordinada pelo Itaú",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor de Energia - LRCAP 2026",
+      "frequencia": 6,
+      "resumo": "Eneva emergiu como grande vencedora contratando 5,1 GW e anunciando maior plano de investimentos da história (R$ 18,2 bi). Leilão contratou 19 GW total com desconto médio de 5,52%",
+      "status": "concluído"
+    },
+    {
+      "tema": "Deterioração do Mercado de Crédito",
+      "frequencia": 5,
+      "resumo": "Demanda de debêntures próxima a zero, múltiplos rebaixamentos de rating, SulAmérica ajustando carteira por prêmios menores, cenário desafiador generalizado",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Data Centers e Infraestrutura Digital",
+      "frequencia": 3,
+      "resumo": "BTG questionando se boom de data centers está chegando à América do Sul, Brisanet alertando sobre risco de bolha no setor",
+      "status": "em análise"
+    },
+    {
+      "tema": "Rebaixamentos de Rating",
+      "frequencia": 4,
+      "resumo": "CSN rebaixada para 'B' pela S&P, Compass e TRSP para AA(bra) pela Fitch, Raízen para 'Ca' pela Moody's",
+      "status": "concluído"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Eneva",
+      "mencoes": 6,
+      "contexto": "Maior vencedora do LRCAP 2026 com contratação de 5,1 GW e plano de R$ 18,2 bi em investimentos, consolidando posição como maior geradora térmica do Brasil",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 4,
+      "contexto": "Troca de controle para AGI formalizada, gerando vencimento antecipado de CRAs e necessidade de coordenação entre credores para evolução para RJ",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 4,
+      "contexto": "Assembleia de CRA realizada com estratégia de sustação condicionada a reforço de garantias, carência de juros negociada para abril",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 3,
+      "contexto": "Rating rebaixado para 'B' pela S&P por alavancagem persistente de 5-6x e déficit de FCO projetado de R$ 410 mi em 2026",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Gran Coffee",
+      "mencoes": 2,
+      "contexto": "Proposta de dívida subordinada de R$ 85-100 mi pelo Itaú para turnaround, JGP demonstrou interesse",
+      "status": "em análise"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Gran Coffee x Itaú",
+      "data": "18/03",
+      "impacto": "Estruturação de proposta de dívida subordinada de 6 anos, JGP demonstrou interesse em participar"
+    },
+    {
+      "titulo": "Alinhamento Lavoro JGP & XP",
+      "data": "18/03",
+      "impacto": "Coordenação para lidar com vencimento antecipado por mudança de controle, definição de estratégia conjunta"
+    },
+    {
+      "titulo": "Prime Agro - Assembleia CRA",
+      "data": "19/03",
+      "impacto": "Aprovação de sustação condicionada a garantias, carência negociada até 30 de abril"
+    },
+    {
+      "titulo": "Comitê de Crédito Arco Educação",
+      "data": "20/03",
+      "impacto": "Rating mantido em B-, análise de conversível de R$ 700 mi e projeção de desalavancagem"
+    },
+    {
+      "titulo": "Call Resultados LRCAP 2026",
+      "data": "20/03",
+      "impacto": "Análise completa do leilão, identificação de oportunidades no setor de energia"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Gran Coffee - Dívida Subordinada",
+      "tipo": "reestruturação",
+      "status": "em análise",
+      "resumo": "Proposta Itaú de R$ 85-100 mi, 6 anos, CDI + 6,75%, JGP interessada"
+    },
+    {
+      "operacao": "Prime Agro CRA",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Sustação aprovada condicionada a garantias, reprogramação de pagamentos"
+    },
+    {
+      "operacao": "Intesa Bookbuilding",
+      "tipo": "emissão",
+      "status": "programado",
+      "resumo": "Bookbuilding programado para 20/03 às 10h"
+    },
+    {
+      "operacao": "Rumo Debêntures",
+      "tipo": "operação secundária",
+      "status": "disponível",
+      "resumo": "Oferta de compra RUMOA3 e RUMOA5 com taxas atrativas"
+    },
+    {
+      "operacao": "TS FIDC Gran Coffee",
+      "tipo": "estruturação",
+      "status": "em análise",
+      "resumo": "CRA lastreado por contratos de locação, R$ 55 mi podendo chegar a R$ 140 mi"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 14,
+    "total_emails": 810,
+    "total_followups": 0,
+    "followups_pendentes": "Não foram identificados follow-ups específicos pendentes, mas várias situações em andamento requerem acompanhamento",
+    "analise": "Semana de alta intensidade com 4,7 reuniões/dia e 162 emails/dia, indicando foco em situações complexas de distress. A ausência de follow-ups formalizados pode indicar necessidade de melhor estruturação de acompanhamento das múltiplas frentes abertas."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Coordenação Lavoro RJ",
+      "desde": "18/03",
+      "impacto": "Necessidade de coordenação entre credores pode atrasar processo e aumentar perdas"
+    },
+    {
+      "tema": "Situação FIDCs Agro",
+      "desde": "18/03",
+      "impacto": "Catálise parou de revolver carteira, impactando liquidez de R$ 160 mi em exposição"
+    },
+    {
+      "tema": "Deterioração geral do mercado de crédito",
+      "desde": "início da semana",
+      "impacto": "Demanda próxima a zero pode afetar pipeline futuro e rentabilidade"
+    }
+  ],
+  "proximas_prioridades": [
+    "Finalizar análise e decisão sobre participação na dívida subordinada Gran Coffee",
+    "Acompanhar evolução da coordenação de credores Lavoro e definir estratégia para RJ",
+    "Monitorar implementação das garantias Prime Agro e cumprimento da reprogramação",
+    "Avaliar oportunidades no setor de energia pós-LRCAP, especialmente relacionadas à Eneva",
+    "Estruturar melhor sistema de follow-ups para as múltiplas situações de distress em andamento"
+  ]
+}
