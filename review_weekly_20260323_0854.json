@@ -1,0 +1,148 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 18/03 a 22/03/2026",
+  "resumo_executivo": "Semana intensa marcada por desenvolvimentos críticos em crédito privado e energia. O mercado de debêntures apresentou demanda próxima a zero devido ao elevado volume de recuperações extrajudiciais, sinalizando stress generalizado no crédito corporativo. Paralelamente, o setor elétrico viveu momento histórico com o LRCAP 2026, destacando a Eneva como grande vencedora ao contratar 5,1 GW. No crédito privado, situações complexas como Lavoro (troca de controle para AGI) e Prime Agro (assembleia de CRA) demandaram coordenação intensiva entre credores. O volume de trabalho foi expressivo com 162 emails/dia e 4,7 reuniões/dia, refletindo o ambiente desafiador do mercado.",
+  "principais_temas": [
+    {
+      "tema": "Recuperações Extrajudiciais e Stress de Crédito",
+      "frequencia": 8,
+      "resumo": "Mercado de debêntures com demanda próxima a zero, múltiplos rebaixamentos de rating (CSN, Raízen, Compass, TRSP), ambiente generalizado de stress creditício",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico - LRCAP 2026",
+      "frequencia": 6,
+      "resumo": "Leilão histórico com 19 GW contratados, Eneva como grande vencedora (5,1 GW), investimentos de R$ 18,2 bilhões, consolidação da geração térmica",
+      "status": "concluído"
+    },
+    {
+      "tema": "Agronegócio em Crise",
+      "frequencia": 5,
+      "resumo": "Lavoro com troca de controle complexa para AGI, Prime Agro em assembleia de CRA, FIDCs agro com dificuldades de revolving",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Data Centers e Infraestrutura Digital",
+      "frequencia": 3,
+      "resumo": "BTG questionando boom de data centers na América do Sul, Brisanet alertando sobre possível bolha no setor",
+      "status": "em análise"
+    },
+    {
+      "tema": "Operações Estruturadas",
+      "frequencia": 4,
+      "resumo": "Gran Coffee com proposta de dívida subordinada, Arco Educação em comitê (rating B-), novas estruturas de financiamento",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Eneva",
+      "mencoes": 4,
+      "contexto": "Maior vencedora do LRCAP 2026, contratou 5,1 GW, plano de investimentos de R$ 18,2 bi, upgrade de preço-alvo para R$ 28",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 3,
+      "contexto": "Troca de controle formalizada para AGI, CRA de R$ 420 mi em assembleia para vencimento antecipado, situação complexa de coordenação",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 3,
+      "contexto": "Assembleia de CRA com estratégia de sustação condicionada a reforço de garantias, carência de juros até 30 de abril",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 2,
+      "contexto": "Rating rebaixado de B+ para B pela S&P, alavancagem persistente 5,0-6,0x, déficit FCO projetado R$ 410 mi",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Gran Coffee",
+      "mencoes": 2,
+      "contexto": "Proposta de dívida subordinada Itaú R$ 85-100 mi CDI+6,75%, EBITDA estável 19% margem, juros elevados",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Assembleia Prime Agro CRA",
+      "data": "19/03",
+      "impacto": "Aprovação de sustação de vencimento condicionada a garantias, reprogramação de pagamentos para 30/04"
+    },
+    {
+      "titulo": "Comitê Crédito Arco Educação",
+      "data": "20/03",
+      "impacto": "Manutenção rating B-, análise de conversível R$ 700 mi, planejamento captação R$ 500-600 mi anual"
+    },
+    {
+      "titulo": "Alinhamento Lavoro JGP & XP",
+      "data": "18/03",
+      "impacto": "Estratégia coordenada para situação complexa pós-troca de controle, necessidade de RJ coordenado"
+    },
+    {
+      "titulo": "Gran Coffee x Itaú",
+      "data": "18/03",
+      "impacto": "Estruturação de dívida subordinada para turnaround, JGP demonstrou interesse na análise"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Intesa Bookbuilding",
+      "tipo": "emissão",
+      "status": "programado",
+      "resumo": "Bookbuilding INTESA programado para 20/03/2026 às 10:00h com possibilidade de ordem antecipada"
+    },
+    {
+      "operacao": "Rumo Debêntures",
+      "tipo": "oferta_compra",
+      "status": "em andamento",
+      "resumo": "Ofertas RUMOA3 (8,55% a.a.) e RUMOA5 (8,324% a.a.) com volumes específicos"
+    },
+    {
+      "operacao": "BBI ECRD14",
+      "tipo": "operação_secundária",
+      "status": "concluído",
+      "resumo": "Compra por taxa 7,552% a.a., 6.150 títulos, liquidação 19/03"
+    },
+    {
+      "operacao": "Gran Coffee Subordinada",
+      "tipo": "estruturação",
+      "status": "em análise",
+      "resumo": "R$ 85-100 mi, CDI+6,75%, 6 anos, garantia em ações"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 14,
+    "total_emails": 487,
+    "total_followups": 0,
+    "followups_pendentes": "Registro garantias Prime Agro na B3 (7-10 dias), análise proposta Gran Coffee, coordenação Lavoro",
+    "analise": "Intensidade elevada com 4,7 reuniões/dia e 162 emails/dia, indicando período de alta demanda operacional. Ausência de follow-ups formais pode indicar resolução eficiente ou falta de sistematização de pendências. Volume sugere foco em gestão de crises e situações especiais."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Coordenação credores Lavoro",
+      "desde": "18/03",
+      "impacto": "CRA R$ 420 mi em risco, necessidade de estratégia uniforme entre credores para recuperação"
+    },
+    {
+      "tema": "Mercado debêntures com demanda zero",
+      "desde": "20/03",
+      "impacto": "Paralisação virtual do mercado primário, impacto em pipeline de emissões e liquidez secundária"
+    },
+    {
+      "tema": "FIDCs Agro sem revolving",
+      "desde": "novembro 2025",
+      "impacto": "R$ 160 mi Prime Agro parados, pressão de liquidez em gestoras, risco sistêmico no agro"
+    }
+  ],
+  "proximas_prioridades": [
+    "Monitorar registro de garantias Prime Agro na B3 e cumprimento das condições da assembleia",
+    "Finalizar análise da proposta Gran Coffee de dívida subordinada e definir participação",
+    "Acompanhar evolução da situação Lavoro para RJ e coordenar estratégia com demais credores",
+    "Avaliar impactos do LRCAP 2026 em créditos do setor elétrico e oportunidades Eneva",
+    "Monitorar deterioração geral do mercado de crédito privado e ajustar estratégias de portfolio"
+  ]
+}
