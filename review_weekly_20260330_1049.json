@@ -1,0 +1,178 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 25/03 a 29/03/2026",
+  "resumo_executivo": "Semana marcada por intensa atividade em reestruturações de crédito e tensões regulatórias. O destaque principal foi a situação crítica da Prime Agro, com CRA em vencimento automático e AGT suspensa até 30/03, enquanto a Lavoro avançou em negociações complexas com XP para reestruturação baseada em recebíveis de R$675 mi. No setor elétrico, observamos pressões regulatórias significativas com a ANEEL revertendo liminar da Light e reduzindo reajuste tarifário de 16,69% para 8,59%, além de contestações da J&F sobre leilões de capacidade energética. A CSN acelerou seu programa de desinvestimento com empréstimo de US$1,4 bi e planos de venda de até 40% da infraestrutura visando R$15-18 bi. O mercado de crédito privado mostrou aversão elevada ao risco, impactando novas emissões, enquanto o volume de reuniões (12 no período) refletiu a necessidade de acompanhamento próximo das situações críticas.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação de Crédito Agro",
+      "frequencia": 4,
+      "resumo": "Prime Agro em situação crítica com CRA em vencimento automático e Lavoro em negociações intensas com XP para reestruturação de R$420 mi via recebíveis",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pressão Regulatória Setor Elétrico",
+      "frequencia": 3,
+      "resumo": "ANEEL reverteu liminar da Light reduzindo reajuste tarifário, J&F contestou leilões de capacidade, e EPE estuda reforços para data centers",
+      "status": "escalado"
+    },
+    {
+      "tema": "Desinvestimentos e Venda de Ativos",
+      "frequencia": 2,
+      "resumo": "CSN acelerou programa com empréstimo de US$1,4 bi e venda de ativos visando R$15-18 bi, incluindo CSN Cimentos e até 40% da infraestrutura",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Leilões de Transmissão/Capacidade",
+      "frequencia": 3,
+      "resumo": "Leilão de transmissão de R$3,4 bi em capex realizado com 5 projetos, enquanto J&F contestou resultados de leilões de capacidade anteriores",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Aversão ao Risco em Crédito",
+      "frequencia": 2,
+      "resumo": "Mercado de crédito privado com aversão elevada após reestruturações da Raízen e GPA, impactando novas emissões corporativas",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Resultados Corporativos",
+      "frequencia": 2,
+      "resumo": "JBS reportou EBITDA sólido de US$1,5 bi e anunciou dividendo de US$1/ação, Orizon mostrou crescimento de 38% no EBITDA para R$134 mi",
+      "status": "positivo"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 3,
+      "contexto": "CRA em vencimento automático por inadimplência de fevereiro e março, AGT suspensa até 30/03, empresa não consegue honrar pagamentos",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 2,
+      "contexto": "Negociações intensas com XP e credores para reestruturação de CRA R$420 mi usando base de recebíveis R$675 mi",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Light",
+      "mencoes": 2,
+      "contexto": "ANEEL reverteu liminar judicial mantendo reajuste de 8,59% vs 16,69% pretendido, pressão adicional sobre reestruturação",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 1,
+      "contexto": "Aceleração na venda de ativos com empréstimo US$1,4 bi e planos de desinvestimento de R$15-18 bi, alavancagem 3,47x",
+      "status": "alerta"
+    },
+    {
+      "empresa": "JBS",
+      "mencoes": 1,
+      "contexto": "EBITDA 4Q25 de US$1,5 bi acima de estimativas, anunciou dividendo US$1/ação com yield 6,3%",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Orizon",
+      "mencoes": 2,
+      "contexto": "EBITDA R$134 mi (+38% a/a), incorporação da Vital criando Nova Orizon de R$1 bi EBITDA, vitória em leilão gerando +R$100 mi anuais",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Lavoro - Alinhamento AGI e XP",
+      "data": "27/03/2026",
+      "impacto": "Definição de estrutura de reestruturação usando recebíveis vencidos vs 'dos 175' para CRA, com XP representando 60% dos credores"
+    },
+    {
+      "titulo": "Prime Agro - Reestruturação",
+      "data": "26/03/2026",
+      "impacto": "Proposta de pagamento 32,5% da parcela maio com evento de liquidez via M&A do negócio de biológicos na faixa 250-300"
+    },
+    {
+      "titulo": "JGP x Enel SP",
+      "data": "25/03/2026",
+      "impacto": "Entendimento sobre volatilidade dos spreads (~500bps) devido pressão político-regulatória sobre renovação de concessão"
+    },
+    {
+      "titulo": "Orizon - Conferência 4T25",
+      "data": "27/03/2026",
+      "impacto": "Apresentação de resultados sólidos com EBITDA +38% e incorporação da Vital criando sinergia significativa"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "FIDC Sol Agora IV",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding programado para 15 de abril das 15h às 16h, documentos atualizados"
+    },
+    {
+      "operacao": "ViaQuatro 7ª Emissão",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "S&P atribuiu rating brAAA à proposta de 7ª emissão de debêntures"
+    },
+    {
+      "operacao": "Multilog 3ª Emissão",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Moody's atribuiu rating AA-.br à proposta de debêntures com perspectiva estável"
+    },
+    {
+      "operacao": "Desktop",
+      "tipo": "rating_review",
+      "status": "em andamento",
+      "resumo": "S&P colocou rating brA+ em CreditWatch positivo após anúncio de venda para Claro"
+    },
+    {
+      "operacao": "Lavoro CRA",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Estruturação via recebíveis R$675 mi para quitar CRA R$420 mi com XP representando 60% credores"
+    },
+    {
+      "operacao": "Prime Agro CRA",
+      "tipo": "reestruturação",
+      "status": "crítico",
+      "resumo": "CRA em vencimento automático, AGT suspensa até 30/03, sem consenso entre credores"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 12,
+    "total_emails": 174,
+    "total_followups": 0,
+    "followups_pendentes": "AGT Prime Agro em 30/03, finalização MOUs CSN em 30 dias, bookbuilding FIDC Sol Agora IV em 15/04",
+    "analise": "Volume elevado de 4 reuniões/dia e 174 emails reflete período de alta intensidade operacional focado em reestruturações críticas. Ausência de follow-ups formalizados pode indicar gestão reativa vs proativa dos casos em andamento. Concentração em reuniões de alinhamento e casos críticos demonstra priorização adequada, mas sugere necessidade de maior estruturação de follow-ups para temas em evolução."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Prime Agro - Consenso entre Credores",
+      "desde": "25/03/2026",
+      "impacto": "CRA permanece em vencimento automático sem solução até AGT de 30/03, risco de deterioração adicional"
+    },
+    {
+      "tema": "Contestação J&F Leilões Capacidade",
+      "desde": "26/03/2026",
+      "impacto": "Insegurança jurídica inédita no setor elétrico, rivais já iniciaram obras e protestam"
+    },
+    {
+      "tema": "Aversão ao Risco Crédito Privado",
+      "desde": "27/03/2026",
+      "impacto": "Impacto negativo em novas emissões corporativas e spreads de crédito elevados"
+    },
+    {
+      "tema": "Light - Pressão Regulatória",
+      "desde": "25/03/2026",
+      "impacto": "Reajuste reduzido pressiona ainda mais a situação financeira da distribuidora em reestruturação"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar AGT Prime Agro de 30/03 e possíveis desdobramentos da falta de consenso entre credores",
+    "Monitorar evolução das negociações Lavoro com XP e estruturação final da solução via recebíveis",
+    "Acompanhar leilão de transmissão de 27/03 e impactos nos players do setor elétrico",
+    "Seguir desenvolvimento da venda de ativos CSN e cumprimento do cronograma de MOUs em 30 dias",
+    "Avaliar impactos da contestação J&F nos leilões de capacidade e insegurança jurídica do setor",
+    "Monitorar bookbuilding FIDC Sol Agora IV programado para 15/04 e condições de mercado"
+  ]
+}
