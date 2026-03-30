@@ -1,0 +1,159 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 25/03 a 29/03/2026",
+  "resumo_executivo": "Semana marcada por intensas reestruturações no agronegócio e pressões regulatórias no setor elétrico. Prime Agro e Agrogalaxy dominaram a agenda com situações críticas de inadimplência e negociações complexas com credores. O setor de utilities enfrentou múltiplas frentes: reversão judicial da Light, contestação da J&F no leilão de capacidade e preparação para leilão de transmissão de R$ 3,4 bi. CSN acelerou programa de desinvestimento com empréstimo-ponte de US$ 1,4 bi, enquanto JBS apresentou resultados sólidos com dividendo de US$ 1/ação. Mercado de crédito mostrou aversão ao risco crescente, com spreads elevados e estruturações mais conservadoras. Volume de trabalho permaneceu intenso com 149 emails/dia e 4 reuniões diárias em média.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação Agronegócio",
+      "frequencia": 4,
+      "resumo": "Prime Agro em vencimento automático de CRA por inadimplência, Agrogalaxy negociando com XP e credores estrutura FDIC baseada em R$ 675 mi de recebíveis",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pressão Regulatória Utilities",
+      "frequencia": 5,
+      "resumo": "Light com reajuste reduzido para 8,59%, contestação J&F no leilão de capacidade, leilão transmissão R$ 3,4 bi programado",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Desinvestimentos Corporativos",
+      "frequencia": 2,
+      "resumo": "CSN acelerou venda de ativos visando R$ 15-18 bi com empréstimo-ponte, movimentos de otimização de capital",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Aversão ao Risco Crédito",
+      "frequencia": 3,
+      "resumo": "Spreads elevados, estruturações mais conservadoras, mercado cauteloso pós-recuperações Raízen e GPA",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Resultados Corporativos",
+      "frequencia": 3,
+      "resumo": "JBS com EBITDA US$ 1,5 bi e dividendo US$ 1/ação, Orizon apresentou crescimento 38% com incorporação Vital",
+      "status": "resolvido"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 3,
+      "contexto": "CRA em vencimento automático por inadimplência fevereiro/março, AGT suspensa até 30/03, situação crítica",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Agrogalaxy",
+      "mencoes": 3,
+      "contexto": "Negociações intensas com XP para reestruturação baseada em R$ 675 mi recebíveis vs R$ 420 mi CRA",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Light",
+      "mencoes": 2,
+      "contexto": "ANEEL reverteu liminar mantendo reajuste 8,59%, pressão regulatória adicional sobre reestruturação",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 2,
+      "contexto": "Empréstimo US$ 1,4 bi para gerir vencimentos, aceleração venda ativos visando R$ 15-18 bi",
+      "status": "normal"
+    },
+    {
+      "empresa": "JBS",
+      "mencoes": 2,
+      "contexto": "EBITDA 4Q25 US$ 1,5 bi acima estimativas, dividendo US$ 1/ação confirmado",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Orizon",
+      "mencoes": 2,
+      "contexto": "EBITDA R$ 134 mi (+38% a/a), incorporação Vital criando 'Nova Orizon' R$ 1 bi EBITDA",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "JGP x AGI - Agrogalaxy",
+      "data": "27/03",
+      "impacto": "Definição de proposta estrutura FDIC para quitar CRA R$ 420 mi usando base recebíveis"
+    },
+    {
+      "titulo": "Update Soundings Aegea/Igua",
+      "data": "26/03",
+      "impacto": "Proposta pagamento 32,5% parcela maio, acúmulo juros até março/2027, M&A biológicos"
+    },
+    {
+      "titulo": "Orizon Conferência Resultados",
+      "data": "27/03",
+      "impacto": "Apresentação resultados sólidos e estratégia Nova Orizon pós-incorporação Vital"
+    },
+    {
+      "titulo": "JGP x Enel SP",
+      "data": "25/03",
+      "impacto": "Entendimento volatilidade spreads (~500bps) devido pressão político-regulatória concessão"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "FIDC Sol Agora IV",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding programado 15/abril das 15h-16h, documentos atualizados"
+    },
+    {
+      "operacao": "ViaQuatro 7ª Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "S&P atribuiu rating brAAA com perspectiva estável"
+    },
+    {
+      "operacao": "Desktop Rating",
+      "tipo": "upgrade",
+      "status": "concluído",
+      "resumo": "S&P colocou brA+ em CreditWatch positivo pós-venda para Claro"
+    },
+    {
+      "operacao": "Multilog 3ª Debêntures",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Moody's atribuiu rating AA-.br com perspectiva estável"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 12,
+    "total_emails": 745,
+    "total_followups": 0,
+    "followups_pendentes": "AGT Prime Agro 30/03, bookbuilding FIDC Sol Agora IV 15/abril, shortlist CSN ativos em 2 meses",
+    "analise": "Volume de trabalho elevado com 149 emails/dia e 4 reuniões diárias. Ausência de follow-ups formais pode indicar necessidade de melhor tracking de ações pendentes, especialmente considerando múltiplas reestruturações complexas em andamento"
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Prime Agro reestruturação",
+      "desde": "fevereiro/2026",
+      "impacto": "CRA em vencimento automático, credores sem consenso, risco de recuperação judicial"
+    },
+    {
+      "tema": "Agrogalaxy estruturação",
+      "desde": "março/2026",
+      "impacto": "R$ 420 mi CRA dependente de acordo com credores, estrutura FDIC complexa"
+    },
+    {
+      "tema": "Contestação leilão capacidade J&F",
+      "desde": "26/03/2026",
+      "impacto": "Insegurança jurídica inédita no setor, rivais já iniciaram obras"
+    },
+    {
+      "tema": "Aversão risco mercado crédito",
+      "desde": "março/2026",
+      "impacto": "Spreads elevados, dificuldade estruturação novas emissões"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar AGT Prime Agro 30/03 e possíveis desdobramentos da reestruturação",
+    "Monitorar evolução negociações Agrogalaxy com XP e cronograma estrutura FDIC",
+    "Avaliar resultados leilão transmissão R$ 3,4 bi e impactos nos spreads utilities",
+    "Acompanhar progress venda ativos CSN e cumprimento cronograma MOUs/shortlist",
+    "Monitorar desdobramentos contestação J&F leilão capacidade e impacto regulatório"
+  ]
+}
