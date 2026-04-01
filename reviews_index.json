@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "tipo": "monthly",
+      "periodo": "March 2026",
+      "filename": "review_monthly_20260401_0857.json",
+      "generated_at": "2026-04-01T08:57:30.978216"
+    },
+    {
       "tipo": "weekly",
       "periodo": "Semana 25/03 a 29/03/2026",
       "filename": "review_weekly_20260330_1049.json",
