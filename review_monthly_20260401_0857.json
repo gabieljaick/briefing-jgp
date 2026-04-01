@@ -1,0 +1,143 @@
+{
+  "tipo_review": "monthly",
+  "periodo": "March 2026",
+  "resumo_executivo": "Março 2026 foi caracterizado por um cenário macro desafiador com alta volatilidade e viés risk-off, refletindo em pressões no mercado de crédito brasileiro. O período concentrou atenção em situações de stress significativas, destacando-se a criticidade da Braskem com subsidiária em default e possível cross-default, a reestruturação complexa da Lavoro envolvendo CRA via FIDC, e movimentos estratégicos na Raízen com potencial cisão. Simultaneamente, observou-se atividade sólida no mercado primário com emissões relevantes da JBS e Casa dos Ventos. O ambiente externo pressionado, com Brent a US$ 115 e retirada de expectativas de cortes do Fed, demandou monitoramento intensivo de posições e maior seletividade nas análises de crédito.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações de Crédito",
+      "frequencia": 2,
+      "resumo": "Lavoro discutindo reestruturação via FIDC com garantias de R$ 750 milhões da AGI, e Raízen em negociações de conversão de dívida com Shell",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Situações de Default/Stress",
+      "frequencia": 2,
+      "resumo": "Braskem em situação crítica com subsidiária Idesa em default de US$ 2,15 bilhões e risco de cross-default na controladora",
+      "status": "escalado"
+    },
+    {
+      "tema": "Emissões de Renda Fixa",
+      "frequencia": 3,
+      "resumo": "Atividade robusta no mercado primário com JBS emitindo US$ 2 bilhões em bonds e Casa dos Ventos R$ 580 milhões em debêntures",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Política Energética",
+      "frequencia": 1,
+      "resumo": "CNPE discutindo leilões para usinas reversíveis e renovações de concessões representando R$ 140 bilhões em investimentos",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Volatilidade Macro",
+      "frequencia": 1,
+      "resumo": "Ambiente risk-off com pressões em curvas de juros, commodities em alta e retirada de expectativas dovish do Fed",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Braskem",
+      "mencoes": 1,
+      "contexto": "Situação crítica com subsidiária em default, patrimônio líquido negativo de R$ 16,5 bilhões e alavancagem 14,74x EBITDA",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 2,
+      "contexto": "Reestruturação de CRA via FIDC com AGI oferecendo carteiras de recebíveis como garantia adicional",
+      "status": "alerta"
+    },
+    {
+      "empresa": "JBS",
+      "mencoes": 1,
+      "contexto": "Emissão bem-sucedida de US$ 2 bilhões em bonds com spreads atrativos para a empresa",
+      "status": "normal"
+    },
+    {
+      "empresa": "Raízen",
+      "mencoes": 1,
+      "contexto": "Credores veem positivamente potencial cisão, mas divergências sobre valor de aporte da Shell",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Casa dos Ventos",
+      "mencoes": 1,
+      "contexto": "Emissão de debêntures de R$ 580 milhões para projeto Paraíso com estrutura indexada a NTNB",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "JGP | XP (Lavoro)",
+      "data": "2026-03-31",
+      "impacto": "Definição de estratégia conjunta para reestruturação, com XP representando 60% dos credores e discussão sobre waiver de quórum na CVM"
+    },
+    {
+      "titulo": "JGP Crédito - Reunião de alinhamento",
+      "data": "2026-03-31",
+      "impacto": "Revisão de posicionamento macro e ajuste de estratégias de risco diante do cenário volátil"
+    },
+    {
+      "titulo": "Alinhamento Prévio AGT Prime Agro",
+      "data": "2026-03-31",
+      "impacto": "Preparação para assembleia com definição de posicionamento sobre renegociação proposta"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "JBS Senior Notes",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "US$ 2 bilhões em dois tranches com cupons 5,625% (2037) e 6,400% (2057)"
+    },
+    {
+      "operacao": "Casa dos Ventos Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "R$ 580 milhões indexado a NTNB40 - 0,52% com duration de 9 anos"
+    },
+    {
+      "operacao": "Lavoro CRA Reestruturação",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Estrutura via FIDC com garantias adicionais de R$ 750 milhões da AGI"
+    },
+    {
+      "operacao": "Ratings Diversas Securitizadoras",
+      "tipo": "rating",
+      "status": "concluído",
+      "resumo": "Fitch e S&P atribuindo ratings para emissões de Eco Securitizadora e outras"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 3,
+    "total_emails": 119,
+    "total_followups": 0,
+    "followups_pendentes": "Não identificados follow-ups específicos pendentes no período",
+    "analise": "Volume de trabalho intenso com média de 119 emails/dia e 3 reuniões/dia, indicando alta demanda operacional. A ausência de follow-ups registrados pode indicar resolução eficiente das questões ou necessidade de melhor rastreamento de pendências. O foco em situações críticas (Braskem, Lavoro) demandou atenção concentrada da equipe."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Braskem Default Risk",
+      "desde": "March 2026",
+      "impacto": "Risco de cross-default pode afetar posições e exigir provisões adicionais, com empresa sinalizando proteção contra credores"
+    },
+    {
+      "tema": "Lavoro Quórum CVM",
+      "desde": "March 2026",
+      "impacto": "Waiver de quórum de 90% para 50% junto à CVM é crítico para viabilizar reestruturação, com cronograma apertado"
+    },
+    {
+      "tema": "Raízen Aporte Disagreement",
+      "desde": "March 2026",
+      "impacto": "Diferença entre oferta da Shell (R$ 4 bi) e demanda dos credores (R$ 8-10 bi) pode comprometer reestruturação"
+    }
+  ],
+  "proximas_prioridades": [
+    "Monitorar decisão da CVM sobre waiver de quórum para Lavoro e acompanhar estruturação do FIDC",
+    "Avaliar impacto do cross-default da Braskem e definir estratégia para exposições relacionadas",
+    "Acompanhar negociações Raízen entre Shell e credores sobre valor do aporte",
+    "Monitorar decisões do CNPE sobre leilões de usinas e impacto no setor elétrico",
+    "Ajustar estratégias de risco considerando cenário macro volátil e ambiente risk-off persistente"
+  ]
+}
