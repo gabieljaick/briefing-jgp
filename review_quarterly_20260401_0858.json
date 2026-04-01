@@ -1,0 +1,160 @@
+{
+  "tipo_review": "quarterly",
+  "periodo": "Q1 2026",
+  "resumo_executivo": "O primeiro trimestre de 2026 foi marcado por uma intensa atividade no mercado de crédito brasileiro, com destaque para situações críticas de reestruturação e oportunidades no setor de energia. Analisamos 8 briefings e acompanhamos 27 highlights relevantes, incluindo crises significativas como o rebaixamento da Raízen (de AAA.Br para CCC+.Br pela Moody's) e a situação crítica da Braskem. No setor energético, observamos intensos debates regulatórios sobre leilões de capacidade térmica e baterias, com preços-teto considerados inadequados pelo mercado. A atividade de emissões permaneceu robusta com R$ 2,6 bilhões em debêntures da Eletrobras e operações estruturadas no agronegócio. A alta demanda operacional refletiu-se em 152 emails/dia em média e 2,4 reuniões diárias, demonstrando o dinamismo do mercado no período.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação de Crédito Agro",
+      "frequencia": 8,
+      "resumo": "Múltiplas situações críticas no agronegócio incluindo Raízen (potencial recuperação extrajudicial), Agrogalaxy (reestruturação profunda sob gestão Tauá), Lavoro (saída da Nasdaq e reestruturação CRA), e Café Brasil (waiver com amortização extraordinária). Setor sob forte pressão.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Regulação Energética e Leilões",
+      "frequencia": 7,
+      "resumo": "ANEEL divulgou preços-teto baixos para leilão térmico de março, gerando reação negativa do mercado. MME anunciou leilão pioneiro de baterias até junho e discussões sobre usinas reversíveis no CNPE. Impactos significativos em Eneva e outras térmicas.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Emissões de Debêntures",
+      "frequencia": 6,
+      "resumo": "Atividade robusta com Eletrobras (R$ 2 bilhões), Eneva (bookbuilding realizado), Casa dos Ventos/Paraíso (R$ 580 milhões) e Trinity (processo de descaracterização avançando). JBS emitiu US$ 2 bilhões em bonds internacionais.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Default e Downgrade de Ratings",
+      "frequencia": 5,
+      "resumo": "Raízen rebaixada para CCC+.Br, Braskem em situação crítica com subsidiária Idesa em default de US$ 2,15 bilhões e possível cross-default. Patrimônio negativo e alavancagem extrema caracterizam cenário de stress.",
+      "status": "escalado"
+    },
+    {
+      "tema": "Securitização Agro (CRA/FIDC)",
+      "frequencia": 4,
+      "resumo": "Operações estruturadas no agronegócio com CRA Caramuru, assembleia Café Brasil, reestruturação Lavoro via FIDC e steering calls Agrogalaxy. Setor demanda atenção especial devido aos stress credits.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 5,
+      "contexto": "Rebaixamento crítico de AAA.Br para CCC+.Br, prejuízo de R$ 14,7 bi no 3Q26, discussões Shell/Cosan sobre reestruturação de capital e possível recuperação extrajudicial",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 4,
+      "contexto": "Impacto negativo dos preços-teto baixos do leilão térmico (redução 15% NPV), mas BofA mantém BUY. Recebeu R$ 293 mi por acordo e há oportunidades de trading no mercado secundário",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Agrogalaxy",
+      "mencoes": 4,
+      "contexto": "Situação crítica com reestruturação profunda sob gestão Tauá, saída de executivos, downsizing e necessidade de empresa menor para geração de caixa",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Trinity",
+      "mencoes": 3,
+      "contexto": "Processo de descaracterização das debêntures 12.431 avançando com minutas revisadas para AGD e aditamento à escritura, aprovação dos investidores em curso",
+      "status": "normal"
+    },
+    {
+      "empresa": "Eletrobras",
+      "mencoes": 3,
+      "contexto": "Emissão robusta de R$ 2 bilhões em debêntures, 3 séries, regime misto com bookbuilding programado para fevereiro",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Braskem",
+      "mencoes": 2,
+      "contexto": "Situação crítica com subsidiária Idesa em default de US$ 2,15 bi, prejuízo R$ 9,9 bi em 2025, patrimônio negativo R$ 16,5 bi, alavancagem 14,74x",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "CEO Conference MME - Alexandre Silveira",
+      "data": "2026-02-12",
+      "impacto": "Esclarecimentos sobre ajustes no leilão de capacidade após reação do mercado, confirmação do leilão de baterias até junho e diretrizes para R$ 140 bi em investimentos"
+    },
+    {
+      "titulo": "Update JGP CP - Processo de Investimento",
+      "data": "2026-02-13",
+      "impacto": "Apresentação da metodologia de rating interno e estrutura organizacional, fortalecendo processos internos de análise de crédito"
+    },
+    {
+      "titulo": "JGP | XP (Lavoro)",
+      "data": "2026-03-31",
+      "impacto": "Discussão estratégica sobre reestruturação do CRA via FIDC com XP representando 60% dos credores e JGP 12%, definindo posicionamento em situação crítica"
+    },
+    {
+      "titulo": "Assembleia Geral CRA Café Brasil",
+      "data": "2026-02-13",
+      "impacto": "Aprovação de waiver com amortização extraordinária de 10% e liquidação total até dezembro/2026, com implementação de Cash Sweep"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Eletrobras Debêntures R$ 2 bilhões",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "3 séries, público profissional, regime misto com bookbuilding programado"
+    },
+    {
+      "operacao": "Casa dos Ventos Paraíso R$ 580 milhões",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Debêntures de infraestrutura, 24 anos, NTNB40 - 0,52% a.a., R$ 387 milhões disponível para mercado"
+    },
+    {
+      "operacao": "Trinity Descaracterização Debêntures 12.431",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Minutas de AGD e aditamento à escritura com aprovação dos investidores em curso"
+    },
+    {
+      "operacao": "Lavoro CRA via FIDC",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Reestruturação para evitar vencimento antecipado com garantias adicionais de R$ 750 milhões da AGI"
+    },
+    {
+      "operacao": "JBS Senior Notes US$ 2 bilhões",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "US$ 1,25 bi cupom 5,625% venc. 2037 + US$ 750 mi cupom 6,400% venc. 2057"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 19,
+    "total_emails": 13668,
+    "total_followups": 0,
+    "followups_pendentes": "Aprovação final Trinity, resolução Lavoro CRA, monitoramento Raízen reestruturação",
+    "analise": "Volume operacional muito elevado com 152 emails/dia e 2,4 reuniões diárias demonstra alta demanda. A ausência de follow-ups formalizados pode indicar necessidade de melhor estruturação de acompanhamento, especialmente considerando múltiplas situações críticas em andamento que demandam monitoramento contínuo."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Crise do Agronegócio - Múltiplos Defaults",
+      "desde": "fevereiro 2026",
+      "impacto": "Exposição significativa do portfólio a stress credits no setor agrícola com potencial de contágio"
+    },
+    {
+      "tema": "Regulação Energética - Preços Inadequados",
+      "desde": "fevereiro 2026",
+      "impacto": "Impacto negativo generalizado no setor térmico, afetando múltiplos investimentos e viabilidade de projetos"
+    },
+    {
+      "tema": "Braskem Cross-Default Risk",
+      "desde": "março 2026",
+      "impacto": "Risco sistêmico considerando o tamanho da exposição e interconexões no mercado petroquímico"
+    }
+  ],
+  "proximas_prioridades": [
+    "Monitoramento intensivo das reestruturações em curso (Raízen, Lavoro, Agrogalaxy) com definição de estratégias de saída ou proteção",
+    "Acompanhamento dos desdobramentos regulatórios dos leilões energéticos e impactos em Eneva e outras térmicas",
+    "Finalização das emissões em pipeline (Eletrobras, Trinity) e avaliação de novas oportunidades de investimento",
+    "Estruturação de sistema formal de follow-ups para melhor acompanhamento das situações críticas identificadas",
+    "Análise de concentração setorial e stress testing do portfólio considerando a crise do agronegócio"
+  ]
+}
