@@ -1,0 +1,143 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 08/04 a 12/04/2026",
+  "resumo_executivo": "A semana foi marcada por intensos desenvolvimentos no setor elétrico, principalmente com a aprovação da caducidade da Enel SP pela Aneel e as negociações para uma 'saída negociada'. Simultaneamente, observou-se um aquecimento significativo no mercado de emissões, com JBS captando US$ 500 milhões via bonds e múltiplas aprovações de debêntures somando mais de R$ 4 bilhões. As reestruturações da Raízen e Belagrícola avançaram com prazos críticos, enquanto internamente houve importante reorganização da governança com a reformulação do Comitê de Crédito. O volume de trabalho manteve-se elevado com 72 emails/dia em média, reflexo da complexidade dos casos em análise.",
+  "principais_temas": [
+    {
+      "tema": "Crise Enel SP e Regulação Elétrica",
+      "frequencia": 4,
+      "resumo": "Processo de caducidade aprovado por unanimidade, mas surgem alternativas de saída negociada. Impacta renovações de outras concessões da Enel",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Aquecimento do Mercado de Emissões",
+      "frequencia": 8,
+      "resumo": "JBS, Minerva, Cemig e outras empresas com captações totalizando mais de R$ 4 bilhões, indicando normalização do apetite por crédito",
+      "status": "positivo"
+    },
+    {
+      "tema": "Reestruturações Complexas",
+      "frequencia": 3,
+      "resumo": "Raízen com prazo de 2 meses para acordo com credores, Belagrícola com extensão de 180 dias, Oncoclínicas em situação crítica",
+      "status": "escalado"
+    },
+    {
+      "tema": "Modernização de Leilões Energéticos",
+      "frequencia": 2,
+      "resumo": "Primeiro leilão de BESS anunciado para 2026 e leilão de transmissão com R$ 11,3 bilhões aprovado",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Reformulação de Governança Interna",
+      "frequencia": 2,
+      "resumo": "Comitê de Crédito renomeado para Comitê de Investimento com nova estrutura de membros votantes e convidados",
+      "status": "resolvido"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Enel SP",
+      "mencoes": 4,
+      "contexto": "Processo de caducidade aprovado, mas governo busca saída negociada para evitar indenização bilionária",
+      "status": "alerta"
+    },
+    {
+      "empresa": "JBS",
+      "mencoes": 2,
+      "contexto": "Captação bem-sucedida de US$ 500 milhões via reabertura de bonds com spreads competitivos",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Raízen",
+      "mencoes": 2,
+      "contexto": "Credores se reunindo para contraproposta aos acionistas com prazo crítico de 2 meses",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Dux",
+      "mencoes": 2,
+      "contexto": "Análise de waiver sem cobrança de fee para 2025, com crescimento de 43% na receita",
+      "status": "normal"
+    },
+    {
+      "empresa": "Minerva",
+      "mencoes": 2,
+      "contexto": "Emissão de R$ 165 milhões em CRA lastreado em debêntures com possibilidade de lote adicional",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Governança Comitê de Crédito",
+      "data": "09/04/2026",
+      "impacto": "Definição de nova estrutura organizacional com separação clara entre Comitê de Investimento e Comitê de Risco e Compliance"
+    },
+    {
+      "titulo": "Comitê de Crédito - Dux",
+      "data": "08/04/2026",
+      "impacto": "Análise de desempenho positivo com crescimento de 43% na receita, preparando terreno para waiver sem cobrança"
+    },
+    {
+      "titulo": "Call XP <> GTA",
+      "data": "10/04/2026",
+      "impacto": "Alinhamento jurídico e regulatório para estruturações complexas com consultores especializados"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "CRA Lavoro",
+      "tipo": "estruturação",
+      "status": "em andamento",
+      "resumo": "XP estruturando operação com discussões sobre MoU e possíveis waivers"
+    },
+    {
+      "operacao": "Waiver Dux",
+      "tipo": "reestruturação",
+      "status": "em negociação",
+      "resumo": "Proposta de waiver sem fee para 2025 com covenant voltando em 2026"
+    },
+    {
+      "operacao": "TM Digital - Belagrícola",
+      "tipo": "financiamento",
+      "status": "em análise",
+      "resumo": "Revisão de NDA para análise de carteira com potencial financiamento"
+    },
+    {
+      "operacao": "FIDC Pinbank",
+      "tipo": "roadshow",
+      "status": "apresentação",
+      "resumo": "Estrutura com BTG como business center para antecipação de recebíveis"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 4,
+    "total_emails": 360,
+    "total_followups": 0,
+    "followups_pendentes": "Não identificados explicitamente nos dados",
+    "analise": "Volume elevado de trabalho com 72 emails/dia demonstra intensa atividade. Taxa de 1.3 reuniões/dia indica bom equilíbrio entre análise e execução. Ausência de follow-ups formalizados pode indicar resolução imediata ou necessidade de melhor tracking de pendências."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Situação Oncoclínicas",
+      "desde": "08/04/2026",
+      "impacto": "Rating rebaixado para RD pode criar precedente negativo para setor de saúde suplementar"
+    },
+    {
+      "tema": "Incertezas Regulatórias Enel",
+      "desde": "08/04/2026",
+      "impacto": "Suspensão de renovações de outras concessões pode afetar todo o grupo e criar insegurança jurídica"
+    },
+    {
+      "tema": "Prazo Crítico Raízen",
+      "desde": "início do processo",
+      "impacto": "Apenas 2 meses para acordo pode pressionar spreads do setor de açúcar e etanol"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar desdobramentos da negociação Enel SP e impactos nas outras concessões do grupo",
+    "Finalizar estruturação e aprovação do waiver Dux sem cobrança de fee",
+    "Monitorar evolução das negociações Raízen com credores e possível impacto sistêmico",
+    "Implementar nova governança do Comitê de Investimento com primeiras reuniões sob nova estrutura",
+    "Avaliar oportunidades no pipeline aquecido de emissões, especialmente no setor de utilities e agronegócio"
+  ]
+}
