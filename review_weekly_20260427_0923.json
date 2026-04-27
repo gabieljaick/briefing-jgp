@@ -1,0 +1,172 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 22/04 a 26/04/2026",
+  "resumo_executivo": "Semana caracterizada por operações estruturadas complexas e movimentações corporativas significativas. O destaque foi a finalização do acordo de reestruturação da Braskem com a IG4 Capital, convertendo R$ 20 bilhões em créditos bancários em equity. A Light permaneceu como tema recorrente com sua operação complexa de FIDC/Special Situations, gerando múltiplas reuniões e discussões estruturais. O mercado de renda fixa mostrou sinais de pressão com concentração de risco em debêntures de empresas estressadas e postergação de emissões por demanda fraca. Temas setoriais ganharam relevância, especialmente data centers como oportunidade estratégica e o setor energético com os desdobramentos do LRCAP. A semana teve alta intensidade operacional com 172 emails/dia em média e 2.7 reuniões diárias, mas sem follow-ups pendentes identificados.",
+  "principais_temas": [
+    {
+      "tema": "Light - Operação FIDC/Special Situations",
+      "frequencia": 3,
+      "resumo": "Estruturação complexa para trocar debêntures conversíveis por renda fixa, envolvendo FIDC de R$ 400 milhões, SPE para conversão em ações e Special Situations com R$ 40 milhões via FIP",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Reestruturações e Acordos Corporativos",
+      "frequencia": 2,
+      "resumo": "Braskem finalizou acordo com IG4 Capital e Ecopetrol adquiriu participação na Brava Energia, indicando movimento de consolidação setorial",
+      "status": "parcialmente resolvido"
+    },
+    {
+      "tema": "Mercado de Debêntures sob Pressão",
+      "frequencia": 2,
+      "resumo": "Concentração de R$ 18,9 bilhões em debêntures de empresas estressadas e postergação de emissões por demanda fraca, com spreads em expansão",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Energético - LRCAP",
+      "frequencia": 2,
+      "resumo": "Leilão de reserva de capacidade gerará R$ 48 bilhões anuais em encargos, mas enfrenta contestações judiciais da Âmbar Energia e questionamentos do TCU",
+      "status": "escalado"
+    },
+    {
+      "tema": "Data Centers - Oportunidade Estratégica",
+      "frequencia": 1,
+      "resumo": "Setor identificado como prioritário com potencial de US$ 5 trilhões globalmente e movimentos de grandes players tech",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Casos Especiais - Lavoro/Trinity",
+      "frequencia": 1,
+      "resumo": "Definição de estratégias para vencimento antecipado de CRAs da Lavoro e cronograma de documentação da Trinity",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Light",
+      "mencoes": 3,
+      "contexto": "Protagonista da semana com operação complexa de reestruturação envolvendo FIDC, SPE e FIP, gerando múltiplas reuniões estratégicas",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Braskem",
+      "mencoes": 2,
+      "contexto": "Finalização do acordo de reestruturação com IG4 Capital assumindo controle via conversão de R$ 20 bilhões em créditos bancários",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Brava Energia",
+      "mencoes": 1,
+      "contexto": "Acordo de aquisição de 26% pela Ecopetrol por R$ 2,77 bilhões, com rebaixamento do Morgan Stanley para Equal-weight",
+      "status": "normal"
+    },
+    {
+      "empresa": "Rede D'Or",
+      "mencoes": 1,
+      "contexto": "Emissão bem-sucedida de US$ 500 milhões em bond de 10 anos a 6,55%, demonstrando acesso ao mercado internacional",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 1,
+      "contexto": "Principal concentração de risco no mercado de debêntures com R$ 10,2 bilhões e spread saltando de 1,38% para 5,45% sobre CDI",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Rumo",
+      "mencoes": 1,
+      "contexto": "Reunião de pré-comitê realizada para análise de crédito, indicando possível operação em estruturação",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Comitê de crédito - Light Energia (FIDC)",
+      "data": "2026-04-22",
+      "impacto": "Definição da estrutura complexa da operação e encaminhamentos para modelagem e pilot fish"
+    },
+    {
+      "titulo": "FIDC Light - Interno",
+      "data": "2026-04-23",
+      "impacto": "Alinhamento sobre casos Lavoro e Trinity, preparação para reunião com Financial Advisory"
+    },
+    {
+      "titulo": "Pre comite Rumo",
+      "data": "2026-04-24",
+      "impacto": "Análise preparatória para possível operação de crédito com a companhia"
+    },
+    {
+      "titulo": "Prioridades Estratégicas",
+      "data": "2026-04-24",
+      "impacto": "Revisão de alocação de capital e posicionamento competitivo da gestora"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Light FIDC/Special Situations",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "FIDC de R$ 400 milhões + SPE + FIP de R$ 40 milhões para trocar debêntures conversíveis"
+    },
+    {
+      "operacao": "FIDC SB Crédito",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding realizado em 23/04 via Itaú BBA SmartBook"
+    },
+    {
+      "operacao": "CPR Klabin",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding realizado em 23/04 das 10:00 às 11:00"
+    },
+    {
+      "operacao": "Rede D'Or Bond",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "US$ 500 milhões em bond de 10 anos a 6,55% ao par"
+    },
+    {
+      "operacao": "Coamo Notas Comerciais",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "R$ 500 milhões para usina de etanol de milho"
+    },
+    {
+      "operacao": "Grupo SBF Debêntures",
+      "tipo": "emissão",
+      "status": "aprovado",
+      "resumo": "R$ 600 milhões em debêntures para reforço de caixa"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 8,
+    "total_emails": 860,
+    "total_followups": 0,
+    "followups_pendentes": "Refinamento da modelagem Light, organização de pilot fish com FA, cronograma Trinity via Bruno",
+    "analise": "Semana de alta intensidade operacional com 2,7 reuniões/dia e 172 emails/dia. A ausência de follow-ups formais não reflete a realidade, pois há várias ações implícitas nas discussões do Light e casos especiais. Eficiência comprometida pela complexidade das operações estruturadas."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Contestações LRCAP",
+      "desde": "2026-04-22",
+      "impacto": "Risco de anulação parcial de leilão de R$ 65 bilhões pode afetar todo setor energético"
+    },
+    {
+      "tema": "Concentração de risco debêntures",
+      "desde": "2026-04-24",
+      "impacto": "R$ 18,9 bilhões em empresas estressadas pode contaminar mercado primário"
+    },
+    {
+      "tema": "Demanda fraca emissões",
+      "desde": "2026-04-22",
+      "impacto": "Postergação de emissões afeta pipeline de negócios e liquidez do mercado"
+    }
+  ],
+  "proximas_prioridades": [
+    "Finalizar estruturação e documentação da operação Light FIDC/Special Situations",
+    "Acompanhar desdobramentos das contestações do LRCAP e impactos setoriais",
+    "Monitorar pipeline de emissões adiadas e janelas de oportunidade no mercado primário",
+    "Definir estratégia para exposição ao tema Data Centers como oportunidade de investimento",
+    "Resolver pendências dos casos Lavoro (CRAs) e Trinity (documentação)"
+  ]
+}
