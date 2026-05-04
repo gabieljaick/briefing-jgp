@@ -1,0 +1,154 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 29/04 a 03/05/2026",
+  "resumo_executivo": "Semana intensa marcada por reestruturações complexas e movimentos significativos no mercado de crédito. Destaque para o avanço do IPO da Compass com forte demanda (cobrindo 150% do livro em 48h), ajustes estruturais importantes no Rodoanel Norte após recuo de garantidores, e deterioração da situação da Aegea próxima aos limites de covenant. O período evidenciou pressões no setor de infraestrutura energética devido ao boom de data centers, enquanto o pipeline de emissões permaneceu ativo com Minerva (R$ 1,5 bi) e São Martinho (R$ 1,1 bi). A carga de trabalho manteve-se elevada com média de 6,5 reuniões diárias focadas em estruturações de FIDCs, waivers e análises de rating.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações de Dívida",
+      "frequencia": 4,
+      "resumo": "Prime Agro negociando waiver com postergação de pagamentos, GPA propondo desconto de até 90% na dívida, Aegea em crise com alavancagem 3,78x próxima do limite",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Estruturação de FIDCs",
+      "frequencia": 3,
+      "resumo": "Trinity com análise detalhada de ativos energéticos, FIDC SS Light, Agrojive com questões de marcação de cotas, Bela Agrícola em estruturação",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline de Emissões",
+      "frequencia": 5,
+      "resumo": "Rodoanel Norte com ajustes estruturais significativos, Minerva R$ 1,5 bi, São Martinho R$ 1,1 bi, C6 Bank tentando bond externo",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Energético/Infraestrutura",
+      "frequencia": 3,
+      "resumo": "Boom de data centers triplicando demanda energética, Pedro Leopoldo solar, Light com obrigação de aporte R$ 1 bi",
+      "status": "monitoramento"
+    },
+    {
+      "tema": "Ratings e Análise de Crédito",
+      "frequencia": 4,
+      "resumo": "Senior Sistemas AA(bra) pela Fitch, Águas do Sertão em revisão para rebaixamento, Multiplike BB(bra), análises de spread e convexidade",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Compass/Cosan",
+      "mencoes": 3,
+      "contexto": "IPO secundário R$ 4,6 bi no midpoint, forte demanda cobrindo 150% do livro, precificação em 07/05, redução dívida Cosan em R$ 10 bi",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 2,
+      "contexto": "Crise financeira com alavancagem 3,78x próxima do limite 4x, comprometendo competitividade na Copasa, sócios discutem aporte",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Minerva",
+      "mencoes": 3,
+      "contexto": "Oferta debêntures R$ 1,5 bi, análise detalhada de bonds 2031/2033/2036, bond 2033 negociando CDI + 1,7%",
+      "status": "normal"
+    },
+    {
+      "empresa": "Trinity",
+      "mencoes": 2,
+      "contexto": "Estruturação FIDC com análise de ativos energéticos, tarifas de distribuidoras, próximos passos de documentação",
+      "status": "normal"
+    },
+    {
+      "empresa": "Rodoanel Norte",
+      "mencoes": 2,
+      "contexto": "Ajustes estruturais após recuo BTG/Bradesco, nova taxa CDI +2,00% vs inicial +1,35%, volume R$ 1,3 bi",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Comitê de crédito - Rodoanel Norte",
+      "data": "2026-04-29",
+      "impacto": "Aprovação com ajustes estruturais significativos após recuo de garantidores, estabelecimento nova taxa consensual"
+    },
+    {
+      "titulo": "Trinity FIDC",
+      "data": "2026-04-29",
+      "impacto": "Definição de acesso à documentação e centralização de dúvidas técnicas, análise detalhada de ativos energéticos"
+    },
+    {
+      "titulo": "Pré-Comitê Minerva",
+      "data": "2026-04-30",
+      "impacto": "Análise detalhada da estrutura de dívida com múltiplos CRAs e bonds, definição de estratégia de precificação"
+    },
+    {
+      "titulo": "Revisão pipe analistas",
+      "data": "2026-04-30",
+      "impacto": "Estratégia de rebalanceamento entre debêntures CDI e Infra, foco em maior convexidade"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Rodoanel Norte R$ 1,3 bi",
+      "tipo": "emissão debêntures",
+      "status": "aprovado com ajustes",
+      "resumo": "Taxa CDI +2,00%, prazo 20 meses bullet, rating AA, sem garantia BTG/Bradesco"
+    },
+    {
+      "operacao": "Minerva R$ 1,5 bi",
+      "tipo": "emissão debêntures",
+      "status": "registrada",
+      "resumo": "Oferta registrada, análise de bonds existentes para precificação"
+    },
+    {
+      "operacao": "São Martinho R$ 1,1 bi",
+      "tipo": "emissão debêntures",
+      "status": "preparação",
+      "resumo": "Em preparação no setor sucroenergético"
+    },
+    {
+      "operacao": "FIDC Pinbank",
+      "tipo": "FIDC",
+      "status": "postergado",
+      "resumo": "Bookbuilding adiado para 08/05 devido atraso no rating"
+    },
+    {
+      "operacao": "C6 Bank bond 3 anos",
+      "tipo": "bond externo",
+      "status": "dificuldades",
+      "resumo": "Tentativa no mercado externo com dificuldades para formar book"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 13,
+    "total_emails": 850,
+    "total_followups": 0,
+    "followups_pendentes": "Trinity documentação OneDrive, Prime Agro waiver maio, Café Brasil assembleia 04/05",
+    "analise": "Carga de trabalho elevada com 170 emails/dia e 6,5 reuniões/dia. Ausência de follow-ups formais registrados indica possível gap no tracking de ações. Reuniões focadas em temas críticos com boa produtividade em decisões estruturais."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Aegea deterioração financeira",
+      "desde": "abril 2026",
+      "impacto": "Risco de breach de covenants, comprometimento competitividade Copasa, pressão rating"
+    },
+    {
+      "tema": "FIDC Agrojive marcação cotas",
+      "desde": "período anterior",
+      "impacto": "Dificuldade comunicação com investidores, necessidade assembleia para adequação"
+    },
+    {
+      "tema": "C6 Bank formação de book externa",
+      "desde": "29/04",
+      "impacto": "Potencial cancelamento da emissão, limitação opções funding banco"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar precificação Compass IPO em 07/05 e impactos na dívida Cosan",
+    "Monitorar assembleia Café Brasil em 04/05 e desenvolvimentos societários",
+    "Finalizar documentação e due diligence Trinity FIDC via OneDrive",
+    "Acompanhar evolução situação Aegea e potenciais impactos em covenants",
+    "Revisão estratégica de posicionamento CDI vs Infra conforme discussão de rebalanceamento"
+  ]
+}
