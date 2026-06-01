@@ -1,0 +1,213 @@
+{
+  "tipo_review": "monthly",
+  "periodo": "May 2026",
+  "resumo_executivo": "Maio de 2026 foi marcado por intensos movimentos no setor elétrico brasileiro, destacando-se a homologação controversa do Leilão de Reserva de Capacidade (LRCap) pela ANEEL, que contratou 18,97 GW por R$ 64,5 bilhões com questionamentos do TCU sobre sobrepreços. O setor de saneamento se consolidou como protagonista da renda fixa com R$ 45 bilhões em debêntures, enquanto a reestruturação da Raízen (R$ 65,4 bilhões) e os desenvolvimentos críticos da AgroGalaxy/Lavoro dominaram o pipeline de crédito. O período também foi caracterizado por alta atividade em data centers, com investimentos de US$ 1,2 bilhão da Ascenty, e tensões geopolíticas que impactaram commodities. A equipe manteve alto nível de produtividade com 40 reuniões e análise de 12 briefings, focando especialmente em reestruturações complexas e operações de crédito estruturado.",
+  "principais_temas": [
+    {
+      "tema": "Leilão de Reserva de Capacidade (LRCap)",
+      "frequencia": 8,
+      "resumo": "Homologação controversa pela ANEEL de leilão que contratou térmicas por R$ 64,5 bilhões, com questionamentos do TCU sobre sobrepreços e impacto tarifário de até R$ 800 bilhões",
+      "status": "resolvido"
+    },
+    {
+      "tema": "Reestruturação Raízen",
+      "frequencia": 6,
+      "resumo": "Negociação de recuperação extrajudicial de R$ 65,4 bilhões com conversão de 45% da dívida em equity, aporte da Shell de R$ 3,5 bilhões e prazo até 9 de junho",
+      "status": "em andamento"
+    },
+    {
+      "tema": "AgroGalaxy/Lavoro - Crise e Reestruturação",
+      "frequencia": 7,
+      "resumo": "Reestruturação radical da AgroGalaxy com saída de fertilizantes e foco em defensivos, inadimplência de 40%, enquanto JGP estrutura 'new money' de R$ 20 milhões para Lavoro",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Saneamento como Protagonista da Renda Fixa",
+      "frequencia": 5,
+      "resumo": "Setor movimentou R$ 45 bilhões em debêntures, com Sabesp contratando Bradesco para oferta pela Copasa e capitalização de R$ 1,74 bilhão da Iguá",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Data Centers e IA",
+      "frequencia": 3,
+      "resumo": "Ascenty anuncia investimento de US$ 1,2 bilhão em quatro novos data centers de IA em SP, posicionando Brasil como potencial top 4-5 mercado mundial",
+      "status": "normal"
+    },
+    {
+      "tema": "Impactos Geopolíticos no Mercado",
+      "frequencia": 4,
+      "resumo": "Tensões EUA-Irã impactaram preços do petróleo (Brent caiu 6% para abaixo de US$ 100), com reflexos nas curvas de juros e apetite a risco",
+      "status": "normal"
+    },
+    {
+      "tema": "Natural One - Nova Operação de Crédito",
+      "frequencia": 2,
+      "resumo": "Estruturação de operação de R$ 150-250 milhões via debênture/CRA, CDI + 3,00-3,25%, prazo 5 anos, com garantias robustas incluindo aval dos sócios",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Trinity/Operações Esportivas",
+      "frequencia": 3,
+      "resumo": "Operação Atlético Mineiro expandida para R$ 400 milhões de cash novo, estrutura complexa com análise de contratos Globo e necessidade de anuência para securitização",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 6,
+      "contexto": "Reestruturação crítica de R$ 65,4 bilhões com negociações avançadas de recuperação extrajudicial, conversão de dívida em equity e aporte da Shell",
+      "status": "alerta"
+    },
+    {
+      "empresa": "AgroGalaxy",
+      "mencoes": 7,
+      "contexto": "Reestruturação operacional radical com saída de fertilizantes, inadimplência de 40% e redução massiva do back-office",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 4,
+      "contexto": "Beneficiada pelo LRCap homologado, TCU admite negociação consensual para flexibilizar contratos de termelétricas, UTE Azulão I operacional",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Natural One",
+      "mencoes": 2,
+      "contexto": "Nova operação de crédito em estruturação de R$ 150-250 milhões com garantias sólidas, empresa com faturamento de R$ 750 milhões",
+      "status": "normal"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 3,
+      "contexto": "Rating rebaixado pela Moody's para CC.br por atrasos em demonstrações, mas participando da disputa pela Copasa",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Ascenty",
+      "mencoes": 2,
+      "contexto": "Mega investimento de US$ 1,2 bilhão em data centers de IA, primeiro da América Latina projetado exclusivamente para IA",
+      "status": "positivo"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 3,
+      "contexto": "Obteve empréstimo sindicalizado de R$ 5,8 bilhões para refinanciamento, operações no secundário com spreads elevados (CDI+13-18%)",
+      "status": "normal"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 4,
+      "contexto": "JGP estrutura operação de 'new money' de R$ 20 milhões inspirada no caso AgroGalaxy, visando posição privilegiada em eventual RJ",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Natural One - Apresentação de Operação",
+      "data": "2026-05-21",
+      "impacto": "Estruturação detalhada de operação de R$ 150-250 milhões, empresa prioritária do pipeline com garantias robustas"
+    },
+    {
+      "titulo": "AgroGalaxy/Lavoro - Reestruturação",
+      "data": "2026-05-27",
+      "impacto": "Definição de estratégia para 'new money' de R$ 20 milhões e separação das agendas de RJ e litígio contra Pátria"
+    },
+    {
+      "titulo": "Trinity - Operação Galo (Atlético Mineiro)",
+      "data": "2026-05-26",
+      "impacto": "Expansão da operação para R$ 400 milhões, necessidade de adaptação da estrutura para pagamentos bimestrais da Globo"
+    },
+    {
+      "titulo": "Reunião Semanal Macro",
+      "data": "2026-05-25",
+      "impacto": "Análise de impactos geopolíticos EUA-Irã, ajustes em posições de risco e operações executadas (JSL, JSMLA5, CSN)"
+    },
+    {
+      "titulo": "Comitês de Crédito Múltiplos",
+      "data": "2026-05-28",
+      "impacto": "Análises simultâneas de Tupy S/A, Viveo e FIDC FS Bio, demonstrando intensidade do pipeline"
+    },
+    {
+      "titulo": "Aegea - Sanity Check Valuation",
+      "data": "2026-05-29",
+      "impacto": "Revisão crítica de critérios de valuation em contexto de rating rebaixado e participação na disputa pela Copasa"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Natural One - Debênture/CRA",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "R$ 150-250 milhões, CDI + 3,00-3,25%, prazo 5 anos, garantias robustas incluindo aval dos sócios e alienação da fábrica"
+    },
+    {
+      "operacao": "Trinity - Operação Galo",
+      "tipo": "financiamento estruturado",
+      "status": "em andamento",
+      "resumo": "R$ 400 milhões de cash novo para Atlético Mineiro, estrutura complexa com análise de contratos Globo"
+    },
+    {
+      "operacao": "Lavoro - New Money",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "R$ 20 milhões via FIDC inspirado no caso AgroGalaxy, posição privilegiada em eventual RJ"
+    },
+    {
+      "operacao": "Grano Alimentos - CRA 139",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Desenvolvimento da minuta pela Opea Jurídico Securitizadora em curso"
+    },
+    {
+      "operacao": "CRA Avilages",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding coordenado por Itaú BBA e BBM, discussões sobre estruturação específica do setor agro"
+    },
+    {
+      "operacao": "Raízen - Reestruturação",
+      "tipo": "recuperação extrajudicial",
+      "status": "crítico",
+      "resumo": "R$ 65,4 bilhões, conversão de 45% em equity, prazo até 9 de junho para aprovação de 50%+1 dos credores"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 40,
+    "total_emails": 2604,
+    "total_followups": 0,
+    "followups_pendentes": "Anuência da Globo para securitização (Trinity), conclusão da minuta CRA 139 Grano, definição timing DASA no mercado, resolução questões regulatórias Natural One",
+    "analise": "Alto nível de produtividade com média de 3,3 reuniões/dia e 84 emails/dia. Ausência de follow-ups formalizados indica necessidade de melhor estruturação do acompanhamento de pendências. Concentração em operações complexas de reestruturação demandou tempo significativo da equipe, mas gerou resultados concretos em múltiplas frentes."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Anuência da Globo para securitização - Trinity",
+      "desde": "maio/2026",
+      "impacto": "Pode inviabilizar estruturação da operação de R$ 400 milhões do Atlético Mineiro"
+    },
+    {
+      "tema": "Atrasos nas demonstrações financeiras - Aegea",
+      "desde": "início 2026",
+      "impacto": "Rating rebaixado para CC.br, deterioração do acesso ao mercado de crédito"
+    },
+    {
+      "tema": "Definição sobre impacto na ação contra Pátria - Lavoro",
+      "desde": "maio/2026",
+      "impacto": "Incerteza jurídica pode afetar estruturação do 'new money' de R$ 20 milhões"
+    },
+    {
+      "tema": "Timing indefinido para DASA no mercado",
+      "desde": "maio/2026",
+      "impacto": "Oportunidade de mandato pode ser perdida por falta de definição estratégica"
+    }
+  ],
+  "proximas_prioridades": [
+    "Finalizar estruturação Natural One com definição de garantias e documentação legal",
+    "Resolver questão da anuência Globo para operação Trinity/Galo",
+    "Monitorar evolução crítica da reestruturação Raízen até prazo de 9 de junho",
+    "Acelerar conclusão da minuta CRA 139 Grano Alimentos via Opea Jurídico",
+    "Definir estratégia para AgroGalaxy considerando inadimplência de 40% e reestruturação operacional",
+    "Acompanhar desdobramentos do LRCap homologado e impactos nas geradoras do portfolio",
+    "Estruturar melhor sistema de follow-ups para evitar pendências não rastreadas"
+  ]
+}
