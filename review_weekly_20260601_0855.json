@@ -1,0 +1,154 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 27/05 a 31/05/2026",
+  "resumo_executivo": "Semana marcada por intensas reestruturações corporativas e movimentos estratégicos no mercado de crédito. O destaque foi a Agrogalaxy com reestruturação radical da operação e estratégia jurídica contra o Pátria, enquanto a Raízen avançou nas negociações de recuperação extrajudicial de R$ 65,4 bilhões. O setor de infraestrutura mostrou dinamismo com a Ascenty anunciando mega investimento de US$ 1,2 bilhão em data centers de IA e a Aegea participando da privatização da Copasa. A semana teve alta intensidade operacional com 14 reuniões, incluindo múltiplos comitês de crédito e reuniões estratégicas. O volume de 39 emails/dia reflete a complexidade dos casos em andamento, especialmente situações de stress de crédito que demandam monitoramento intensivo.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação de crédito",
+      "frequencia": 4,
+      "resumo": "Agrogalaxy e Raízen em processos críticos de reestruturação, com modelos distintos - operacional vs. extrajudicial",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Infraestrutura digital",
+      "frequencia": 3,
+      "resumo": "Ascenty lidera expansão massiva em data centers de IA, posicionando Brasil como mercado relevante globalmente",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Saneamento e utilities",
+      "frequencia": 3,
+      "resumo": "Movimentos de M&A com Aegea na Copasa e Iguá com forte capitalização, além de alertas regulatórios do TCU",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Mercado primário de crédito",
+      "frequencia": 2,
+      "resumo": "Emissões em curso com destaque para debêntures incentivadas e LFs, sazonalidade de verão se aproximando",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Due diligence e ratings",
+      "frequencia": 2,
+      "resumo": "Análises de crédito intensivas com foco em subsidiárias e estruturas corporativas complexas",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Agrogalaxy",
+      "mencoes": 4,
+      "contexto": "Reestruturação radical com saída de fertilizantes, inadimplência de 40% e estratégia jurídica contra Pátria",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Raízen",
+      "mencoes": 3,
+      "contexto": "Recuperação extrajudicial de R$ 65,4 bi com conversão de 45% da dívida em equity e cisão prevista para 2027",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Ascenty",
+      "mencoes": 2,
+      "contexto": "Investimento de US$ 1,2 bilhão em data centers de IA com 150 MW já contratados por hyperscalers",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 2,
+      "contexto": "Participação na privatização da Copasa via consórcio e busca de reverse IPO",
+      "status": "normal"
+    },
+    {
+      "empresa": "Light",
+      "mencoes": 1,
+      "contexto": "Exposição concentrada de R$ 176,67 mi em subsidiária sem rating externo atual",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Agrogalaxy - Reestruturação operacional",
+      "data": "2026-05-27",
+      "impacto": "Definição da estratégia de sobrevivência e foco em defensivos, impactando análise de crédito"
+    },
+    {
+      "titulo": "Agrogalaxy - Estratégia jurídica",
+      "data": "2026-05-27",
+      "impacto": "Alinhamento para produção antecipada de provas contra Pátria, separado da possível RJ"
+    },
+    {
+      "titulo": "Comitê de crédito - Tupy S/A",
+      "data": "2026-05-28",
+      "impacto": "Análise de crédito de empresa do setor automotivo"
+    },
+    {
+      "titulo": "Aegea - Sanity check de valuation",
+      "data": "2026-05-29",
+      "impacto": "Validação de critérios para participação na privatização da Copasa"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Metro BH - Debêntures R$ 300 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Registro solicitado para debêntures de infraestrutura urbana"
+    },
+    {
+      "operacao": "LF Banco BS2 - R$ 200 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "LF com prazo 2 anos, CDI+1,65%, rating A (Moody's)"
+    },
+    {
+      "operacao": "CRA Prime Agro 103ª emissão",
+      "tipo": "reabertura",
+      "status": "em andamento",
+      "resumo": "Assembleia para deliberação sobre reabertura do CRA"
+    },
+    {
+      "operacao": "Raízen - Recuperação extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "R$ 65,4 bi com prazo até 9 de junho para aprovação de credores"
+    },
+    {
+      "operacao": "Petrobras - Resgate bonds",
+      "tipo": "gestão de dívida",
+      "status": "concluído",
+      "resumo": "Resgate antecipado de US$ 670 milhões"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 14,
+    "total_emails": 195,
+    "total_followups": 0,
+    "followups_pendentes": "Não há follow-ups formais pendentes identificados",
+    "analise": "Alta intensidade operacional com 4,7 reuniões/dia reflete complexidade dos casos de stress de crédito. Volume de 39 emails/dia indica necessidade de comunicação intensiva para coordenação de reestruturações. Ausência de follow-ups formais pode indicar resolução eficiente ou necessidade de melhor estruturação de acompanhamentos."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Agrogalaxy - Inadimplência estrutural",
+      "desde": "maio/2026",
+      "impacto": "40% de inadimplência compromete viabilidade e pode impactar outras exposições do agro"
+    },
+    {
+      "tema": "Light - Monitoramento subsidiárias",
+      "desde": "27/05/2026",
+      "impacto": "Exposição concentrada sem rating externo adequado aumenta risco de crédito"
+    },
+    {
+      "tema": "Raízen - Aprovação dos credores",
+      "desde": "maio/2026",
+      "impacto": "Prazo crítico até 9 de junho pode levar à falência se não atingir 50%+1 dos credores"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar deadline crítico da Raízen (9 de junho) para aprovação da recuperação extrajudicial",
+    "Monitorar desdobramentos da estratégia jurídica da Agrogalaxy contra o Pátria",
+    "Avaliar impactos da capitalização da Iguá e oportunidades no setor de saneamento",
+    "Analisar pipeline de data centers e oportunidades no setor de infraestrutura digital",
+    "Estruturar sistema de follow-ups formais para casos complexos em andamento"
+  ]
+}
