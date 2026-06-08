@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briefing Matinal JGP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-light: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9;
+            --accent-blue: #2563eb; --accent-green: #16a34a; --accent-yellow: #ea580c;
+            --accent-red: #dc2626; --accent-purple: #7c3aed; --text-primary: #1e293b;
+            --text-secondary: #64748b; --border-color: #e2e8f0;
+        }
+        body { background: var(--bg-light); color: var(--text-primary); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+        .navbar { background: rgba(255,255,255,0.95)!important; backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-color); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .sidebar { position: fixed; top: 56px; left: 0; width: 260px; height: calc(100vh - 56px); background: var(--bg-card); border-right: 1px solid var(--border-color); overflow-y: auto; padding: 1rem; box-shadow: 1px 0 3px rgba(0,0,0,0.05); }
+        .main-content { margin-left: 260px; padding: 1.5rem; padding-top: 2.5rem; min-height: calc(100vh - 56px); }
+        .category-filter { padding: 0.5rem 0.75rem; border-radius: 8px; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.75rem; font-size: 0.9rem; cursor: pointer; transition: all 0.2s; }
+        .category-filter:hover { background: var(--bg-card-hover); }
+        .category-filter.active { background: var(--accent-blue); color: white; }
+        .category-badge { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        .section-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--accent-blue); }
+        .section-header h2 { margin: 0; font-size: 1.25rem; }
+        .item-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid var(--border-color); transition: all 0.3s ease; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .item-card:hover { background: var(--bg-card-hover); border-color: var(--accent-blue); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .item-card.highlighted { border-color: var(--accent-yellow); background: rgba(234,88,12,0.05); border-width: 2px; }
+        .item-card.dismissed { opacity: 0.4; transform: scale(0.98); }
+        .item-type-badge { font-size: 0.7rem; padding: 0.25rem 0.5rem; border-radius: 4px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; color: white; }
+        .item-title { font-weight: 600; margin: 0.75rem 0 0.5rem; font-size: 1rem; }
+        .item-meta { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.5rem; }
+        .item-content { font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); }
+        .item-extra { font-size: 0.85rem; line-height: 1.5; color: var(--text-secondary); margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--border-color); }
+        .company-tag { display: inline-block; padding: 0.15rem 0.4rem; background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.2); color: var(--accent-purple); border-radius: 4px; font-size: 0.75rem; margin-right: 0.3rem; }
+        .origem-tooltip { display: inline-flex; align-items: center; margin-left: 0.3rem; color: #94a3b8; cursor: pointer; font-size: 0.8rem; }
+        .origem-tooltip:hover { color: #60a5fa; }
+        #origem-float { display: none; position: fixed; background: #1e293b; color: #e2e8f0; padding: 0.6rem 0.9rem; border-radius: 8px; font-size: 0.82rem; min-width: 220px; max-width: 400px; z-index: 99999; box-shadow: 0 8px 24px rgba(0,0,0,0.5); border: 1px solid #475569; line-height: 1.5; word-break: break-word; }
+        #origem-float.show { display: block; }
+        #origem-float .origem-label { color: #60a5fa; font-weight: 600; margin-right: 0.3rem; }
+        .highlights-box { background: linear-gradient(135deg, #fffbeb, #fef3c7); border: 2px solid #fbbf24; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(251,191,36,0.1); }
+        .highlights-box h4 { color: #d97706; margin-bottom: 1rem; font-weight: 600; }
+        .highlight-item { position: relative; padding: 0.875rem 1.125rem; padding-right: 3rem; background: white; border-left: 4px solid #fbbf24; border-radius: 6px; margin-bottom: 0.75rem; font-size: 0.95rem; line-height: 1.6; box-shadow: 0 1px 3px rgba(0,0,0,0.08); color: #1f2937; }
+        .highlight-item.dismissed { opacity: 0.4; border-left-color: #9ca3af; }
+        .stats-card { background: var(--bg-card); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; border: 1px solid var(--border-color); }
+        .stats-number { font-size: 1.2rem; font-weight: 700; color: var(--accent-blue); }
+        .footer { text-align: center; padding: 20px; color: var(--text-secondary); font-size: 0.8rem; border-top: 1px solid var(--border-color); margin-top: 30px; }
+        .action-buttons { display: flex; gap: 0.5rem; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color); flex-wrap: wrap; }
+        .btn-action { padding: 0.4rem 0.75rem; border-radius: 6px; font-size: 0.8rem; border: none; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 0.4rem; }
+        .btn-highlight { background: rgba(234,88,12,0.1); color: var(--accent-yellow); border: 1px solid rgba(234,88,12,0.2); }
+        .btn-highlight:hover, .btn-highlight.active { background: var(--accent-yellow); color: white; }
+        .btn-relevant { background: rgba(22,163,74,0.1); color: var(--accent-green); border: 1px solid rgba(22,163,74,0.2); }
+        .btn-relevant:hover, .btn-relevant.active { background: var(--accent-green); color: white; }
+        .btn-dismiss { background: rgba(220,38,38,0.1); color: var(--accent-red); border: 1px solid rgba(220,38,38,0.2); }
+        .btn-dismiss:hover { background: var(--accent-red); color: white; }
+        .btn-comment { background: rgba(14,165,233,0.1); color: #0ea5e9; border: 1px solid rgba(14,165,233,0.2); }
+        .btn-comment:hover, .btn-comment.has-comment { background: #0ea5e9; color: white; }
+        .saved-comment { margin-top: 0.75rem; padding: 0.75rem; background: linear-gradient(135deg, rgba(14,165,233,0.08), rgba(14,165,233,0.03)); border-left: 3px solid #0ea5e9; border-radius: 0 8px 8px 0; font-size: 0.85rem; }
+        .saved-comment .comment-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; color: #0ea5e9; font-size: 0.75rem; font-weight: 600; }
+        .comment-area { margin-top: 0.75rem; padding: 0.75rem; background: rgba(14,165,233,0.05); border: 1px solid rgba(14,165,233,0.2); border-radius: 8px; display: none; }
+        .comment-area.show { display: block; }
+        .comment-input { width: 100%; padding: 0.5rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 0.85rem; resize: vertical; min-height: 60px; background: var(--bg-card); color: var(--text-primary); }
+        .comment-input:focus { outline: none; border-color: #0ea5e9; box-shadow: 0 0 0 2px rgba(14,165,233,0.2); }
+        .search-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.75rem 1rem; color: var(--text-primary); width: 100%; font-size: 1rem; margin-bottom: 1.5rem; }
+        .search-box:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 2px rgba(37,99,235,0.2); }
+        .toast-container { position: fixed; bottom: 20px; right: 20px; z-index: 1050; }
+        .login-screen { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: linear-gradient(135deg, #0f172a, #1e293b); }
+        .login-box { background: white; border-radius: 16px; padding: 2.5rem; width: 100%; max-width: 420px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        .login-box h2 { color: #1e293b; margin-bottom: 0.5rem; }
+        .login-box .subtitle { color: #64748b; font-size: 0.9rem; margin-bottom: 2rem; }
+        .login-box input { width: 100%; padding: 0.75rem 1rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; transition: border-color 0.2s; }
+        .login-box input:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+        .login-box .btn-unlock { width: 100%; padding: 0.75rem; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; margin-top: 1rem; transition: background 0.2s; }
+        .login-box .btn-unlock:hover { background: #1d4ed8; }
+        .login-box .btn-unlock:disabled { background: #94a3b8; cursor: not-allowed; }
+        .login-error { color: #dc2626; font-size: 0.85rem; margin-top: 0.75rem; display: none; }
+        .lock-icon { font-size: 3rem; color: #2563eb; margin-bottom: 1rem; }
+        [data-editable] { cursor: text; border-radius: 4px; transition: background 0.2s, box-shadow 0.2s; position: relative; }
+        [data-editable]:hover { background: rgba(37,99,235,0.06); }
+        [data-editable]:focus { outline: none; background: rgba(37,99,235,0.08); box-shadow: 0 0 0 2px rgba(37,99,235,0.3); }
+        [data-editable].edited::after { content: '✏️'; position: absolute; top: -4px; right: -4px; font-size: 0.6rem; }
+        .edit-indicator { display: inline-block; font-size: 0.6rem; color: #2563eb; margin-left: 0.3rem; opacity: 0.7; }
+        @media (max-width: 768px) { .sidebar { display: none; } .main-content { margin-left: 0; } }
+    </style>
+</head>
+<body>
+    <div id="login-screen" class="login-screen">
+        <div class="login-box text-center">
+            <div class="lock-icon"><i class="bi bi-shield-lock-fill"></i></div>
+            <h2>Briefing Matinal JGP</h2>
+            <p class="subtitle">Conteúdo protegido por criptografia AES-256</p>
+            <div>
+                <input type="password" id="senha-input" placeholder="Digite a senha" autofocus>
+                <button type="button" class="btn-unlock" id="btn-unlock" onclick="desbloquearClick()">
+                    <i class="bi bi-unlock-fill me-2"></i>Desbloquear
+                </button>
+            </div>
+            <div class="login-error" id="login-error"><i class="bi bi-exclamation-triangle me-1"></i>Senha incorreta</div>
+            <p style="color: #94a3b8; font-size: 0.75rem; margin-top: 1.5rem;">
+                <i class="bi bi-lock me-1"></i>Criptografia AES-256-GCM &bull; PBKDF2 100k iterações
+            </p>
+        </div>
+    </div>
+
+    <div id="briefing-app" style="display: none;">
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">
+                    <i class="bi bi-journal-richtext me-2"></i>
+                    <span id="briefing-title">Briefing Matinal</span>
+                </span>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="btn btn-success btn-sm" id="btn-salvar-final" onclick="salvarVersaoFinal()" title="Salvar versão editada para reviews" style="display:none">
+                        <i class="bi bi-check2-circle me-1"></i>Salvar Versão Final
+                    </button>
+                    <button class="btn btn-outline-dark btn-sm" onclick="navegarHistorico()" title="Ver briefings anteriores">
+                        <i class="bi bi-calendar3 me-1"></i>Histórico
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm" onclick="abrirReviews()" title="Reviews periódicos">
+                        <i class="bi bi-bar-chart-line me-1"></i>Reviews
+                    </button>
+                    <span class="badge bg-success"><i class="bi bi-shield-check me-1"></i>Descriptografado</span>
+                    <button class="btn btn-outline-danger btn-sm" onclick="bloquear()">
+                        <i class="bi bi-lock me-1"></i>Bloquear
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar" id="sidebar-content"></div>
+        <div class="main-content" id="main-content"></div>
+    </div>
+
+    <div class="toast-container" id="toast-container"></div>
+
+    <script id="encrypted-data" type="application/octet-stream">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</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // v4 interactive - 20260608_091708
+    
+    var briefingData = null;
+    var itemsState = {};
+    var currentFilter = 'all';
+    var STORAGE_KEY = 'briefing_jgp_state';
+    
+    window.onerror = function(msg, url, line) {
+        var el = document.getElementById('login-error');
+        if (el) { el.style.display = 'block'; el.textContent = 'Erro: ' + msg + ' (L' + line + ')'; }
+    };
+    
+    // ============ STORAGE (localStorage) ============
+    
+    function loadState() {
+        try {
+            var saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) itemsState = JSON.parse(saved);
+            else itemsState = {};
+        } catch(e) { itemsState = {}; }
+    }
+    
+    function saveState() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(itemsState)); } catch(e) {}
+    }
+    
+    // ============ CRYPTO ============
+    
+    async function derivarChave(password, salt) {
+        var enc = new TextEncoder();
+        var km = await window.crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveKey']);
+        return window.crypto.subtle.deriveKey(
+            { name: 'PBKDF2', salt: salt, iterations: 100000, hash: 'SHA-256' }, km,
+            { name: 'AES-GCM', length: 256 }, false, ['decrypt']
+        );
+    }
+    
+    async function descriptografar(password) {
+        var b64 = document.getElementById('encrypted-data').textContent.trim();
+        var bin = atob(b64);
+        var raw = new Uint8Array(bin.length);
+        for (var i = 0; i < bin.length; i++) raw[i] = bin.charCodeAt(i);
+        var key = await derivarChave(password, raw.slice(0, 16));
+        var dec = await window.crypto.subtle.decrypt({ name: 'AES-GCM', iv: raw.slice(16, 28) }, key, raw.slice(28));
+        return JSON.parse(new TextDecoder().decode(dec));
+    }
+    
+    // ============ LOGIN ============
+    
+    function desbloquearClick() {
+        var senha = document.getElementById('senha-input').value;
+        var btn = document.getElementById('btn-unlock');
+        var errorEl = document.getElementById('login-error');
+        if (!senha) { errorEl.style.display = 'block'; errorEl.textContent = 'Digite a senha'; return; }
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Descriptografando...';
+        errorEl.style.display = 'none';
+        setTimeout(function() {
+            descriptografar(senha).then(function(b) {
+                briefingData = b;
+                STORAGE_KEY = 'briefing_jgp_state_' + (b.date || '').replace(/[^0-9]/g, '');
+                loadState();
+                document.getElementById('login-screen').style.display = 'none';
+                document.getElementById('briefing-app').style.display = 'block';
+                try {
+                    renderAll();
+                    checkExistingEdits();
+                } catch(renderErr) {
+                    errorEl.style.display = 'block';
+                    errorEl.textContent = 'Erro ao renderizar: ' + renderErr.message;
+                    document.getElementById('login-screen').style.display = 'flex';
+                }
+            }).catch(function(e) {
+                errorEl.style.display = 'block';
+                errorEl.textContent = 'Senha incorreta ou erro: ' + (e.message || e);
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-unlock-fill me-2"></i>Desbloquear';
+                document.getElementById('senha-input').select();
+            });
+        }, 100);
+    }
+    
+    function bloquear() {
+        document.getElementById('briefing-app').style.display = 'none';
+        document.getElementById('login-screen').style.display = 'flex';
+        document.getElementById('main-content').innerHTML = '';
+        document.getElementById('sidebar-content').innerHTML = '';
+        document.getElementById('senha-input').value = '';
+        briefingData = null;
+    }
+    
+    document.getElementById('senha-input').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') desbloquearClick();
+    });
+    
+    // ============ HELPERS ============
+    
+    function esc(text) {
+        if (!text) return '';
+        var d = document.createElement('div');
+        d.textContent = String(text);
+        return d.innerHTML;
+    }
+    
+    function mostrarToast(msg) {
+        var c = document.getElementById('toast-container');
+        var id = 'toast-' + Date.now();
+        c.innerHTML += '<div id="' + id + '" class="toast show bg-success" role="alert"><div class="toast-body d-flex align-items-center text-white"><i class="bi bi-check-circle me-2"></i>' + msg + '</div></div>';
+        setTimeout(function() { var el = document.getElementById(id); if (el) el.remove(); }, 3000);
+    }
+    
+    function getState(itemId) {
+        return itemsState[itemId] || {};
+    }
+    
+    // ============ ACTIONS ============
+    
+    function marcarItem(itemId, action) {
+        if (!itemsState[itemId]) itemsState[itemId] = {};
+        if (action === 'highlight') {
+            itemsState[itemId].highlighted = !itemsState[itemId].highlighted;
+            mostrarToast(itemsState[itemId].highlighted ? 'Item destacado!' : 'Destaque removido');
+        } else if (action === 'relevant') {
+            itemsState[itemId].relevant = !itemsState[itemId].relevant;
+            mostrarToast('Marcado como relevante');
+        } else if (action === 'dismiss') {
+            itemsState[itemId].dismissed = !itemsState[itemId].dismissed;
+            mostrarToast(itemsState[itemId].dismissed ? 'Item ignorado' : 'Item restaurado');
+        }
+        saveState();
+        renderAll();
+    }
+    
+    function toggleOrigem(event, el) {
+        event.stopPropagation();
+        event.preventDefault();
+        var floatDiv = document.getElementById('origem-float');
+        if (!floatDiv) {
+            floatDiv = document.createElement('div');
+            floatDiv.id = 'origem-float';
+            document.body.appendChild(floatDiv);
+        }
+        var texto = el.getAttribute('data-origem') || '';
+        if (floatDiv.classList.contains('show') && floatDiv._currentEl === el) {
+            floatDiv.classList.remove('show');
+            floatDiv._currentEl = null;
+            return;
+        }
+        floatDiv.innerHTML = '<span class="origem-label">Origem:</span>' + texto;
+        floatDiv._currentEl = el;
+        var rect = el.getBoundingClientRect();
+        floatDiv.style.top = (rect.bottom + 8) + 'px';
+        var leftPos = rect.left - 80;
+        if (leftPos + 400 > window.innerWidth) leftPos = window.innerWidth - 420;
+        if (leftPos < 10) leftPos = 10;
+        floatDiv.style.left = leftPos + 'px';
+        floatDiv.classList.add('show');
+    }
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.origem-tooltip') && !e.target.closest('#origem-float')) {
+            var f = document.getElementById('origem-float');
+            if (f) { f.classList.remove('show'); f._currentEl = null; }
+        }
+    });
+    
+    function toggleComentario(itemId) {
+        var area = document.getElementById('comment-area-' + itemId);
+        if (area) {
+            area.classList.toggle('show');
+            if (area.classList.contains('show')) document.getElementById('comment-input-' + itemId).focus();
+        }
+    }
+    
+    function salvarComentario(itemId) {
+        var input = document.getElementById('comment-input-' + itemId);
+        var texto = input.value.trim();
+        if (!itemsState[itemId]) itemsState[itemId] = {};
+        itemsState[itemId].comment = texto;
+        saveState();
+        mostrarToast(texto ? 'Comentário salvo!' : 'Comentário removido');
+        renderAll();
+    }
+    
+    // ============ INLINE EDITING ============
+    
+    var editsKey = 'briefingEdits_' + (briefingData ? briefingData.date : '');
+    var editsState = {};
+    
+    function loadEdits() {
+        try {
+            editsKey = 'briefingEdits_' + (briefingData ? briefingData.date : '');
+            var saved = localStorage.getItem(editsKey);
+            if (saved) editsState = JSON.parse(saved);
+        } catch(e) {}
+    }
+    
+    function saveEdit(editId, newText) {
+        editsState[editId] = newText;
+        localStorage.setItem(editsKey, JSON.stringify(editsState));
+        // Also update briefingData in memory so filters/re-renders use edited version
+        applyEditToBriefing(editId, newText);
+    }
+    
+    function applyEditToBriefing(editId, newText) {
+        if (!briefingData) return;
+        var parts = editId.split('__');
+        if (parts[0] === 'resumo_executivo') {
+            briefingData.resumo_executivo = newText;
+        } else if (parts[0] === 'highlight' && parts.length === 2) {
+            var idx = parseInt(parts[1]);
+            if (briefingData.highlights && idx < briefingData.highlights.length) briefingData.highlights[idx] = newText;
+        } else if (parts.length === 3) {
+            // format: sectionKey__index__field
+            var section = parts[0], sidx = parseInt(parts[1]), field = parts[2];
+            if (briefingData[section] && sidx < briefingData[section].length) {
+                briefingData[section][sidx][field] = newText;
+            }
+        }
+    }
+    
+    function getEditedText(editId, original) {
+        return editsState.hasOwnProperty(editId) ? editsState[editId] : original;
+    }
+    
+    function handleEdit(el) {
+        var editId = el.getAttribute('data-edit-id');
+        var newText = el.textContent.trim();
+        var original = el.getAttribute('data-original');
+        if (newText !== original) {
+            saveEdit(editId, newText);
+            el.classList.add('edited');
+            showToast('Edição salva');
+        }
+    }
+    
+    function makeEditable(editId, text) {
+        var editedText = getEditedText(editId, text);
+        var wasEdited = editsState.hasOwnProperty(editId);
+        return ' data-editable="true" data-edit-id="' + editId + '" data-original="' + esc(text).replace(/"/g, '&quot;') + '" contenteditable="true" spellcheck="false" onblur="handleEdit(this)"' + (wasEdited ? ' class="edited"' : '');
+    }
+    
+    function showToast(msg) {
+        var t = document.createElement('div');
+        t.className = 'toast-container';
+        t.innerHTML = '<div style="background:#1e293b;color:white;padding:0.5rem 1rem;border-radius:8px;font-size:0.85rem;box-shadow:0 4px 12px rgba(0,0,0,0.2)"><i class="bi bi-check-circle me-1" style="color:#22c55e"></i>' + msg + '</div>';
+        document.body.appendChild(t);
+        setTimeout(function() { t.remove(); }, 2000);
+    }
+    
+    // ============ SALVAR VERSÃO FINAL ============
+    
+    var hasEdits = false;
+    var originalSaveEdit = saveEdit;
+    saveEdit = function(editId, newText) {
+        originalSaveEdit(editId, newText);
+        if (!hasEdits) {
+            hasEdits = true;
+            var btn = document.getElementById('btn-salvar-final');
+            if (btn) btn.style.display = 'inline-block';
+        }
+    };
+    
+    function salvarVersaoFinal() {
+        if (!briefingData) { showToast('Nenhum briefing carregado'); return; }
+        var btn = document.getElementById('btn-salvar-final');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="bi bi-hourglass-split me-1"></i>Salvando...';
+        
+        // Tentar enviar para servidor local Flask
+        fetch('http://localhost:5000/api/salvar-edicoes', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(briefingData)
+        })
+        .then(function(resp) {
+            if (!resp.ok) throw new Error('Server error');
+            return resp.json();
+        })
+        .then(function(data) {
+            btn.disabled = false;
+            btn.innerHTML = '<i class="bi bi-check2-circle me-1"></i>Salvar Versão Final';
+            showToast('✅ Versão final salva no servidor!');
+            btn.style.display = 'none';
+            hasEdits = false;
+        })
+        .catch(function(err) {
+            console.log('Flask não disponível, baixando arquivo...', err);
+            // Fallback: download do JSON
+            var blob = new Blob([JSON.stringify(briefingData, null, 2)], {type: 'application/json'});
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            var dateStr = (briefingData.date || 'unknown').replace(/-/g, '').replace(/\//g, '').substring(0, 8);
+            a.href = url;
+            a.download = 'briefing_editado_' + dateStr + '.json';
+            a.click();
+            URL.revokeObjectURL(url);
+            btn.disabled = false;
+            btn.innerHTML = '<i class="bi bi-check2-circle me-1"></i>Salvar Versão Final';
+            showToast('✅ Arquivo baixado! Coloque em briefings_editados/');
+        });
+    }
+    
+    // Show save button if there are existing edits loaded
+    function checkExistingEdits() {
+        if (Object.keys(editsState).length > 0) {
+            hasEdits = true;
+            var btn = document.getElementById('btn-salvar-final');
+            if (btn) btn.style.display = 'inline-block';
+        }
+    }
+    
+    // ============ HISTORY NAVIGATION ============
+    
+    function navegarHistorico() {
+        var modal = document.getElementById('history-modal');
+        if (modal) { modal.remove(); return; }
+        
+        modal = document.createElement('div');
+        modal.id = 'history-modal';
+        modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:9999;display:flex;align-items:center;justify-content:center';
+        modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+        
+        var box = document.createElement('div');
+        box.style.cssText = 'background:#1e293b;border-radius:16px;padding:1.5rem;max-width:400px;width:90%;max-height:70vh;overflow-y:auto;color:#f1f5f9;box-shadow:0 20px 40px rgba(0,0,0,0.4)';
+        box.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem"><h5 style="margin:0"><i class="bi bi-calendar3 me-2"></i>Histórico de Briefings</h5><button onclick="document.getElementById(\'history-modal\').remove()" style="background:none;border:none;color:#94a3b8;font-size:1.2rem;cursor:pointer"><i class="bi bi-x-lg"></i></button></div><div id="history-list" style="color:#94a3b8;font-size:0.9rem">Carregando...</div>';
+        modal.appendChild(box);
+        document.body.appendChild(modal);
+        
+        // Fetch index
+        fetch('briefings_index.json?' + Date.now())
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                var list = data.briefings || [];
+                if (list.length === 0) {
+                    document.getElementById('history-list').innerHTML = '<div class="text-center py-3">Nenhum briefing anterior encontrado</div>';
+                    return;
+                }
+                var html = '';
+                var currentPath = window.location.pathname;
+                list.forEach(function(b) {
+                    var isCurrent = currentPath.indexOf(b.filename) >= 0 || (currentPath.endsWith('/') && b === list[0]);
+                    html += '<a href="' + b.filename + '" style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.75rem;margin:0.25rem 0;border-radius:8px;text-decoration:none;color:' + (isCurrent ? '#60a5fa' : '#e2e8f0') + ';background:' + (isCurrent ? 'rgba(96,165,250,0.1)' : 'transparent') + ';transition:background 0.2s" onmouseover="this.style.background=\'rgba(96,165,250,0.15)\'" onmouseout="this.style.background=\'' + (isCurrent ? 'rgba(96,165,250,0.1)' : 'transparent') + '\'">';
+                    html += '<span><i class="bi bi-file-earmark-text me-2"></i>' + b.date_display + '</span>';
+                    if (isCurrent) html += '<span class="badge bg-primary" style="font-size:0.65rem">ATUAL</span>';
+                    html += '</a>';
+                });
+                document.getElementById('history-list').innerHTML = html;
+            })
+            .catch(function() {
+                document.getElementById('history-list').innerHTML = '<div class="text-center py-3" style="color:#ef4444">Histórico não disponível ainda.<br><small>Será criado após o próximo briefing.</small></div>';
+            });
+    }
+    
+    // ============ REVIEWS MODAL ============
+    
+    function abrirReviews() {
+        var modal = document.getElementById('reviews-modal');
+        if (modal) { modal.remove(); return; }
+        
+        modal = document.createElement('div');
+        modal.id = 'reviews-modal';
+        modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:9999;display:flex;align-items:center;justify-content:center';
+        modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+        
+        var box = document.createElement('div');
+        box.style.cssText = 'background:#1e293b;border-radius:16px;padding:1.5rem;max-width:700px;width:95%;max-height:85vh;overflow-y:auto;color:#f1f5f9;box-shadow:0 20px 40px rgba(0,0,0,0.4)';
+        var closeBtn = '<button onclick="document.getElementById(\'reviews-modal\').remove()" style="background:none;border:none;color:#94a3b8;font-size:1.2rem;cursor:pointer"><i class="bi bi-x-lg"></i></button>';
+        box.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem"><h5 style="margin:0"><i class="bi bi-bar-chart-line me-2"></i>Reviews Periódicos</h5>' + closeBtn + '</div>'
+            + '<div style="display:flex;gap:0.5rem;margin-bottom:1rem" id="review-tabs">'
+            + '<button class="btn btn-sm btn-primary" onclick="loadReviewTab(\'weekly\')" data-tab="weekly">Semanal</button>'
+            + '<button class="btn btn-sm btn-outline-light" onclick="loadReviewTab(\'monthly\')" data-tab="monthly">Mensal</button>'
+            + '<button class="btn btn-sm btn-outline-light" onclick="loadReviewTab(\'quarterly\')" data-tab="quarterly">Trimestral</button>'
+            + '<button class="btn btn-sm btn-outline-light" onclick="loadReviewTab(\'yearly\')" data-tab="yearly">Anual</button>'
+            + '</div>'
+            + '<div id="review-content" style="color:#94a3b8;font-size:0.9rem">Carregando...</div>';
+        modal.appendChild(box);
+        document.body.appendChild(modal);
+        
+        loadReviewTab('weekly');
+    }
+    
+    function loadReviewTab(tipo) {
+        document.querySelectorAll('#review-tabs button').forEach(function(b) {
+            if (b.getAttribute('data-tab') === tipo) {
+                b.className = 'btn btn-sm btn-primary';
+            } else {
+                b.className = 'btn btn-sm btn-outline-light';
+            }
+        });
+        document.getElementById('review-content').innerHTML = '<div class="text-center py-3" style="color:#94a3b8"><div class="spinner-border spinner-border-sm me-2"></div>Carregando...</div>';
+        
+        fetch('reviews_index.json?' + Date.now())
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                var reviews = (data.reviews || []).filter(function(r) { return r.tipo === tipo; });
+                if (reviews.length === 0) {
+                    var labels = {weekly: 'semanal', monthly: 'mensal', quarterly: 'trimestral', yearly: 'anual'};
+                    document.getElementById('review-content').innerHTML = '<div class="text-center py-4" style="color:#94a3b8"><i class="bi bi-inbox" style="font-size:2rem;display:block;margin-bottom:0.5rem"></i>Nenhum review ' + labels[tipo] + ' disponível ainda.<br><small style="color:#64748b">Será gerado automaticamente conforme os briefings se acumulem.</small></div>';
+                    return;
+                }
+                if (reviews.length === 1) {
+                    loadReviewFile(reviews[0].filename);
+                } else {
+                    var html = '<div style="margin-bottom:1rem"><small style="color:#64748b">' + reviews.length + ' reviews disponíveis</small></div>';
+                    reviews.forEach(function(r) {
+                        html += '<a href="#" onclick="loadReviewFile(\'' + r.filename + '\');return false" style="display:block;padding:0.5rem 0.75rem;margin:0.25rem 0;border-radius:8px;text-decoration:none;color:#e2e8f0;background:rgba(255,255,255,0.05);transition:background 0.2s" onmouseover="this.style.background=\'rgba(96,165,250,0.15)\'" onmouseout="this.style.background=\'rgba(255,255,255,0.05)\'">';
+                        html += '<i class="bi bi-file-earmark-bar-graph me-2"></i>' + r.periodo + '</a>';
+                    });
+                    document.getElementById('review-content').innerHTML = html;
+                }
+            })
+            .catch(function() {
+                var labels = {weekly: 'semanal', monthly: 'mensal', quarterly: 'trimestral', yearly: 'anual'};
+                document.getElementById('review-content').innerHTML = '<div class="text-center py-4" style="color:#94a3b8"><i class="bi bi-inbox" style="font-size:2rem;display:block;margin-bottom:0.5rem"></i>Nenhum review ' + labels[tipo] + ' disponível ainda.<br><small style="color:#64748b">Será gerado automaticamente conforme os briefings se acumulem.</small></div>';
+            });
+    }
+    
+    function loadReviewFile(filename) {
+        document.getElementById('review-content').innerHTML = '<div class="text-center py-3"><div class="spinner-border spinner-border-sm me-2"></div>Carregando review...</div>';
+        fetch(filename + '?' + Date.now())
+            .then(function(r) { return r.json(); })
+            .then(function(review) {
+                renderReview(review);
+            })
+            .catch(function() {
+                document.getElementById('review-content').innerHTML = '<div class="text-center py-3" style="color:#ef4444">Erro ao carregar review.</div>';
+            });
+    }
+    
+    function renderReview(r) {
+        var html = '';
+        var tipoLabels = {weekly: 'Semanal', monthly: 'Mensal', quarterly: 'Trimestral', yearly: 'Anual'};
+        var tipoColors = {weekly: '#3b82f6', monthly: '#8b5cf6', quarterly: '#f59e0b', yearly: '#ef4444'};
+        var color = tipoColors[r.tipo_review] || '#3b82f6';
+        
+        // Header
+        html += '<div style="background:linear-gradient(135deg,' + color + '22,' + color + '11);border-radius:12px;padding:1rem;margin-bottom:1rem;border-left:4px solid ' + color + '">';
+        html += '<h6 style="color:' + color + ';margin:0"><i class="bi bi-bar-chart-line me-1"></i>Review ' + (tipoLabels[r.tipo_review] || '') + ' — ' + (r.periodo || '') + '</h6>';
+        html += '</div>';
+        
+        // Resumo executivo
+        if (r.resumo_executivo) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-journal-text me-1"></i>Resumo Executivo</h6>';
+            html += '<p style="color:#cbd5e1;line-height:1.7;font-size:0.9rem">' + esc(r.resumo_executivo) + '</p></div>';
+        }
+        
+        // Principais temas
+        if (r.principais_temas && r.principais_temas.length > 0) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-hash me-1"></i>Principais Temas</h6>';
+            r.principais_temas.forEach(function(t) {
+                var statusColorMap = {resolvido: '#22c55e', 'em andamento': '#f59e0b', escalado: '#ef4444'};
+                var sc = statusColorMap[t.status] || '#94a3b8';
+                html += '<div style="padding:0.5rem 0.75rem;margin:0.3rem 0;border-radius:8px;background:rgba(255,255,255,0.03)">';
+                html += '<div style="display:flex;justify-content:space-between;align-items:center"><strong style="color:#e2e8f0">' + esc(t.tema || '') + '</strong>';
+                html += '<span style="display:flex;gap:0.4rem;align-items:center"><span class="badge" style="background:' + color + '22;color:' + color + ';font-size:0.7rem">' + (t.frequencia || '?') + 'x</span>';
+                html += '<span class="badge" style="background:' + sc + '22;color:' + sc + ';font-size:0.65rem">' + esc(t.status || '?') + '</span></span></div>';
+                html += '<small style="color:#94a3b8">' + esc(t.resumo || '') + '</small></div>';
+            });
+            html += '</div>';
+        }
+        
+        // Empresas destaque
+        if (r.empresas_destaque && r.empresas_destaque.length > 0) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-building me-1"></i>Empresas em Destaque</h6>';
+            r.empresas_destaque.forEach(function(e) {
+                var esColors = {positivo: '#22c55e', alerta: '#ef4444', normal: '#94a3b8'};
+                var ec = esColors[e.status] || '#94a3b8';
+                html += '<div style="padding:0.4rem 0.75rem;margin:0.3rem 0;border-radius:8px;background:rgba(255,255,255,0.03);display:flex;justify-content:space-between;align-items:start">';
+                html += '<div><strong style="color:#e2e8f0">' + esc(e.empresa || '') + '</strong><br><small style="color:#94a3b8">' + esc(e.contexto || '') + '</small></div>';
+                html += '<div style="text-align:right;min-width:60px"><span class="badge" style="background:' + ec + '22;color:' + ec + ';font-size:0.65rem">' + esc(e.status || '') + '</span><br><small style="color:#64748b">' + (e.mencoes || 0) + ' menções</small></div>';
+                html += '</div>';
+            });
+            html += '</div>';
+        }
+        
+        // Pipeline crédito
+        if (r.pipeline_credito && r.pipeline_credito.length > 0) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-cash-stack me-1"></i>Pipeline de Crédito</h6>';
+            r.pipeline_credito.forEach(function(p) {
+                html += '<div style="padding:0.4rem 0.75rem;margin:0.3rem 0;border-radius:8px;background:rgba(255,255,255,0.03)">';
+                html += '<strong style="color:#e2e8f0">' + esc(p.operacao || '') + '</strong> <span class="badge" style="background:rgba(255,255,255,0.1);color:#94a3b8;font-size:0.65rem">' + esc(p.tipo || '') + '</span>';
+                html += '<br><small style="color:#94a3b8">' + esc(p.resumo || '') + '</small></div>';
+            });
+            html += '</div>';
+        }
+        
+        // Próximas prioridades
+        if (r.proximas_prioridades && r.proximas_prioridades.length > 0) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-arrow-right-circle me-1"></i>Próximas Prioridades</h6>';
+            r.proximas_prioridades.forEach(function(p) {
+                html += '<div style="padding:0.3rem 0.75rem;color:#cbd5e1;font-size:0.85rem"><i class="bi bi-chevron-right" style="color:' + color + '"></i> ' + esc(typeof p === 'string' ? p : p.prioridade || '') + '</div>';
+            });
+            html += '</div>';
+        }
+        
+        // Problemas não resolvidos
+        if (r.problemas_nao_resolvidos && r.problemas_nao_resolvidos.length > 0) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#ef4444"><i class="bi bi-exclamation-triangle me-1"></i>Problemas Não Resolvidos</h6>';
+            r.problemas_nao_resolvidos.forEach(function(p) {
+                html += '<div style="padding:0.4rem 0.75rem;margin:0.3rem 0;border-radius:8px;background:rgba(239,68,68,0.05);border-left:3px solid #ef4444">';
+                html += '<strong style="color:#fca5a5">' + esc(p.tema || '') + '</strong>';
+                if (p.desde) html += ' <small style="color:#64748b">desde ' + esc(p.desde) + '</small>';
+                html += '<br><small style="color:#94a3b8">' + esc(p.impacto || '') + '</small></div>';
+            });
+            html += '</div>';
+        }
+        
+        // Eficiência
+        if (r.eficiencia) {
+            html += '<div style="margin-bottom:1rem"><h6 style="color:#e2e8f0"><i class="bi bi-speedometer me-1"></i>Eficiência</h6>';
+            html += '<div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.5rem">';
+            html += '<span class="badge" style="background:rgba(255,255,255,0.1);color:#e2e8f0;padding:0.4rem 0.6rem"><i class="bi bi-camera-video me-1"></i>' + (r.eficiencia.total_reunioes || 0) + ' reuniões</span>';
+            html += '<span class="badge" style="background:rgba(255,255,255,0.1);color:#e2e8f0;padding:0.4rem 0.6rem"><i class="bi bi-envelope me-1"></i>' + (r.eficiencia.total_emails || 0) + ' emails</span>';
+            html += '<span class="badge" style="background:rgba(255,255,255,0.1);color:#e2e8f0;padding:0.4rem 0.6rem"><i class="bi bi-send me-1"></i>' + (r.eficiencia.total_followups || 0) + ' follow-ups</span>';
+            html += '</div>';
+            if (r.eficiencia.analise) html += '<small style="color:#94a3b8">' + esc(r.eficiencia.analise) + '</small>';
+            html += '</div>';
+        }
+        
+        document.getElementById('review-content').innerHTML = html;
+    }
+    
+    // ============ FILTERS ============
+    
+    function filtrarCategoria(filter) {
+        currentFilter = filter;
+        document.querySelectorAll('.category-filter').forEach(function(el) {
+            el.classList.remove('active');
+            if (el.getAttribute('data-filter') === filter) el.classList.add('active');
+        });
+        aplicarFiltros();
+    }
+    
+    function filtrarBusca(termo) {
+        aplicarFiltros(termo.toLowerCase());
+    }
+    
+    function aplicarFiltros(searchTerm) {
+        searchTerm = searchTerm || (document.getElementById('search-input') ? document.getElementById('search-input').value.toLowerCase() : '');
+        document.querySelectorAll('.item-card').forEach(function(card) {
+            var type = card.getAttribute('data-type');
+            var id = card.getAttribute('data-id');
+            var state = getState(id);
+            var show = true;
+            
+            if (currentFilter === 'highlighted') show = !!state.highlighted;
+            else if (currentFilter !== 'all') show = (type === currentFilter);
+            
+            if (show && searchTerm) show = card.textContent.toLowerCase().indexOf(searchTerm) >= 0;
+            
+            card.style.display = show ? 'block' : 'none';
+        });
+        document.querySelectorAll('.section-header').forEach(function(h) {
+            var section = h.getAttribute('data-section');
+            var visible = document.querySelectorAll('.item-card[data-type="' + section + '"]:not([style*="display: none"])');
+            h.style.display = visible.length > 0 ? 'flex' : 'none';
+        });
+    }
+    
+    // ============ RENDER ============
+    
+    function renderAll() {
+        if (!briefingData) return;
+        var b = briefingData;
+        var data = b.date || '';
+        document.getElementById('briefing-title').textContent = 'Briefing Matinal - ' + data;
+        loadEdits();
+        
+        var SECTIONS = [
+            { key: 'reunioes_calls', title: 'Reuniões e Calls', icon: 'camera-video', color: '#ea580c', label: 'REUNIÃO' },
+            { key: 'renda_fixa_private_credit', title: 'Renda Fixa e Private Credit', icon: 'bank', color: '#0d9488', label: 'RENDA FIXA' },
+            { key: 'fatos_relevantes', title: 'Fatos Relevantes', icon: 'megaphone', color: '#dc2626', label: 'FATO RELEVANTE' },
+            { key: 'noticias', title: 'Notícias', icon: 'newspaper', color: '#0891b2', label: 'NOTÍCIA' },
+            { key: 'sell_side_destaque', title: 'Sell Side', icon: 'graph-up-arrow', color: '#7c3aed', label: 'SELL SIDE' },
+            { key: 'macro_politica', title: 'Macroeconomia e Política', icon: 'globe', color: '#6366f1', label: 'MACRO' },
+            { key: 'equities_brasil', title: 'Equities Brasil', icon: 'bar-chart-line', color: '#f59e0b', label: 'EQUITIES' },
+            { key: 'agenda_hoje', title: 'Agenda de Hoje', icon: 'calendar-event', color: '#2563eb', label: 'AGENDA' }
+        ];
+        
+        var typeMap = {};
+        SECTIONS.forEach(function(s) { typeMap[s.key] = s; });
+        
+        // === SIDEBAR ===
+        var totalItems = 0;
+        var highlightCount = Object.values(itemsState).filter(function(s) { return s.highlighted; }).length;
+        var sideHtml = '<h6 class="text-secondary mb-3">FILTROS</h6>';
+        sideHtml += '<div class="category-filter' + (currentFilter === 'all' ? ' active' : '') + '" data-filter="all" onclick="filtrarCategoria(\'all\')"><span class="category-badge" style="background:#2563eb"></span><strong>Todos</strong><span class="ms-auto badge bg-primary" id="count-all">0</span></div>';
+        sideHtml += '<div class="category-filter' + (currentFilter === 'highlighted' ? ' active' : '') + '" data-filter="highlighted" onclick="filtrarCategoria(\'highlighted\')"><span class="category-badge" style="background:#fbbf24"></span><span>⭐ Destacados</span><span class="ms-auto badge bg-warning text-dark">' + highlightCount + '</span></div>';
+        sideHtml += '<hr class="my-2"><h6 class="text-secondary mb-3">CATEGORIAS</h6>';
+        
+        SECTIONS.forEach(function(s) {
+            var count = (b[s.key] || []).length;
+            totalItems += count;
+            if (count > 0) {
+                sideHtml += '<div class="category-filter' + (currentFilter === s.key.replace(/_/g, '') ? ' active' : '') + '" data-filter="' + s.key.replace(/_/g, '') + '" onclick="filtrarCategoria(\'' + s.key.replace(/_/g, '') + '\')">';
+                sideHtml += '<span class="category-badge" style="background:' + s.color + '"></span><span>' + s.title + '</span>';
+                sideHtml += '<span class="ms-auto badge" style="background:' + s.color + '">' + count + '</span></div>';
+            }
+        });
+        
+        sideHtml += '<hr class="my-2"><div class="stats-card"><small class="text-secondary d-block mb-2">Resumo</small>';
+        sideHtml += '<div class="d-flex justify-content-between mb-1"><small>Destacados</small><span class="stats-number">' + highlightCount + '</span></div>';
+        sideHtml += '<div class="d-flex justify-content-between"><small>Total Itens</small><span class="stats-number">' + totalItems + '</span></div></div>';
+        
+        document.getElementById('sidebar-content').innerHTML = sideHtml;
+        var countAllEl = document.getElementById('count-all');
+        if (countAllEl) countAllEl.textContent = totalItems;
+        
+        // === MAIN CONTENT ===
+        var html = '<input type="text" class="search-box" id="search-input" placeholder="🔍 Buscar por empresa, assunto, remetente..." oninput="filtrarBusca(this.value)">';
+        
+        // Resumo Executivo
+        var resumo = b.resumo_executivo || '';
+        if (resumo) {
+            html += '<div style="background:linear-gradient(135deg,#1e293b,#334155);border-radius:16px;padding:1.25rem 1.5rem;margin-bottom:1.5rem;color:#f1f5f9;box-shadow:0 4px 12px rgba(0,0,0,0.15)">';
+            html += '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.75rem;font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;color:#94a3b8"><i class="bi bi-clipboard2-pulse"></i> Resumo Executivo</div>';
+            html += '<div style="font-size:0.95rem;line-height:1.7;color:#e2e8f0"' + makeEditable('resumo_executivo', resumo) + '>' + esc(getEditedText('resumo_executivo', resumo)) + '</div>';
+            // Stats bar
+            var statsItems = [];
+            SECTIONS.forEach(function(s) { var c = (b[s.key] || []).length; if (c > 0) statsItems.push(s.title.split(' ')[0] + ': ' + c); });
+            if (statsItems.length) {
+                html += '<div style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid rgba(148,163,184,0.2);display:flex;flex-wrap:wrap;gap:0.75rem;font-size:0.75rem;color:#94a3b8">';
+                statsItems.forEach(function(st) { html += '<span><i class="bi bi-dot"></i>' + st + '</span>'; });
+                html += '</div>';
+            }
+            html += '</div>';
+        }
+        
+        // Highlights
+        var highlights = b.highlights || [];
+        if (highlights.length > 0) {
+            html += '<div class="highlights-box"><h4><i class="bi bi-lightning-charge-fill me-2"></i>HIGHLIGHTS DO DIA</h4>';
+            highlights.forEach(function(h, i) {
+                var hId = 'highlight-' + i;
+                var st = getState(hId);
+                html += '<div class="highlight-item' + (st.dismissed ? ' dismissed' : '') + '">';
+                var hlEditId = 'highlight__' + i;
+                var hlText = getEditedText(hlEditId, h);
+                html += '<span' + makeEditable(hlEditId, h) + '>⚡ ' + esc(hlText) + '</span>';
+                html += '<div style="margin-top:8px;display:flex;gap:6px;">';
+                html += '<button class="btn-action btn-comment btn-sm' + (st.comment ? ' has-comment' : '') + '" onclick="toggleComentario(\'' + hId + '\')"><i class="bi bi-chat-dots"></i></button>';
+                html += '<button class="btn-action btn-dismiss btn-sm" onclick="marcarItem(\'' + hId + '\',\'dismiss\')"><i class="bi bi-x-circle"></i></button>';
+                html += '</div>';
+                if (st.comment) {
+                    html += '<div class="saved-comment"><div class="comment-header"><i class="bi bi-chat-quote"></i> Meu Comentário</div><div>' + esc(st.comment) + '</div></div>';
+                }
+                html += '<div class="comment-area" id="comment-area-' + hId + '">';
+                html += '<textarea class="comment-input" id="comment-input-' + hId + '" placeholder="Seu comentário...">' + esc(st.comment || '') + '</textarea>';
+                html += '<div style="display:flex;gap:6px;margin-top:6px;justify-content:flex-end;">';
+                html += '<button class="btn btn-sm btn-outline-secondary" onclick="toggleComentario(\'' + hId + '\')">Cancelar</button>';
+                html += '<button class="btn btn-sm btn-primary" onclick="salvarComentario(\'' + hId + '\')"><i class="bi bi-check"></i> Salvar</button>';
+                html += '</div></div>';
+                html += '</div>';
+            });
+            html += '</div>';
+        }
+        
+        // Sections
+        SECTIONS.forEach(function(s) {
+            var items = b[s.key] || [];
+            if (items.length === 0 && s.key !== 'agenda_hoje') return;
+            
+            var filterKey = s.key.replace(/_/g, '');
+            html += '<div class="section-header" data-section="' + filterKey + '" style="border-bottom-color:' + s.color + '"><i class="bi bi-' + s.icon + '" style="font-size:1.5rem;color:' + s.color + '"></i><h2>' + s.title + '</h2><span class="badge bg-secondary">' + items.length + '</span></div>';
+            
+            if (items.length === 0) {
+                var emptyMsg = 'Sem eventos agendados para hoje';
+                var emptyIcon = 'bi-calendar-x';
+                html += '<div class="item-card" data-id="' + filterKey + '-empty" data-type="' + filterKey + '"><div class="text-center text-secondary py-3"><i class="bi ' + emptyIcon + '" style="font-size:2rem;display:block;margin-bottom:0.5rem"></i>' + emptyMsg + '</div></div>';
+                return;
+            }
+            
+            items.forEach(function(item, idx) {
+                var itemId = filterKey + '-' + idx;
+                var st = getState(itemId);
+                var titulo = esc(item.titulo || item.title || 'Sem título');
+                var resumo = esc(item.resumo || item.descricao || item.content || '');
+                var fonte = esc(item.fonte || '');
+                var meta = esc(item.data || item.horario || item.corretora || '');
+                var participantes = esc(item.participantes || '');
+                var empresas = item.empresas || item.empresas_mencionadas || (item.empresa ? [item.empresa] : []);
+                var conclusoes = esc(item.conclusoes || '');
+                var proximos = esc(item.proximos_passos || '');
+                var acao = esc(item.acao || '');
+                
+                // Editable IDs
+                var tituloEditId = s.key + '__' + idx + '__titulo';
+                var resumoEditId = s.key + '__' + idx + '__resumo';
+                var tituloEdited = getEditedText(tituloEditId, item.titulo || item.title || 'Sem título');
+                var resumoEdited = getEditedText(resumoEditId, item.resumo || item.descricao || item.content || '');
+                
+                var empresasHtml = '';
+                if (empresas.length) {
+                    empresasHtml = '<div class="mb-2">';
+                    empresas.forEach(function(e) { empresasHtml += '<span class="company-tag">' + esc(e) + '</span>'; });
+                    empresasHtml += '</div>';
+                }
+                
+                var extrasHtml = '';
+                if (conclusoes) extrasHtml += '<div class="item-extra"><strong>Conclusões:</strong> ' + conclusoes + '</div>';
+                if (proximos) extrasHtml += '<div class="item-extra"><strong>Próximos Passos:</strong> ' + proximos + '</div>';
+                if (acao) extrasHtml += '<div class="item-extra" style="color:' + s.color + '"><strong>➜ Ação:</strong> ' + acao + '</div>';
+                
+                // Contexto emails (agenda_hoje items)
+                var contextoEmails = esc(item.contexto_emails || '');
+                if (contextoEmails && s.key === 'agenda_hoje') {
+                    extrasHtml += '<div style="margin-top:0.5rem;padding:0.5rem 0.75rem;background:rgba(37,99,235,0.06);border-left:3px solid #2563eb;border-radius:0 6px 6px 0;font-size:0.82rem;color:#475569"><i class="bi bi-envelope-open" style="color:#2563eb;margin-right:0.4rem"></i><strong>Contexto:</strong> ' + contextoEmails + '</div>';
+                }
+                
+                // Plaud orphan indicator
+                if (item.plaud_orphan) {
+                    extrasHtml += '<div style="margin-top:0.5rem;font-size:0.7rem;color:#8b5cf6;display:flex;align-items:center;gap:0.3rem"><i class="bi bi-info-circle"></i> Transcrição sem evento correspondente no calendário</div>';
+                }
+                
+                // Plaud enrichment (agenda_ontem items)
+                var plaudResumo = esc(item.plaud_resumo || '');
+                var plaudConclusoes = item.plaud_conclusoes || [];
+                var plaudProximos = item.plaud_proximos_passos || [];
+                if (plaudResumo || plaudConclusoes.length || plaudProximos.length) {
+                    extrasHtml += '<div style="margin-top:0.75rem;padding:0.75rem;background:linear-gradient(135deg,rgba(139,92,246,0.08),rgba(139,92,246,0.03));border-left:3px solid #8b5cf6;border-radius:0 8px 8px 0">';
+                    extrasHtml += '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;color:#8b5cf6;font-size:0.8rem;font-weight:600"><i class="bi bi-mic-fill"></i> Anotações Plaud</div>';
+                    if (plaudResumo) extrasHtml += '<div style="font-size:0.85rem;line-height:1.5;color:#4b5563;margin-bottom:0.5rem">' + plaudResumo + '</div>';
+                    if (plaudConclusoes.length) {
+                        extrasHtml += '<div style="font-size:0.85rem;margin-bottom:0.5rem"><strong>Conclusões:</strong><ul style="margin:0.25rem 0;padding-left:1.25rem">';
+                        plaudConclusoes.forEach(function(c) { extrasHtml += '<li>' + esc(c) + '</li>'; });
+                        extrasHtml += '</ul></div>';
+                    }
+                    if (plaudProximos.length) {
+                        extrasHtml += '<div style="font-size:0.85rem"><strong>Próximos Passos:</strong><ul style="margin:0.25rem 0;padding-left:1.25rem">';
+                        plaudProximos.forEach(function(p) { extrasHtml += '<li>' + esc(p) + '</li>'; });
+                        extrasHtml += '</ul></div>';
+                    }
+                    extrasHtml += '</div>';
+                }
+                
+                var cardClass = 'item-card';
+                if (st.highlighted) cardClass += ' highlighted';
+                if (st.dismissed) cardClass += ' dismissed';
+                
+                html += '<div class="' + cardClass + '" data-id="' + itemId + '" data-type="' + filterKey + '">';
+                html += '<span class="item-type-badge" style="background:' + s.color + '">' + s.label + '</span>';
+                if (fonte) html += '<span class="badge bg-secondary ms-1" style="font-size:0.65rem">' + fonte + '</span>';
+                var origem = esc(item.origem || '');
+                if (origem) html += '<span class="origem-tooltip" data-origem="' + origem + '" onclick="toggleOrigem(event, this)"><i class="bi bi-info-circle"></i></span>';
+                html += '<h5 class="item-title"' + makeEditable(tituloEditId, item.titulo || item.title || 'Sem título') + '>' + esc(tituloEdited) + '</h5>';
+                if (meta) html += '<div class="item-meta"><i class="bi bi-clock me-1"></i>' + meta + '</div>';
+                if (participantes) html += '<div class="item-meta"><i class="bi bi-people me-1"></i>' + participantes + '</div>';
+                html += empresasHtml;
+                html += '<div class="item-content" id="content-' + itemId + '"' + makeEditable(resumoEditId, item.resumo || item.descricao || item.content || '') + '>' + esc(resumoEdited) + '</div>';
+                html += extrasHtml;
+                
+                // Saved comment
+                if (st.comment) {
+                    html += '<div class="saved-comment"><div class="comment-header"><i class="bi bi-chat-quote"></i> Meu Comentário</div><div>' + esc(st.comment) + '</div></div>';
+                }
+                
+                // Comment area (hidden)
+                html += '<div class="comment-area" id="comment-area-' + itemId + '">';
+                html += '<textarea class="comment-input" id="comment-input-' + itemId + '" placeholder="Seu comentário sobre este item...">' + esc(st.comment || '') + '</textarea>';
+                html += '<div style="display:flex;gap:6px;margin-top:6px;justify-content:flex-end;">';
+                html += '<button class="btn btn-sm btn-outline-secondary" onclick="toggleComentario(\'' + itemId + '\')">Cancelar</button>';
+                html += '<button class="btn btn-sm btn-primary" onclick="salvarComentario(\'' + itemId + '\')"><i class="bi bi-check"></i> Salvar</button>';
+                html += '</div></div>';
+                
+                // Action buttons
+                html += '<div class="action-buttons">';
+                html += '<button class="btn-action btn-highlight' + (st.highlighted ? ' active' : '') + '" onclick="marcarItem(\'' + itemId + '\',\'highlight\')"><i class="bi bi-star' + (st.highlighted ? '-fill' : '') + '"></i> Destacar</button>';
+                html += '<button class="btn-action btn-relevant' + (st.relevant ? ' active' : '') + '" onclick="marcarItem(\'' + itemId + '\',\'relevant\')"><i class="bi bi-check-circle"></i> Relevante</button>';
+                html += '<button class="btn-action btn-comment' + (st.comment ? ' has-comment' : '') + '" onclick="toggleComentario(\'' + itemId + '\')"><i class="bi bi-chat-dots' + (st.comment ? '-fill' : '') + '"></i> Comentar</button>';
+                html += '<button class="btn-action btn-dismiss" onclick="marcarItem(\'' + itemId + '\',\'dismiss\')"><i class="bi bi-x-circle"></i> ' + (st.dismissed ? 'Restaurar' : 'Ignorar') + '</button>';
+                html += '</div>';
+                
+                html += '</div>';
+            });
+        });
+        
+        html += '<div class="footer">Briefing gerado automaticamente &bull; JGP Gestão de Recursos &bull; ' + data + '<br><small>Protegido por criptografia AES-256-GCM &bull; Estado salvo localmente no browser</small></div>';
+        
+        document.getElementById('main-content').innerHTML = html;
+        aplicarFiltros();
+    }
+    </script>
+</body>
+</html>
