@@ -1,0 +1,131 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 03/06 a 07/06/2026",
+  "resumo_executivo": "A semana foi marcada por intensa movimentação no setor de utilities e por uma situação crítica de crédito corporativo. O destaque negativo foi a Braskem, que sinalizou possível calote em US$ 150 milhões de juros de bonds e avalia recuperação extrajudicial sob novo controle do IG4. No setor elétrico, observamos marcos regulatórios importantes com os leilões de baterias (LRCap) e consolidação no saneamento com a Equatorial se tornando única finalista na Copesa. O volume de trabalho foi intenso com 54 emails/dia em média e 2,5 reuniões diárias, demonstrando alta demanda operacional. As emissões de renda fixa totalizaram R$ 1,5 bi apenas com a Cemig, indicando necessidade de funding no setor elétrico.",
+  "principais_temas": [
+    {
+      "tema": "Leilões de Capacidade Energética/Baterias",
+      "frequencia": 3,
+      "resumo": "Marco regulatório para armazenamento com dois leilões distintos - um com conteúdo nacional e outro sem restrições. ANEEL pauta homologação dos últimos projetos LRCAP",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Recuperação de Crédito Corporativo",
+      "frequencia": 2,
+      "resumo": "Braskem em situação crítica avaliando recuperação extrajudicial após assumir controle do IG4, com risco de calote em bonds",
+      "status": "em escalada"
+    },
+    {
+      "tema": "Consolidação no Setor de Saneamento",
+      "frequencia": 1,
+      "resumo": "Equatorial única finalista na Copesa após desistência da Aegea, consolidando posição no saneamento junto com participação na Sabesp",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Emissões de Debêntures Utilities",
+      "frequencia": 2,
+      "resumo": "Cemig planeja R$ 1,5 bi para reembolsar investimentos, refletindo necessidade de funding para capex no setor elétrico",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Ratings de Crédito",
+      "frequencia": 4,
+      "resumo": "Movimentações mistas: Moody's afirma A.br da PCH BV II, Fitch eleva AA+ da Rota do Atlântico, mas rebaixa Qista para BB-",
+      "status": "monitoramento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Braskem",
+      "mencoes": 2,
+      "contexto": "Situação crítica com possível calote de US$ 150 mi em bonds e avaliação de recuperação extrajudicial sob controle do IG4",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Cemig",
+      "mencoes": 2,
+      "contexto": "Planeja emissão de R$ 1,5 bi em debêntures para reembolsar investimentos em capex",
+      "status": "normal"
+    },
+    {
+      "empresa": "Equatorial",
+      "mencoes": 1,
+      "contexto": "Única finalista na Copesa com proposta de R$ 49,03/ação, consolidando posição no saneamento",
+      "status": "positivo"
+    },
+    {
+      "empresa": "XP Portos",
+      "mencoes": 2,
+      "contexto": "Operação para nova dívida de R$ 80-100 mi visando pré-pagar dívida existente (CDI+13,40%) e questões societárias com exclusão do sócio Forcaro",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Comitê de crédito - XP PORTOS",
+      "data": "2026-06-03",
+      "impacto": "Discussão estratégica sobre exclusão do sócio Forcaro baseada em acordo de acionistas, com envolvimento de advogados especializados"
+    },
+    {
+      "titulo": "Amortização - JGP Fiagro",
+      "data": "2026-06-03",
+      "impacto": "Análise de operação crítica da XP Portos para refinanciamento de R$ 80-100 mi, impactando exposição do fundo"
+    },
+    {
+      "titulo": "Research x Legal | Education",
+      "data": "2026-06-03",
+      "impacto": "Esclarecimento sobre processos de amortização em FIIs/Fiagros, importante para operações futuras"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Cemig Debêntures",
+      "tipo": "emissão",
+      "status": "planejamento",
+      "resumo": "R$ 1,5 bilhão para reembolso de investimentos em utilities"
+    },
+    {
+      "operacao": "XP Portos Refinanciamento",
+      "tipo": "reestruturação",
+      "status": "em análise",
+      "resumo": "R$ 80-100 milhões para pré-pagar dívida CDI+13,40% e alongar prazo"
+    },
+    {
+      "operacao": "Braskem Reestruturação",
+      "tipo": "recuperação",
+      "status": "crítico",
+      "resumo": "Possível recuperação extrajudicial diante de vencimentos de bonds a partir de julho"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 5,
+    "total_emails": 270,
+    "total_followups": 0,
+    "followups_pendentes": "Não há follow-ups formais pendentes identificados",
+    "analise": "Volume de trabalho muito alto com 54 emails/dia e 2,5 reuniões diárias, indicando sobrecarga operacional. A ausência de follow-ups registrados pode indicar falta de sistematização no acompanhamento de ações, especialmente considerando a quantidade de temas críticos em andamento como Braskem e XP Portos."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Tensão Bradesco na operação Pipe DCM",
+      "desde": "2026-06-03",
+      "impacto": "Conflito sobre alocação pode impactar relacionamento comercial e execução de futuras operações"
+    },
+    {
+      "tema": "Situação societária XP Portos/Trinity/Green",
+      "desde": "2026-06-03",
+      "impacto": "Questões legais não resolvidas podem afetar viabilidade da reestruturação de dívida de R$ 80-100 mi"
+    },
+    {
+      "tema": "Status final dos projetos LRCAP inabilitados",
+      "desde": "2026-06-05",
+      "impacto": "Indefinição pode afetar planejamento de investimentos no setor elétrico"
+    }
+  ],
+  "proximas_prioridades": [
+    "Monitorar evolução da situação Braskem e impactos na carteira de crédito",
+    "Acompanhar votação remota ANEEL sobre projetos LRCAP em 09/06",
+    "Resolver tensões comerciais na operação Pipe DCM com Bradesco",
+    "Sistematizar processo de follow-ups para melhor controle de ações pendentes",
+    "Avaliar exposição e riscos da operação XP Portos considerando questões societárias"
+  ]
+}
