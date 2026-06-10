@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date_key": "20260610",
+      "date_display": "10/06/2026",
+      "filename": "briefing_20260610.html",
+      "generated_at": "2026-06-10T08:55:50.075062"
+    },
+    {
       "date_key": "20260609",
       "date_display": "09/06/2026",
       "filename": "briefing_20260609.html",
