@@ -1,0 +1,160 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 10/06 a 14/06/2026",
+  "resumo_executivo": "Semana marcada por intensa atividade no mercado de crédito privado com destaque para grandes movimentações de infraestrutura e energia. O período registrou 46 emails/dia em média e 2,7 reuniões diárias, refletindo alta demanda operacional. Trinity manteve-se como principal foco de atenção com múltiplas reuniões sobre reestruturação, enquanto o setor de utilities ganhou protagonismo com homologação dos Leilões de Reserva de Capacidade pela ANEEL e megaprojetos da Eneva. O mercado primário mostrou vigor com R$ 21,7 bilhões em debêntures emitidas em maio e pipeline robusto para junho. Destaque negativo para deterioração dos spreads de CRI/CRA que superaram os níveis da crise Americanas, sinalizando stress no mercado imobiliário.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação Trinity",
+      "frequencia": 3,
+      "resumo": "Continuidade das discussões de reestruturação com foco em descaracterização de debêntures e ajustes de spreads. Operação depende da venda de usinas para quitar ~R$ 90 milhões",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Leilões de Reserva de Capacidade",
+      "frequencia": 3,
+      "resumo": "ANEEL homologou definitivamente contratos de ~18,97 GW com economia de R$ 33,64 bilhões, encerrando saga iniciada em março",
+      "status": "resolvido"
+    },
+    {
+      "tema": "Megaprojetos Energéticos",
+      "frequencia": 3,
+      "resumo": "Eneva inicia obras de R$ 6 bilhões no Ceará e tema de baterias BESS pode atrair R$ 57 bilhões em 10 anos",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Spreads de Crédito Elevados",
+      "frequencia": 2,
+      "resumo": "CRI/CRA com spreads acima do pico da Americanas devido a juros altos e recuperações extrajudiciais",
+      "status": "alerta"
+    },
+    {
+      "tema": "Prime Agro Inadimplente",
+      "frequencia": 2,
+      "resumo": "CRA de R$ 70 milhões estruturado em 2024 em situação crítica com empresa inadimplente desde ano passado",
+      "status": "escalado"
+    },
+    {
+      "tema": "Pipeline de Emissões",
+      "frequencia": 2,
+      "resumo": "Forte atividade com Oceânica R$ 2,6 bi, Nubank R$ 1,59 bi e multiple aprovações de programas",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Trinity",
+      "mencoes": 3,
+      "contexto": "Múltiplas reuniões sobre reestruturação de debêntures R-BRA-A5-B5-C5 com ajustes de spread e provisões. Marcação atual 95% do par com 5% de provisão",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 3,
+      "contexto": "Início de megaprojeto de R$ 6 bilhões no Ceará para UTEs Jandaia II e III. Apoio político regional e contrato de 15 anos via LRCAP",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 2,
+      "contexto": "Empresa familiar em situação crítica com CRA inadimplente de R$ 70 milhões. Tentativa frustrada de sale leaseback e proposta de recuperação",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 2,
+      "contexto": "Apresentação de case estruturado para Novus Crédito com foco em governança após reapresentações contábeis. Risco central esvaziado",
+      "status": "normal"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 1,
+      "contexto": "Venda da CSN Cimentos deve superar R$ 12 bilhões com chinesas mais agressivas, ~10 grupos interessados",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "JGP x Mellon Trinity",
+      "data": "10 e 11/06",
+      "impacto": "Definição de ajustes de spread nas debêntures com provisão de 5% e marcação de 95% do par nas três séries"
+    },
+    {
+      "titulo": "Waiver Call Prime Agro",
+      "data": "11/06",
+      "impacto": "Confirmação da situação crítica do CRA de R$ 23 milhões com dificuldades de comunicação"
+    },
+    {
+      "titulo": "Apresentação Case Aegea",
+      "data": "10/06",
+      "impacto": "Estruturação de processo analítico para Novus Crédito com uso de BI e Notion"
+    },
+    {
+      "titulo": "GRI Taskforce NTN-B",
+      "data": "11/06",
+      "impacto": "Análise técnica sobre competição entre debêntures incentivadas e NTN-Bs com queda da participação PF para 7%"
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Oceânica Engenharia",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Captação de R$ 2,6 bilhões em debêntures"
+    },
+    {
+      "operacao": "Nubank LF",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Captação de R$ 1,59 bilhão em Letras Financeiras"
+    },
+    {
+      "operacao": "Engie Brasil Follow-on",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "R$ 8,3 bilhões para aquisição Jirau"
+    },
+    {
+      "operacao": "Amaggi CPR-F",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "R$ 3,5 bilhões em CPR financeira lastreada em commodities"
+    },
+    {
+      "operacao": "Trinity Reestruturação",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Ajuste de spreads e descaracterização de debêntures"
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 8,
+    "total_emails": 230,
+    "total_followups": 0,
+    "followups_pendentes": "Não há follow-ups pendentes identificados no período",
+    "analise": "Alta produtividade com 46 emails/dia e 2,7 reuniões diárias. Ausência total de follow-ups pode indicar resolução eficiente ou possível lacuna no tracking. Volume de reuniões focado em temas críticos como Trinity e Prime Agro."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Prime Agro - Dificuldade de comunicação",
+      "desde": "período anterior",
+      "impacto": "Impossibilita negociação efetiva da reestruturação do CRA inadimplente"
+    },
+    {
+      "tema": "Spreads CRI/CRA elevados",
+      "desde": "início do ano",
+      "impacto": "Deterioração das condições de crédito para mercado imobiliário pode afetar pipeline futuro"
+    },
+    {
+      "tema": "Trinity - Venda de usinas",
+      "desde": "negociações anteriores",
+      "impacto": "Operação depende desta venda para quitar R$ 90 milhões da holding"
+    }
+  ],
+  "proximas_prioridades": [
+    "Acelerar resolução da comunicação com Prime Agro para definir estratégia de reestruturação",
+    "Monitorar fechamento da venda de usinas da Trinity para conclusão da reestruturação",
+    "Acompanhar impacto do El Niño confirmado nas exposições do agronegócio",
+    "Avaliar oportunidades no setor de BESS e armazenamento de energia",
+    "Monitorar ofertas vinculantes da CSN Cimentos em julho"
+  ]
+}
