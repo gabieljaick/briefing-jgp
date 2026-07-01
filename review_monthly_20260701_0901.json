@@ -1,0 +1,351 @@
+{
+  "tipo_review": "monthly",
+  "periodo": "June 2026",
+  "resumo_executivo": "Junho de 2026 foi um mês de altíssima intensidade operacional para a equipe de Research de Crédito da JGP, marcado por três grandes narrativas simultâneas que dominaram a agenda: (1) reestruturações corporativas de grande porte — com Raízen, Braskem, Oncoclínicas, Prime Agro e Trinity em estágios distintos de estresse e negociação; (2) a saga regulatória do Leilão de Reserva de Capacidade Energética (LRCAP 2026), que passou por liminares judiciais, inabilitações de projetos, homologação pela ANEEL e escrutínio do TCU; e (3) a consolidação do tema de data centers e armazenamento de energia (BESS) como nova fronteira de infraestrutura no Brasil, com movimentos regulatórios, captações bilionárias e entrada de grandes players. O volume de trabalho foi expressivo: 15 briefings analisados, 74 highlights capturados, 49 reuniões realizadas e média de 73 emails/dia, o que posiciona o mês entre os mais densos do ano. A média de 3,3 reuniões/dia reflete tanto o acompanhamento ativo de créditos problemáticos (Prime Agro com iminência de RJ; Braskem com tutela judicial; Raízen com 80% de adesão ao plano extrajudicial) quanto o pipeline primário aquecido, com dezenas de emissões de debêntures, CRIs, CRAs e notas comerciais processadas. No setor energético, o LRCAP gerou debates sobre sobrepreço estimado em R$ 214 bilhões, mas o TCU autorizou continuidade dos contratos. Paralelamente, o custo de baterias ficou abaixo de termelétricas a gás pela primeira vez, criando novo paradigma competitivo. No agro, a situação do Prime Agro evoluiu para cenário de recuperação judicial, com contratação do escritório GTA e alinhamento entre crazistas. A Cosan acelerou desinvestimentos (Radar, avaliação da fatia na Rumo) para reduzir alavancagem. No fechamento do mês, a Raízen reportou prejuízo de R$ 27,1 bilhões no exercício safra 2025/26 e a Braskem obteve tutela de urgência suspendendo execuções por 60 dias, sinalizando que julho será igualmente intenso.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações Corporativas e Recuperações Extrajudiciais",
+      "frequencia": 22,
+      "resumo": "Tema dominante do mês. Raízen fechou o maior acordo de recuperação extrajudicial da história do Brasil (R$ 65 bi, 80,15% de adesão), com IG4 Capital e ao menos outras 5 gestoras disputando os créditos conversíveis em equity. Braskem avançou sob novo controle do IG4, obteve tutela de urgência para suspender execuções por 60 dias após proposta rejeitada por credores, e sua subsidiária mexicana segue em default. Oncoclínicas convocou AGDs para reestruturação de debêntures (ONCO19, ONCO29, ONCOA1) e deve protocolar recuperação extrajudicial em até 15 dias a partir de meados de junho. Trinity manteve centralidade nas discussões semanais com foco em descaracterização de debêntures e questão reputacional do FIP Green. Prime Agro caminhou para recuperação judicial após cessar comunicação com credores e deixar de depositar PMTs.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "LRCAP 2026 - Leilão de Reserva de Capacidade Energética",
+      "frequencia": 14,
+      "resumo": "A saga do LRCAP permeou todo o mês: suspensão judicial via liminar da Fiec no Ceará (9/jun), inabilitação de 1,7 GW dos consórcios ION pela ANEEL, homologação definitiva de ~18,97 GW em 10/jun com economia de R$ 33,64 bi, entrada na pauta do TCU (17/jun) com apontamento de sobrepreço de R$ 214 bilhões, e decisão final do TCU autorizando prosseguimento em 18/jun. ONS declarou que o leilão não foi suficiente para garantir potência necessária. MME sinalizou intenção de revisar o encargo de capacidade. Eneva e Âmbar/J&F são as principais empresas de cobertura da JGP afetadas.",
+      "status": "resolvido parcialmente"
+    },
+    {
+      "tema": "Data Centers e Infraestrutura Digital",
+      "frequencia": 10,
+      "resumo": "Tema emergente que ganhou tração regulatória e financeira em junho. Câmara aprovou PL criando Política Nacional de Data Center com acesso prioritário à rede elétrica. Brasscom projeta crescimento de capacidade instalada de 1.063 GW (2025) para 3.144 GW (2031), com investimentos de até US$ 92 bilhões. Casa dos Ventos realizou maior captação privada brasileira nos EUA: US$ 1,1 bi em private placement para financiar geração renovável voltada a data centers. BTG publicou relatório temático sobre expansão na América do Sul. Pedidos de conexão somam 38 GW e R$ 159 bi em investimentos. Ascenty emitiu notas comerciais de até R$ 770,5 mi no fechamento do mês.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "BESS e Armazenamento de Energia",
+      "frequencia": 8,
+      "resumo": "Marco histórico em junho: custo de baterias ficou abaixo de termelétricas a gás pela primeira vez. MME anunciou dois leilões de BESS para dezembro (um com exigência de conteúdo nacional, outro sem). BNDES informou que financiamento via Fundo Clima igualará o custo de projetos com e sem conteúdo local. ANEEL aprovou regras para baterias e afastou tarifa dupla em casos com despacho pelo ONS. Eneva confirmou interesse em participar do leilão de BESS em dezembro. Potencial de R$ 57 bilhões em investimentos na próxima década.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Prime Agro - Deterioração de Crédito e Iminência de RJ",
+      "frequencia": 9,
+      "resumo": "Situação evoluiu de estresse para pré-recuperação judicial ao longo do mês. Assembleia de 18/jun marcou ponto de inflexão: empresa cessou comunicação com credores, deixou de depositar PMTs e cancelou acordo prévio. Reunião de crazistas em 17/jun resultou em decisão unânime de contratar o escritório GTA (Gustavo Tepedino Advogados) para executar separadamente e atuar em eventual RJ. Monitoramento JBA aponta R$ 83 mi em pendências (protestos R$ 45 mi). CRA da 103ª emissão entrou em processo de vencimento antecipado. BTG tem exposição de R$ 19 mi; JGP possui CRA estruturado de R$ 23 mi (série própria) em total de R$ 70 mi.",
+      "status": "escalado"
+    },
+    {
+      "tema": "CSN - Desalavancagem e Desinvestimentos",
+      "frequencia": 7,
+      "resumo": "CSN acelerou processo de venda de ativos para reduzir dívida bruta de R$ 18 bi. Processo de venda da CSN Cimentos assessorado pelo Morgan Stanley tem valor estimado de R$ 12-13 bi, com propostas vinculantes esperadas até 7/ago, mas preço pode afastar compradores. Holcim vetou participação da Huaxin (chinesa) na aquisição. Venda de ativos de infraestrutura (MRS Logística, Tecar, Tecon, Tora) assessorada por Bradesco BBI e Citi busca levantar US$ 1 bi. Processo da Tora travado — empresa não havia pago o ativo que já colocou à venda.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico - Tarifas, GD e Regulação",
+      "frequencia": 8,
+      "resumo": "Múltiplos movimentos regulatórios simultâneos: ANEEL aprovou revisão tarifária da Energisa Minas Rio com alta de 11,27%; El Niño confirmado pela NOAA com 63% de probabilidade de ser muito forte (impacto em hidrologia e tarifas 2027); ANEEL eleva previsão de alta média tarifária para 8,6% em 2026; leilão de capacidade pode gerar custo extra de R$ 48 bi/ano na conta de luz com impacto de 7,5% em 2032. ANEEL abriu consulta pública sobre Processo Sancionador de Monitoramento do Mercado. Curtailment: ONS recebeu 223 pedidos de rescisão amigável de CUST, totalizando 11,5 GW. Eólicas offshore aguardam decreto atrasado desde maio.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline Primário de Crédito - Emissões e Mercado",
+      "frequencia": 12,
+      "resumo": "Mês intenso no mercado primário: emissões totais de debêntures em maio somaram R$ 21,7 bi (+2% vs abril). Volume médio diário em junho até 09/06 foi de R$ 3,6 bi com 1.302 ativos negociados. Spreads de CRI e CRA superaram o pico da crise Americanas (2023), refletindo alta da Selic e impacto das recuperações extrajudiciais. Destaques: Oceânica (R$ 2,6 bi), Cemig GT (R$ 2 bi), Engie (follow-on R$ 8,3 bi), Transmissora Aliança (R$ 1,7 bi), Localiza (R$ 1,8 bi), Amaggi CPR-F (R$ 3,5 bi). Fundos captaram R$ 10,3 bi em maio mas carteiras de crédito perderam R$ 6 bi no período.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 14,
+      "contexto": "Fechou o maior acordo de recuperação extrajudicial da história do Brasil: R$ 64,7-65 bi com adesão de 80,15% dos credores. Plano oferece três opções incluindo conversão de 45% da dívida em Units (R$ 0,50/Unit, entregando ~80% do equity) e aportes de R$ 3,5 bi da Shell. IG4 Capital enviou oferta não vinculante para assumir controle via compra de mais de 50%+1 dos créditos. Ao menos outras 5 gestoras disputam os créditos. 3ª Vara de Falências publicou edital com prazo de 30 dias para impugnações. Credores da 4ª emissão de debêntures aprovaram o plano em AGD de 16/jun. Vende operações downstream na Argentina por US$ 1,42 bi para Mercuria. Reportou prejuízo de R$ 27,1 bi no exercício safra 2025/26 (impairment de R$ 22,5 bi). Cosan deixou de consolidar resultados. Separação planejada em Raízen Combustíveis e Raízen Energia.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Braskem",
+      "mencoes": 8,
+      "contexto": "Sob novo controle do IG4 Capital após aquisição da fatia da Novonor. Busca recuperação extrajudicial mas proposta (sem haircut, extensão de prazo +5 anos, step-down de cupom de 200 bps) foi rejeitada por credores. Em 30/jun obteve tutela de urgência judicial suspendendo execuções por 60 dias em dívidas de R$ 2,7 bi. Subsidiária mexicana em default com negociações com Grupo Inbursa de Carlos Slim. Não pretende se desfazer do Complexo de Coatzacoalcos. Governança renovada com novos representantes no conselho e diretoria. IG4 simultaneamente co-controladora da Braskem e potencial controladora da Raízen.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 7,
+      "contexto": "Mês positivo operacionalmente: iniciou obras do megaprojeto térmico no Ceará (UTEs Jandaia II e III, 1.147 MW, R$ 6 bi, contrato de 15 anos via LRCAP) com cerimônia com governador do Ceará. Térmica Azulão 1 prevista para entrar em operação em 1º de julho. Confirmou interesse em participar do leilão de BESS em dezembro. Estuda oportunidades na Venezuela (gás natural e geração termelétrica) após abertura regulatória. Descartou joint-venture com Maha Capital e exportação de energia de usinas em Roraima.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 8,
+      "contexto": "Deterioração acelerada ao longo do mês. Empresa cessou comunicação com bancos e credores, deixou de depositar PMTs e cancelou acordo prévio. Sócios Mário Sahara e Wandislau Bruno venderam participações. Assembleia de 18/jun foi marco de inflexão. Crazistas decidiram contratar GTA para execução separada e eventual RJ. CRA da 103ª emissão em processo de vencimento antecipado aprovado em AGO de 30/jun. R$ 83 mi em pendências (protestos + PEFIN). JGP tem R$ 23 mi na série própria do CRA estruturado em 2024.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 7,
+      "contexto": "Processo de desalavancagem em curso com múltiplos desinvestimentos simultâneos. Venda de CSN Cimentos (estimativa R$ 12-13 bi, propostas vinculantes até 7/ago via Morgan Stanley) com complicação: Holcim vetou Huaxin. Venda de infraestrutura (MRS, Tecar, Tecon, Tora) com assessoria de Bradesco BBI e Citi buscando US$ 1 bi. Processo da Tora travado — empresa não pagou ativo que já quer vender. Preço pedido pela CSN Cimentos pode afastar compradores. Dívida bruta de R$ 18 bi.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Trinity Energias Renováveis",
+      "mencoes": 5,
+      "contexto": "Manteve centralidade nas discussões semanais de crédito. Foco em descaracterização de debêntures R-BRA-A5-B5-C5 e aditamentos. Marcação atual de 95% do par nas três séries com provisão de 5% (PDD). Operação depende de venda de usinas para quitar ~R$ 90 mi da holding. Risco reputacional por associação com FIP Green (investigação envolvendo Banco Master e STF) — Trinity não é alvo, exposição é por associação societária. BNY solicitou demonstrações financeiras atualizadas e projeções. Controlador conduz exclusão do minoritário pelos mecanismos do acordo de acionistas.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Cosan",
+      "mencoes": 5,
+      "contexto": "Aceleração de desinvestimentos para reduzir dívida líquida expandida de R$ 11,5 bi (+18% no 1T26). Vendeu 12% das terras da Radar em MT (41,2k ha) por R$ 1,85 bi (R$ 586 mi referente à fatia de 30% da Cosan), com desconto de ~12% vs NAV do BTG. Contratou BTG Pactual para avaliar alternativas para fatia de 20,33% na Rumo Logística. Pode vender nova fatia da Compass. Registrou prejuízo de R$ 1,5 bi e deixou de consolidar resultados da Raízen.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Oncoclínicas",
+      "mencoes": 4,
+      "contexto": "AGDs convocadas para 6/jul para 9ª e 11ª emissões de debêntures (ONCO19, ONCO29, ONCOA1) com pauta de alteração de termos (prazo, remuneração, cronograma e eventos de default) e possível adesão a plano de recuperação extrajudicial. CRIs da 54ª emissão da Opea (séries 22E1338401/02/03) em vencimento antecipado após medida cautelar de 17/abr. Opea contratou Mattos Filho e Journey Capital para defesa dos titulares. Protocolo de recuperação extrajudicial esperado em até 15-21 dias a partir de meados de junho. Dívida total de ~R$ 4 bi.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Equatorial",
+      "mencoes": 4,
+      "contexto": "Tornou-se única finalista na privatização da Copasa após desistência da Aegea. Proposta de R$ 49,03/ação (acima do mínimo de R$ 47,23), operação de até R$ 7,9 bi. Alocação mínima de 30% do capital da Copasa prevista. Já é âncora na Sabesp, consolidando posição de liderança no saneamento nacional. Aprovação de R$ 7 bi em notas comerciais no radar de emissões.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 4,
+      "contexto": "Desistiu da disputa pela Copasa. Barclays iniciou cobertura com Underweight sob tese de estrutura corporativa complexa com leakage de caixa — juros consomem parcela significativa do EBITDA, capex de universalização mantém FCF negativo e deleveraging limitado. JGP apresentou case para Novus Crédito em 10/jun com processo estruturado de análise. Foco em reconhecimento de receita, PCLD e capitalização de juros.",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Crazistas Prime Agro | Alinhamento + GTA (17 e 19/jun)",
+      "data": "17-19/06/2026",
+      "impacto": "Decisão definitiva de contratar o escritório Gustavo Tepedino Advogados (GTA) para atuação separada e em eventual Recuperação Judicial da Prime Agro. Proposta compartilhada com Régia Capital, Canal Securitizadora, Bside e BB para alinhamento. Aprovação formal dependente de nova assembleia. AGO do CRA 103 em 30/jun aprovou vencimento antecipado. Reunião revelou que empresa cessou toda comunicação com credores — cenário de RJ praticamente confirmado."
+    },
+    {
+      "titulo": "JGP x Mellon | Trinity (10/jun)",
+      "data": "10/06/2026",
+      "impacto": "Alinhamento sobre marcação das debêntures R-BRA-A5-B5-C5 a 95% do par com provisão de 5%. Definição de ajuste de spread na série subordinada. Clarificação de que a operação depende de venda de usinas para quitar ~R$ 90 mi da holding. BNY posteriormente solicitou demonstrações financeiras e projeções atualizadas, o que gerou resposta com Excel de recovery estimado."
+    },
+    {
+      "titulo": "Apresentação Case Aegea - Novus Crédito (10/jun)",
+      "data": "10/06/2026",
+      "impacto": "Apresentação do processo estruturado de análise da JGP para o Novus Crédito. Comitê motivado por reapresentações contábeis que fragilizaram governança da Aegea. Foco em reconhecimento de receita, PCLD e capitalização de juros. Semana seguinte o Barclays reforçou ceticismo ao iniciar cobertura com Underweight, convergindo com preocupações identificadas pela JGP."
+    },
+    {
+      "titulo": "Comitê de Crédito - IMPAR Serviços Hospitalares (01/jun)",
+      "data": "01/06/2026",
+      "impacto": "Análise da debênture quirografária IMPA 12 (R$ 3 bi, CDI+3,5, AA- Fitch, bullet fev/2028) da JV 50-50 DASA/Amil com 24-25 hospitais integrados. Contexto diretamente relacionado à reestruturação do conversível da DASA discutida em 02/jun (desconto de 34%, nova alocação de R$ 125 mi por 5 anos a CDI+3)."
+    },
+    {
+      "titulo": "BTG <> JGP Crédito | Reestruturação Conversível DASA (02/jun)",
+      "data": "02/06/2026",
+      "impacto": "Reestruturação da dívida conversível com desconto de 34% definida. Nova alocação de R$ 125 mi em DASA por 5 anos a CDI+3. Investimento de R$ 100 mi resulta em ~1% de exposição nos fundos híbrido, exclusivo e previdência. Impacto da conversão em equity a ser detalhado em próxima call."
+    },
+    {
+      "titulo": "Hapvida | Bate Papo (15/jun)",
+      "data": "15/06/2026",
+      "impacto": "Discussão com fundo de Lidia sobre posição em Hapvida e volatilidade recente. Equipe JGP não considera provável evento de crédito dado caixa atual e perfil de dívida alongado, mas preocupações com disclosure ruim, troca de RI e CFO persistem. Dados ANS mostram retomada de perda de vidas (clientes). Solução estratégica (desinvestimento Sul/Sudeste + foco Nordeste) bloqueada pelo momento macro desfavorável a M&A."
+    },
+    {
+      "titulo": "Revisão Pipe Analistas (18/jun)",
+      "data": "18/06/2026",
+      "impacto": "Definição de prioridades de análise: CMAA (debênture R$ 200 mi, bookbuilding 25/jun) como prioridade imediata. Bioparque negado por Bruno Rosa e saindo do pipeline. Autopass excluída por riscos políticos. BR163 com modelagem a iniciar (premissa de leilão em outubro pós-eleições). Credit Day marcado para 1º de julho — apresentações devem ficar prontas até 23/jun. Ausência de Gabriela na semana de 23/jun."
+    },
+    {
+      "titulo": "Reunião Conasa x JGP (17/jun) e Reunião JGP & HCC (17/jun)",
+      "data": "17/06/2026",
+      "impacto": "Duas empresas prioritárias de cobertura atendidas em sequência. HCC: após reunião, Maria Eduarda solicitou documentos pendentes incluindo demonstrações financeiras auditadas e planilha atualizada — follow-up de documentação ativo. Conasa: sem transcrição disponível mas empresa prioritária da vertical de saneamento."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Raízen - Recuperação Extrajudicial R$ 65 bi",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Maior RE da história do Brasil. Adesão de 80,15% dos credores. Três opções incluindo conversão de 45% da dívida em ~80% do equity (Units a R$ 0,50). Shell aporta R$ 3,5 bi. IG4 Capital e ao menos 5 gestoras disputam créditos. Prazo de 30 dias para impugnações aberto pela 3ª Vara de Falências. Venda do downstream argentino por US$ 1,42 bi para Mercuria. Separação em Raízen Combustíveis e Raízen Energia planejada."
+    },
+    {
+      "operacao": "Braskem - Tutela de Urgência e Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Proposta de RE rejeitada por credores. Tutela judicial suspende execuções de R$ 2,7 bi por 60 dias. Subsidiária mexicana em default com negociações com Inbursa. IG4 Capital co-controladora focada em reestruturação financeira. Dívida total superior a R$ 50 bi."
+    },
+    {
+      "operacao": "Oncoclínicas - AGDs e Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "AGDs convocadas para 6/jul (ONCO19, ONCO29, ONCOA1). CRIs da Opea em vencimento antecipado. Mattos Filho e Journey Capital contratados. Protocolo de RE esperado em até 3 semanas a partir de meados de junho. Dívida de ~R$ 4 bi."
+    },
+    {
+      "operacao": "Prime Agro - CRA 103ª Emissão e RJ iminente",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Vencimento antecipado do CRA aprovado em AGO de 30/jun. GTA contratado pelos crazistas. JGP com R$ 23 mi na série própria. R$ 83 mi em pendências totais. Recuperação Judicial praticamente certa."
+    },
+    {
+      "operacao": "Trinity - Renegociação Debêntures R-BRA-A5-B5-C5",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Marcação a 95% do par com provisão de 5%. Ajuste de spread na série subordinada. Venda de usinas necessária para quitar ~R$ 90 mi da holding. BNY solicitou financeiras atualizadas."
+    },
+    {
+      "operacao": "Oceânica Engenharia - Debêntures R$ 2,6 bi",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Captação concluída conforme reportado no BTG Credit Clipping de 12/jun. Uma das maiores emissões do mês no mercado primário de crédito privado."
+    },
+    {
+      "operacao": "Engie Brasil - Follow-on R$ 8,3 bi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta de novas ações para financiar aquisição dos 40% da matriz francesa na hidrelétrica Jirau. Operação de equity com impacto indireto no mercado de crédito."
+    },
+    {
+      "operacao": "Cemig GT - Debêntures R$ 2 bi (ampliado de R$ 1,5 bi)",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão para reembolso de investimentos/capex. Volume elevado de R$ 1,5 bi para R$ 2 bi conforme radar de emissões de 11/jun."
+    },
+    {
+      "operacao": "Transmissora Aliança de Energia Elétrica - Debêntures R$ 1,7 bi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta pública registrada na CVM. Informação via AtlasPublico em 17/jun."
+    },
+    {
+      "operacao": "Localiza - Debêntures R$ 1,8 bi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Aprovação de emissão anunciada em 16/jun. Detalhes de prazo, taxa e coordenação ainda não divulgados."
+    },
+    {
+      "operacao": "Amaggi - CPR Financeira R$ 3,5 bi",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Estreia do grupo em CPR-F, lastreada em soja e algodão, destinada a capital de giro. Captação relevante no mercado agro."
+    },
+    {
+      "operacao": "Casa dos Ventos - Private Placement US$ 1,1 bi",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Maior captação privada por empresa brasileira nos EUA. Duas emissões simultâneas de dívida com prazos distintos para financiar geração renovável voltada a data centers. Comprou direitos de acesso à rede em Pecém da Voltalia."
+    },
+    {
+      "operacao": "Ascenty - Notas Comerciais R$ 770,5 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Empresa prioritária de data centers na carteira. Emissão anunciada em 30/jun conforme Safra Credit Research. Detalhes de prazo e taxa não disponíveis."
+    },
+    {
+      "operacao": "CMAA (Vale do Tijuco) - Debêntures R$ 200 mi (série 12.431)",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding marcado para 25/jun (registrado como prioridade de análise na reunião de Revisão Pipe de 18/jun). Setor agronegócio (açúcar e álcool). XP Investment Banking como coordenador."
+    },
+    {
+      "operacao": "Coqueiros Transmissora - Debêntures R$ 500 mi (CDI+0,55%)",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Com aval corporativo da Celeo Redes Brasil. Bradesco BBI distribuindo. Registrada em 16/jun."
+    },
+    {
+      "operacao": "Nubank - Letras Financeiras R$ 1,59 bi",
+      "tipo": "emissão",
+      "status": "concluído",
+      "resumo": "Captação concluída com bookbuilding realizado em 9/jun via SmartBook do Itaú BBA."
+    },
+    {
+      "operacao": "Cosan - Venda Radar (12% do portfólio) R$ 1,85 bi",
+      "tipo": "desinvestimento",
+      "status": "concluído",
+      "resumo": "Fato Relevante publicado. 41,2k ha em MT a R$ 45k/ha (~12% de desconto vs NAV BTG). Parcela Cosan ~R$ 586 mi. SLC com direito de preferência. BTG estima elevação de ~R$ 70 mi no FCF anual."
+    },
+    {
+      "operacao": "CSN Cimentos - Venda R$ 12-13 bi (Morgan Stanley)",
+      "tipo": "desinvestimento",
+      "status": "em andamento",
+      "resumo": "Propostas vinculantes esperadas até 7/ago. Holcim vetou Huaxin. Preço pode afastar compradores segundo fontes de mercado."
+    },
+    {
+      "operacao": "Cosan - Avaliação de Alternativas para Fatia na Rumo (~20,33%)",
+      "tipo": "desinvestimento",
+      "status": "em andamento",
+      "resumo": "BTG Pactual contratado como assessor em 30/jun. Possível venda. Sem decisão ou formato definido. Parte da estratégia de redução da dívida líquida expandida de R$ 11,5 bi."
+    },
+    {
+      "operacao": "Orizonti/Oncomed - CRI Hospitalar (FII Hospital Horizonte)",
+      "tipo": "estruturação",
+      "status": "em andamento",
+      "resumo": "Proposta de venda do Hospital Horizonte (BH) por R$ 270 mi para FII com sale & leaseback. CRI Senior ~R$ 120 mi (CDI+4) e Sub ~R$ 100 mi (~CDI+5,5%). Visa desalavancagem de 5-6x para ~2,3x DL/EBITDA."
+    },
+    {
+      "operacao": "Brasol - CRI ou Debênture R$ 37,4 mi (Portfólio Solar Raízen)",
+      "tipo": "estruturação",
+      "status": "em andamento",
+      "resumo": "Proposta enviada pela Brasol à JGP para financiamento de portfólio de 5 usinas solares da Raízen. Reunião sobre J6 agendada para 20/jun."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 49,
+    "total_emails": 950,
+    "total_followups": 0,
+    "followups_pendentes": "Embora o sistema registre zero follow-ups formais criados, a análise dos briefings revela ao menos 8 ações abertas rastreáveis: (1) HCC - documentos solicitados pós-reunião de 17/jun pendentes de entrega (DFs auditadas + planilha atualizada); (2) CMAA - análise e participação no bookbuilding de 25/jun; (3) GTA/Prime Agro - aprovação formal da contratação em nova assembleia de crazistas; (4) Credit Day 1/jul - apresentações a serem finalizadas até 23/jun; (5) BR163 - início de modelagem com premissa de leilão outubro; (6) Raízen 4T - análise dos resultados da teleconferência de 30/jun; (7) Cosan/Rumo - monitoramento do processo de desinvestimento iniciado em 30/jun; (8) BNY/Trinity - acompanhamento do processo de exclusão do minoritário FIP Green.",
+    "analise": "Junho foi o mês mais denso registrado em termos de complexidade simultânea. A média de 73 emails/dia e 3,3 reuniões/dia é compatível com um período de múltiplas crises ativas. O ponto de atenção crítico é a ausência total de follow-ups formais registrados (0) em um mês com ao menos 8 ações concretas identificadas nas transcrições — isso indica subregistro sistemático no sistema de gestão de tarefas, o que representa risco de esquecimento em situações de alta pressão como Prime Agro e Trinity. As reuniões de alinhamento semanal funcionaram bem como mecanismo de coordenação, mas temas como Hapvida (revisitado a cada 15 dias sem consenso) e Autopass (analisada mas sem decisão documentada) indicam necessidade de fechamento formal de loops. O Credit Day de 1/jul cria deadline natural para consolidação das análises do mês. A ausência de Gabriela na semana de 23/jun com retorno em 30/jun adiciona pressão para que os analistas concluam preparações de forma autônoma."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Prime Agro - Aprovação formal da contratação do GTA em assembleia",
+      "desde": "17/06/2026",
+      "impacto": "Sem aprovação formal em nova assembleia, a contratação do assessor jurídico (GTA) não pode ser executada oficialmente, deixando os crazistas (incluindo JGP com R$ 23 mi expostos) sem representação legal estruturada no processo que caminha para RJ. Risco de perda de posição em eventual disputa por ativos."
+    },
+    {
+      "tema": "Trinity - Exclusão do sócio minoritário FIP Green / Green S.A.",
+      "desde": "03/06/2026",
+      "impacto": "Risco reputacional por associação com investigação do Banco Master no STF. Processo de exclusão depende dos mecanismos do acordo de acionistas, cuja execução é incerta. Enquanto não concluído, Trinity permanece exposta a pressão de investidores como BNY que questionam a governança."
+    },
+    {
+      "tema": "Hapvida - Falta de consenso de tese entre equipes",
+      "desde": "15/06/2026",
+      "impacto": "Fundo de Lidia revisita o caso a cada 15 dias sem resolução. Ausência de posição definida sobre desinvestimento no Sul/Sudeste em ambiente de M&A desfavorável. Perda de vidas (clientes) retomou relevância em junho. Incerteza sobre 2T e 3T pode gerar surpresas negativas."
+    },
+    {
+      "tema": "CSN Cimentos - Bloqueio da Holcim sobre Huaxin e preço excessivo",
+      "desde": "17/06/2026",
+      "impacto": "Incerteza sobre viabilidade e timing da principal linha de desinvestimento da CSN (R$ 12-13 bi). Se venda travar, CSN mantém dívida bruta elevada de R$ 18 bi sem alívio de caixa. Risco de rebaixamento de rating e pressão em spreads das debêntures."
+    },
+    {
+      "tema": "LRCAP - ONS sinaliza insuficiência de potência contratada",
+      "desde": "18/06/2026",
+      "impacto": "Mesmo com TCU autorizando continuidade, o ONS declarou que o leilão não foi suficiente para fornecer a potência necessária. MME quer revisar o encargo de capacidade. Incerteza regulatória persiste e pode afetar novos contratos de geradoras como Eneva já com projetos em andamento."
+    },
+    {
+      "tema": "Eólicas Offshore - Decreto regulatório atrasado desde maio",
+      "desde": "11/06/2026",
+      "impacto": "Setor não consegue planejar investimentos sem as regras completas para o primeiro leilão de áreas offshore. Atraso compromete o roadmap de projetos e pode afetar empresas do setor de utilities monitoradas pela JGP."
+    },
+    {
+      "tema": "Braskem - Proposta de reestruturação rejeitada por credores",
+      "desde": "30/06/2026",
+      "impacto": "Tutela de urgência de 60 dias compra tempo, mas não resolve o impasse estrutural. Se não houver acordo nos próximos 2 meses, recuperação judicial (com maior complexidade e menor controle para credores) torna-se mais provável. Dívida total superior a R$ 50 bi."
+    },
+    {
+      "tema": "Grano Alimentos - Convocação de AGD para apresentação de DFs trimestrais pendente",
+      "desde": "16/06/2026",
+      "impacto": "Itaú BBA consultou Vórtx e Opea sobre existência de convocação para CRA 139 sem resposta registrada. Ausência de transparência de DFs é sinal de alerta em crédito de agronegócio, especialmente em contexto de estresse setorial."
+    }
+  ],
+  "proximas_prioridades": [
+    "Credit Day (1º/jul): Finalizar e apresentar análises de crédito — prioridade máxima para toda a equipe. Apresentações devem estar prontas até 23/jun (antes da ausência de Gabriela)",
+    "Prime Agro: Convocar e realizar nova assembleia de crazistas para aprovação formal da contratação do GTA; acompanhar processo de RJ e estratégia de execução separada de garantias do CRA 103",
+    "Raízen: Monitorar prazo de 30 dias para impugnações ao plano de RE; acompanhar disputa entre IG4 e demais gestoras pelos créditos; analisar resultados da teleconferência de 4T Safra (30/jun) com impairment de R$ 22,5 bi",
+    "Braskem: Monitorar o período de 60 dias da tutela de urgência; acompanhar negociações com credores para nova proposta de reestruturação e evolução da subsidiária mexicana com Inbursa",
+    "CMAA (Vale do Tijuco): Concluir análise e definir participação no bookbuilding de 25/jun — debênture R$ 200 mi identificada como prioridade na revisão de pipe de 18/jun",
+    "Oncoclínicas: Preparar para AGDs de 6/jul (ONCO19, ONCO29, ONCOA1) e protocolo iminente de recuperação extrajudicial; coordenar com Mattos Filho e Journey Capital sobre CRIs da Opea",
+    "HCC: Entregar documentação solicitada pós-reunião de 17/jun (DFs auditadas + planilha atualizada) e retomar análise de crédito",
+    "Trinity: Acompanhar processo de exclusão do FIP Green; monitorar venda de usinas necessária para quitar ~R$ 90 mi da holding; responder eventuais novas solicitações do BNY",
+    "CSN: Monitorar resolução do veto da Holcim à Huaxin e alternativas para venda da CSN Cimentos; acompanhar processo de venda de infraestrutura e risco de alavancagem mantida",
+    "Cosan/Rumo: Acompanhar processo assessorado pelo BTG Pactual para alternativas estratégicas da fatia na Rumo (~20,33%); monitorar eventuais novos desinvestimentos na Compass",
+    "BR163: Iniciar modelagem com premissa de leilão em outubro pós-eleições — tema identificado na revisão de pipe de 18/jun",
+    "Grano Alimentos: Cobrar resposta de Vórtx e Opea sobre convocação de AGD para apresentação de DFs trimestrais do CRA 139",
+    "Formalizar sistema de registro de follow-ups: O mês encerrou com 0 follow-ups formais registrados apesar de ao menos 8 ações abertas identificadas em transcrições — implementar disciplina de registro no sistema para evitar perda de rastreabilidade em situações de crise simultânea"
+  ]
+}
