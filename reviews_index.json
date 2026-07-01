@@ -3,6 +3,12 @@
     {
       "tipo": "monthly",
       "periodo": "June 2026",
+      "filename": "review_monthly_20260701_0902.json",
+      "generated_at": "2026-07-01T09:02:07.254975"
+    },
+    {
+      "tipo": "monthly",
+      "periodo": "June 2026",
       "filename": "review_monthly_20260701_0901.json",
       "generated_at": "2026-07-01T09:02:00.076701"
     },
