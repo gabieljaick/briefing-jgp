@@ -1,0 +1,297 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 01/07 a 05/07/2026",
+  "resumo_executivo": "A semana de abertura do 2º semestre de 2026 foi marcada por intensa atividade em crédito privado, com dois grandes casos de reestruturação dominando a agenda — Raízen e Braskem — ambos em estágios críticos de negociação com credores. A Raízen reportou o maior prejuízo de sua história (R$ 27,1 bi no ano-safra 2025/26), com alavancagem de 5,2x net debt/EBITDA e R$ 65 bi em claims sujeitos à recuperação extrajudicial, enquanto seis gestoras já se movimentam para adquirir sua dívida no mercado secundário. A Braskem, por sua vez, viu credores rejeitar a proposta inicial de reestruturação e negocia standstill de 60 dias, com o processo complicado pela postura combativa de um grupo ad hoc de bondholders. No campo judicial, os processos da Lavoro e da Prime Agro avançaram com desdobramentos concretos: os embargos de declaração da Lavoro foram rejeitados, consolidando a mudança de competência para Curitiba, e a petição inicial da Prime Agro no processo de recuperação judicial foi bem recebida pelos credores. O setor de energia concentrou relevante parte do fluxo informacional, com destaque para: aprovação de novas regras de autoprodução pela ANEEL, curtailment solar escalando para 26,2% no 2T26 (Bahia com 36,7%), avanço do leilão de baterias (BESS), e o megainvestimento da ByteDance/TikTok no Ceará (~R$ 200 bi, 300 MW), que reforça a pressão sobre a infraestrutura de transmissão — tema monitorado pela EPE no PDE 2035. No pipeline de crédito, a semana foi movimentada: liquidação da DEB 12.431 da Axia Energia (brAAA, R$ 1,6 bi aprovados), rating AA(bra) Fitch para 23ª emissão da DASA, rebaixamento das debêntures da Borborema pela Fitch para AA+(bra) perspectiva negativa, e diversas novas ofertas registradas na CVM. O Credit Day em São Paulo e o fechamento do 1º semestre com volume recorde de emissões reforçaram o tom positivo do mercado para o início do período, ainda que tensionado pela inadimplência recorde em crédito (4,7% +90 dias em maio) e pelo estresse no agro, com a Ruiz Coffees paralisando pagamentos e o segmento rural com NPL de 7,6%. A semana totalizou 11 reuniões, 3 briefings analisados, 20 highlights e 30 operações de renda fixa monitoradas, com média de 3,7 reuniões/dia e 78 emails/dia.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturação e Recuperação de Crédito Corporativo",
+      "frequencia": 8,
+      "resumo": "Tema dominante da semana, com Raízen (recuperação extrajudicial, R$ 65 bi em claims, prejuízo histórico de R$ 27,1 bi, 6 gestoras interessadas na dívida), Braskem (credores rejeitaram proposta, negociação de standstill 60 dias, bondholders ameaçando contestar cautelar), Prime Agro (petição inicial na RJ bem avaliada pelos credores, credores coordenados via Tepedino) e GPA (Itaú BBA captou R$ 90 mi para Opção A da RJ). O volume e a complexidade simultânea de casos é o maior desafio de gestão de portfólio do período.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Processos Judiciais — Lavoro e Prime Agro",
+      "frequencia": 5,
+      "resumo": "Avanços concretos em dois processos judiciais monitorados pela JGP. Na Lavoro: EDs rejeitados, mudança de competência para Curitiba consolidada, petição protocolada pelo GTA e aguarda novo despacho; estrutura de crédito com R$ 16 mi extraconcursal e R$ 57 mi quirografário com garantias insuficientes. Na Prime Agro: dispensa de recurso contra liminar PAP aprovada pelos credores (Alexandre Muller/Leto confirmou), petição inicial da manifestação na RJ avaliada positivamente. Ambos os processos seguem monitorados com assessoria jurídica externa (GTA/Tepedino).",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico — Regulação, Curtailment e Data Centers",
+      "frequencia": 7,
+      "resumo": "Semana densa em energia: (i) ANEEL aprovou regras de autoprodução e abriu consulta pública sobre smart meters; (ii) curtailment solar atingiu 26,2% no 2T26, com Bahia em 36,7% — impacto direto em Serena, OXE e outras renováveis; (iii) leilão de BESS provocou corrida de fabricantes ao BNDES; (iv) ByteDance/TikTok anunciou complexo de R$ 200 bi no Ceará com 300 MW de demanda, mas EPE alerta para risco de chegada antes das obras de transmissão necessárias; (v) PDE 2035 aprovado com R$ 3,5 tri em investimentos; (vi) debate sobre microgeração distribuída prejudicando setor elétrico. Modulação horária de energia (preço por hora/CEP) emerge como novo fator competitivo crítico.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Inadimplência e Estresse no Agro",
+      "frequencia": 4,
+      "resumo": "Inadimplência geral bateu recorde histórico em maio (4,7% +90 dias, +102 bps YoY). Crédito rural com NPL de 7,6%. Ruiz Coffees (2º maior produtor de café do Brasil) paralisou pagamentos após cautelar de 60 dias, com FIAGROs de Vectis, Galápagos e Suno com exposição via CRA. Gestoras propõem fundo para repactuar dívidas do agro. S&P reafirmou Agroterenas em brA+ mas manteve perspectiva negativa. Portfólios com exposição agro via CRA/FIAGRO merecem revisão urgente.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline de Emissões e Novas Ofertas",
+      "frequencia": 9,
+      "resumo": "Semana de intenso fluxo de novas operações: liquidação da DEB 12.431 Axia Energia (R$ 1,6 bi, brAAA); rating AA(bra) Fitch para 23ª emissão DASA; LF Mercado Crédito R$ 999 mi; CRI Canal Securitizadora R$ 115 mi; FIDC Paraná Banco Consignado INSS IV R$ 346 mi; FIDC Daycoval R$ 225 mi; FIAGRO Valora Agro Pre II R$ 375 mi; Genel Energy tap issue USD 40 mi. Emissões de LCD somam R$ 16 bi e o 1º semestre encerrou com volume recorde no mercado de capitais. Julho historicamente o mês mais forte para crédito IG em USD (BofA).",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Modelagem e Análise de Geração Distribuída (GD)",
+      "frequencia": 3,
+      "resumo": "Reunião técnica detalhada sobre modelagem de receita para case de GD: IPCA projetado de 5,3% (2026), 4,2% (2027), 3,7% (2028) e 3,5% a.t.; degradação mensal de 0,04% na geração; receita com componentes variáveis (BTS, EOA fixo/variável, demanda, compensation); disponibilidade de 95% P90; defasagem de 2 meses no faturamento (possivelmente por alocação de créditos GD). Ações pendentes: separar evolução de tarifa por componente fixo vs. variável e confirmar lógica de defasagem de faturamento. Também realizada reunião com Brasol (empresa prioritária do setor).",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Mercado de Crédito — Tensão Estrutural e Macro",
+      "frequencia": 4,
+      "resumo": "Mercado de crédito privado sob tensão estrutural: maior demanda por CDBs reduzindo rendimento de debêntures; mercado pressionando intervenção do Tesouro em NTN-Bs; Selic em 14,25% a.a. após corte de 0,25 p.p. em junho (Focus aponta novas reduções). FIDCs ganham espaço como alternativa de financiamento. Safra Combo IPCA+ atualizado com entradas (Klabi e outros). Seasonality de julho historicamente favorável ao crédito USD (spreads IG apertaram em 9 dos últimos 10 anos, estimativa de emissão IG de US$ 130 bi).",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Ratings e Ações de Agências",
+      "frequencia": 6,
+      "resumo": "Semana com múltiplas ações de rating: S&P atribui brAAA à 9ª e 10ª emissões Axia Energia; Fitch atribui AA(bra) à 23ª emissão DASA; Fitch rebaixa Borborema para AA+(bra) perspectiva negativa; S&P reafirma Agroterenas brA+ perspectiva negativa; S&P mantém Brisanet com expectativa de redução de alavancagem; Moody's eleva Banco Senff para BBB.br; JPMorgan rebaixa Braskem de OW para Neutral (PT R$ 7,50); BofA corta PO Raízen para R$ 0,19; agências cortam notas da Braskem. Fluxo intenso de ações de rating reflete ambiente de crédito binário: emissores AAA captando facilmente vs. casos de estresse.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Raízen",
+      "mencoes": 4,
+      "contexto": "Maior prejuízo histórico: R$ 27,1 bi no ano-safra 2025/26, impulsionado por impairment de R$ 22,5 bi. Dívida líquida saltou para R$ 58,2 bi (+69,9%), alavancagem 5,2x. R$ 65,14 bi em claims sujeitos à recuperação extrajudicial. CEO sinaliza continuidade de venda de usinas 'sem pressa'. BofA cortou PO para R$ 0,19 com diluição de 45% por conversão de dívida em equity. Seis gestoras fizeram proposta para adquirir dívida no secundário. Produção de açúcar no Centro-Sul caiu 9,5% e há retirada iminente do subsídio de R$ 0,44/litro da gasolina.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Braskem",
+      "mencoes": 3,
+      "contexto": "Situação deteriorando: credores rejeitaram proposta inicial de reestruturação, exigindo maior compartilhamento de ônus pelos acionistas. Empresa obteve proteção cautelar e negocia standstill de 60 dias. JPMorgan rebaixou para Neutral (PT R$ 7,50). BofA lista como Underperform no Top 10 LatAm Ideas 3Q26. Grupo ad hoc de bondholders reservou direito de questionar cautelar (Leto Capital com análise legal do Debtwire). Processo extrajudicial requer suporte de 1/3 dos credores para avançar.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Axia Energia",
+      "mencoes": 4,
+      "contexto": "Semana positiva: S&P atribuiu brAAA à 9ª e 10ª emissões de debêntures; emissão de R$ 1,6 bi aprovada; DEB 12.431 (Lei 12.431) com liquidação concluída em 03/07/2026 via XP. Dois ratings brAAA sequenciais para a mesma empresa é evento relevante para o pipeline de infraestrutura.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 3,
+      "contexto": "Avanço judicial: EDs rejeitados, mudança de competência para Curitiba consolidada. Petição da JGP protocolada pelo GTA, aguardando novo despacho do gabinete. Estrutura de crédito: R$ 16 mi extraconcursal + R$ 57 mi quirografário, com garantias insuficientes para cobrir a totalidade. Não foi localizado agravo de instrumento contra a decisão.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 3,
+      "contexto": "Processo de recuperação judicial em andamento. Petição inicial da manifestação dos credores foi bem avaliada. Dispensa de recurso contra liminar PAP aprovada por todos os credores (Leto Capital confirmou). Credores coordenados incluem Régia Capital, Bside Investimentos, Canal Securitizadora e escritório Tepedino. Prazo para EDs expirou em 30/jun sem interposição.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "DASA",
+      "mencoes": 2,
+      "contexto": "Fitch atribuiu rating AA(bra) à proposta de 23ª emissão de debêntures. Small group meeting realizado em 03/07 (15h30) coordenado pelo BBI. Rating positivo sinaliza acesso ao mercado de capitais preservado.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Iguá",
+      "mencoes": 2,
+      "contexto": "Contratou financiamento de R$ 770 mi junto ao Banco do Nordeste para consolidar a Concessão Sergipe (74 municípios, concentração em Aracaju). Operação arrematada em leilão em setembro de 2024. Movimento estratégico de consolidação de ativos.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Ruiz Coffees",
+      "mencoes": 2,
+      "contexto": "2º maior produtor de café do Brasil paralisou pagamentos após cautelar judicial de 60 dias suspendendo dívidas. Sem acordo no prazo, próximo passo é recuperação judicial. FIAGROs de Vectis, Galápagos e Suno têm exposição via CRA. Monitorar exposição potencial do portfólio.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Brasol",
+      "mencoes": 2,
+      "contexto": "Empresa prioritária do setor de energia solar/GD. Reunião realizada em 01/07 com Maria Jacobina (Leto Capital) e reunião JGP & Brasol realizada em 03/07 (sem transcrição Plaud disponível). Contexto geral de análise de modelagem GD da semana.",
+      "status": "normal"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 1,
+      "contexto": "Potenciais compradores de ativos de infraestrutura (pipeline de venda de até US$ 1 bi) revisitando impasse regulatório antigo envolvendo o terminal Tecar (porto de Itaguaí/RJ): dúvida sobre herança de obrigações de investimento não cumpridas e possível alteração do prazo de concessão. Risco regulatório pode travar o processo de desalavancagem.",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Credit Day SP — Sessão Manhã e Tarde",
+      "data": "2026-07-02",
+      "impacto": "Evento de referência para o mercado de crédito, realizado em São Paulo. Cobriu dois blocos (manhã 8h30 e tarde 15h00). Sem transcrição Plaud disponível — pontos discutidos devem ser recuperados junto aos participantes da equipe JGP que estiveram presentes. Contexto de encerramento do 1º semestre com volume recorde de emissões reforça o tom do evento."
+    },
+    {
+      "titulo": "Crazistas Prime Agro + GTA",
+      "data": "2026-07-01",
+      "impacto": "Decisão concreta tomada: credores aprovaram dispensa de interposição de Embargos de Declaração contra a decisão favorável na PAP (prazo expirou em 30/jun). Alexandre Muller (Leto Capital) confirmou formalmente. Processo avança sem contestação do único ponto indeferido (prova testemunhal), que pode ser retomado em ação de mérito posterior. Coordenação ativa entre Régia Capital, Bside, Canal Securitizadora e Tepedino."
+    },
+    {
+      "titulo": "Reunião Semanal: Modelagem de Receita (GD)",
+      "data": "2026-07-01",
+      "impacto": "Reunião técnica crítica para o case de GD (Brasol e similares). Definidas premissas de IPCA, degradação de geração e disponibilidade P90. Identificadas duas pendências abertas: (1) separar a lógica de evolução de tarifa entre componente fixo e total; (2) confirmar e entender a lógica da defasagem de 2 meses no faturamento. Ambas devem ser resolvidas na semana seguinte antes de finalizar o modelo."
+    },
+    {
+      "titulo": "DASA Small Group Meeting (BBI)",
+      "data": "2026-07-03",
+      "impacto": "Reunião restrita com a DASA coordenada pelo BBI (João Pedro Perez Reis Lobo), realizada às 15h30. Contexto favorável dado rating AA(bra) Fitch atribuído à 23ª emissão no mesmo dia. A reunião possivelmente abriu caminho para participação da JGP na operação — follow-up necessário com o BBI para confirmar termos e interesse de alocação."
+    },
+    {
+      "titulo": "JGP & Brasol",
+      "data": "2026-07-03",
+      "impacto": "Segunda reunião com Brasol na semana (após reunião com Maria Jacobina/Leto em 01/07), consolidando o aprofundamento do due diligence desta empresa prioritária do setor de GD. Sem transcrição Plaud disponível — outputs e próximos passos devem ser registrados formalmente para dar continuidade ao processo de análise."
+    },
+    {
+      "titulo": "Análise de Estratégias Executivas, Riscos e Recuperação Judicial",
+      "data": "2026-07-01",
+      "impacto": "Reunião sobre assunção de ativos, verificação de rendimentos e estratégias em processo de recuperação judicial. Tema sensível com impacto direto em posições do portfólio. Conteúdo detalhado não disponível via transcrição Plaud — recomendado registro formal dos desdobramentos e ações acordadas."
+    },
+    {
+      "titulo": "HH: Fechamento 1º Semestre",
+      "data": "2026-07-03",
+      "impacto": "Evento institucional de encerramento do 1º semestre. Semestre encerrou com volume recorde de emissões no mercado de capitais e emissões de LCD acima de R$ 16 bi. Importante para coesão da equipe e alinhamento de perspectivas para o 2º semestre."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Axia Energia — DEB 12.431 (Lei 12.431)",
+      "tipo": "emissão / liquidação",
+      "status": "concluído",
+      "resumo": "Debênture incentivada da Axia Energia com liquidação realizada em 03/07/2026 via XP (conta CETIP 19352.00-0). S&P atribuiu brAAA à 9ª e 10ª emissões. Emissão total de R$ 1,6 bi aprovada. JGP Crédito foi destinatária do email de liquidação. Evento positivo para o pipeline de infraestrutura."
+    },
+    {
+      "operacao": "DASA — 23ª Emissão de Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Fitch atribuiu AA(bra) à proposta da 23ª emissão. Small group meeting realizado em 03/07 com BBI. Operação em estruturação — JGP deve confirmar interesse de participação com BBI (João Pedro Perez Reis Lobo)."
+    },
+    {
+      "operacao": "LF Mercado Crédito (Mercado Livre)",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta de Letra Financeira de R$ 999 milhões do braço financeiro do Mercado Livre. Bookbuilding em andamento. Operação de grande porte e emissora de alta qualidade de crédito."
+    },
+    {
+      "operacao": "Iguá — Financiamento BNB (Concessão Sergipe)",
+      "tipo": "financiamento",
+      "status": "concluído",
+      "resumo": "R$ 770 milhões contratados junto ao Banco do Nordeste para consolidar Concessão Sergipe (74 municípios). Concessão arrematada em setembro/2024. Estratégia de consolidação de ativos da Iguá."
+    },
+    {
+      "operacao": "FIAGRO Valora Agro Pre II Feeder",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Nova oferta registrada na CVM em 02/07/2026. Coordenador: Itaú BBA. Volume: R$ 375 milhões. OPD automática. Relevante dado o contexto de estresse no crédito agro."
+    },
+    {
+      "operacao": "FIDC Paraná Banco Consignado INSS IV",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta registrada na CVM em 01/07/2026. Volume: R$ 346 milhões. Destinado a investidores profissionais. Parte da expansão dos FIDCs como alternativa de financiamento."
+    },
+    {
+      "operacao": "FIDC Consignado Ext V-Eight Daycoval",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Nova oferta registrada na CVM em 01/07/2026. Volume: R$ 225 milhões. Destinado a investidores profissionais."
+    },
+    {
+      "operacao": "CRI Canal Securitizadora",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta pública registrada na CVM em 01/07/2026. Volume: R$ 115 milhões. Canal é a mesma securitizadora envolvida no processo da Prime Agro e Gran Coffee."
+    },
+    {
+      "operacao": "FIDC Chimera Alternative Assets XIII",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Duas tranches registradas na CVM em 01/07/2026: R$ 15 mi + R$ 30 mi (total R$ 45 mi)."
+    },
+    {
+      "operacao": "GPA — Financiamento Opção A (Recuperação Judicial)",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Itaú BBA captou R$ 90 milhões para a Opção A da recuperação judicial do GPA. Operação viabiliza uma das alternativas do plano de recuperação."
+    },
+    {
+      "operacao": "Genel Energy — Tap Issue Senior Unsecured",
+      "tipo": "emissão internacional",
+      "status": "em andamento",
+      "resumo": "Pareto Securities abriu livro para tap issue de até USD 40 mi (Genel Energy Finance 4 Plc, 2025/2030), IPT de 104,0-104,25% do par. Livro estava coberto. Operação internacional de crédito high yield."
+    },
+    {
+      "operacao": "Braskem — Reestruturação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Credores rejeitaram proposta inicial. Standstill de 60 dias negociado. Grupo ad hoc de bondholders pode contestar medida cautelar. Requer suporte de 1/3 dos credores para avançar. JPMorgan rebaixou para Neutral, BofA lista como Underperform 3Q26."
+    },
+    {
+      "operacao": "Raízen — Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "R$ 65,14 bi em claims sujeitos ao processo (de R$ 98,63 bi de dívida total). Dívida líquida R$ 58,2 bi, alavancagem 5,2x. BofA projeta diluição de 45% por conversão de dívida em equity. Seis gestoras fazendo proposta para adquirir dívida no secundário. CEO sinaliza continuidade de venda de usinas."
+    },
+    {
+      "operacao": "Safra Combo IPCA+ — Atualização Julho 2026",
+      "tipo": "portfolio / seleção",
+      "status": "concluído",
+      "resumo": "Portfólio IPCA+ isento de IR atualizado pelo Safra Credit Research para julho/2026, com novas entradas (Klabi entre outros). Útil como referência de alocação em títulos IPCA+ no contexto de Selic em 14,25%."
+    },
+    {
+      "operacao": "Belagrícola — CRA CDI+ 6,00% (venc. out/28)",
+      "tipo": "mercado secundário",
+      "status": "em andamento",
+      "resumo": "CRA02200DKY ofertado no secundário via Necton a CDI+ 6,00% (Ask), com Bid a CDI+ 4,20%. Spread bid-ask amplo de 180 bps, sinalizando baixa liquidez/precificação de risco agro."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 11,
+    "total_emails": 390,
+    "total_followups": 0,
+    "followups_pendentes": "Apesar de zero follow-ups formais registrados no sistema, foram identificadas pendências implícitas não formalizadas: (1) Confirmar interesse de alocação na 23ª emissão de debêntures DASA com BBI pós-small group; (2) Resolver a lógica de evolução de tarifa fixa vs. total no modelo GD (Brasol); (3) Confirmar defasagem de 2 meses no faturamento GD; (4) Registrar formalmente os outputs das reuniões sem transcrição Plaud (Credit Day, Revisão Pipe Analistas, Call Matinal XP, XP-Leto, JGP-Brasol, Análise Estratégias RJ); (5) Monitorar exposição do portfólio a CRA/FIAGRO com risco Ruiz Coffees; (6) Verificar exposição à Agroterenas dado perspectiva negativa mantida pela S&P",
+    "analise": "Semana de reabertura do 2º semestre com carga de trabalho acima da média histórica. A média de 3,7 reuniões/dia e 78 emails/dia (totalizando ~390 emails na semana de 5 dias) reflete um ritmo operacional intenso, especialmente concentrado nos dias 01 e 03/07. A ausência total de follow-ups formalizados (0 items) em um período com 11 reuniões e 20 highlights é um risco de gestão: vários desdobramentos concretos (modelo GD, DASA, Brasol, outputs do Credit Day) dependem de ações que precisam ser registradas. A disponibilidade de transcrições Plaud foi parcial — 6 das 11 reuniões não têm transcrição disponível, comprometendo o registro de memória institucional. O volume de casos de reestruturação simultâneos (Raízen, Braskem, Lavoro, Prime Agro, GPA, Ruiz Coffees) demanda atenção paralela elevada. Positivo: processos judiciais de Lavoro e Prime Agro avançaram com desdobramentos concretos e bem documentados."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Pendências no Modelo GD — Tarifa Fixa vs. Total e Defasagem de Faturamento",
+      "desde": "2026-07-01 (Reunião Semanal: Modelagem de Receita)",
+      "impacto": "Sem entender a separação entre componente fixo e total da receita e a lógica da defasagem de 2 meses no faturamento, a modelagem do case de GD (Brasol e similares) permanece incompleta e potencialmente incorreta. Decisões de investimento/crédito baseadas no modelo atual podem conter imprecisões materiais."
+    },
+    {
+      "tema": "Falta de Transcrições Plaud para 6 das 11 Reuniões",
+      "desde": "2026-07-02 / 2026-07-03",
+      "impacto": "Credit Day (manhã e tarde), Revisão Pipe Analistas, Call Matinal XP, XP-Leto e JGP-Brasol não têm registro de conteúdo. Decisões e informações relevantes discutidas nessas reuniões podem se perder, prejudicando a continuidade analítica e o onboarding/alinhamento de membros da equipe."
+    },
+    {
+      "tema": "Monitoramento da Exposição Agro — Ruiz Coffees e Agroterenas",
+      "desde": "2026-07-02",
+      "impacto": "Ruiz Coffees paralisou pagamentos (cautelar de 60 dias) com exposição via CRA em FIAGROs de terceiros gestores — verificar se há posição da JGP nessas estruturas. Agroterenas com perspectiva negativa mantida pela S&P. NPL rural em 7,6%. Sem mapeamento formal da exposição agro do portfólio, o risco não está sendo gerenciado adequadamente."
+    },
+    {
+      "tema": "Definição de Estratégia para Reunião Análise de Estratégias Executivas / RJ",
+      "desde": "2026-07-01",
+      "impacto": "Reunião sobre assunção de ativos e estratégias em recuperação judicial sem registro detalhado de conclusões e next steps. Estratégias discutidas (assunção de ativos, verificação de rendimentos) têm implicações legais e financeiras que precisam ser formalizadas para execução."
+    },
+    {
+      "tema": "Impasse Regulatório CSN / Tecar — Risco de Travar Venda de Ativos",
+      "desde": "2026-07-01",
+      "impacto": "A questão sobre herança de obrigações de investimento não cumpridas pelo comprador do Tecar pode impedir a venda dos ativos de infraestrutura da CSN (US$ 1 bi), comprometendo a estratégia de desalavancagem da companhia. Sem resolução, as métricas de crédito da CSN podem continuar pressionadas."
+    },
+    {
+      "tema": "Outputs do Credit Day SP — Temas e Insights não Documentados",
+      "desde": "2026-07-02",
+      "impacto": "O Credit Day é o principal evento de mercado do início do semestre. Sem registro dos temas discutidos (duas sessões), a JGP perde a oportunidade de capturar inteligência de mercado que pode ser relevante para posicionamento de portfólio e antecipação de movimentos de emissores."
+    }
+  ],
+  "proximas_prioridades": [
+    "Finalizar modelo GD (Brasol): resolver separação receita fixa vs. total e confirmar defasagem de 2 meses no faturamento — agenda técnica com o responsável pela modelagem na semana de 07/07",
+    "Follow-up com BBI (João Pedro Lobo) sobre interesse de alocação na 23ª emissão de debêntures DASA (AA(bra) Fitch) após small group de 03/07",
+    "Mapear formalmente a exposição do portfólio JGP a CRAs/FIAGROs com risco Ruiz Coffees e Agroterenas — revisão urgente dado NPL rural de 7,6% e cautelar de 60 dias da Ruiz",
+    "Monitorar prazo de standstill de 60 dias da Braskem: datas-chave para votação de credores e postura do grupo ad hoc de bondholders (Leto Capital com análise legal via Debtwire)",
+    "Acompanhar novo despacho no processo Lavoro (Curitiba) após protocolamento da petição pela GTA — manter contato com Manoela Munhoz para atualização",
+    "Registrar outputs das reuniões sem transcrição Plaud (Credit Day, Revisão Pipe Analistas, JGP-Brasol) — solicitar resumo dos participantes para garantir memória institucional",
+    "Monitorar prazo de 60 dias da cautelar da Ruiz Coffees (iniciado em ~02/07): decisão de RJ ou acordo esperada até início de setembro — inserir alerta no calendário",
+    "Acompanhar desenvolvimento do leilão de BESS e impacto no curtailment solar (26,2% no 2T26): relevante para Serena, OXE e demais geradoras renováveis do portfólio",
+    "Verificar com Antônio Fassini (XP IB) liquidação efetiva da DEB 12.431 Axia Energia e conferir posição no CETIP",
+    "Preparar análise de impacto do PDE 2035 (R$ 3,5 tri) e da demanda de data centers (ByteDance 300 MW) nos emissores de transmissão e geração da carteira"
+  ]
+}
