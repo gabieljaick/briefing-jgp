@@ -1,0 +1,303 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 08/07 a 12/07/2026",
+  "resumo_executivo": "A semana de 08 a 12 de julho de 2026 foi marcada por intensa atividade no universo de crédito privado brasileiro, com destaque absoluto para o ciclo de reestruturações e recuperações judiciais/extrajudiciais que segue se aprofundando. O volume de dívidas em processos de RE/RJ já ultrapassa R$ 109 bilhões em 2026, puxado pelo caso Raízen (R$ 65,1 bi, o maior da história do país) e com novos episódios relevantes como Oncoclínicas, Lavoro, Ambipar, Prime Agro e Toppen adicionando complexidade ao monitoramento da carteira. O ambiente de Selic elevada (~14,25% a.a.) segue como pano de fundo estrutural dessa onda, penalizando empresas que alavancaram na pandemia e agora enfrentam covenants pressionados e mercado de capitais seletivo. Na Aegea, a convocação de assembleia para capitalização de até R$ 2,1 bilhões representa uma resposta emergencial a rebaixamentos de rating e alavancagem nos limites dos covenants, com a Itaúsa sinalizando aporte relevante — movimento que o mercado recebeu de forma moderadamente positiva, sem euforia. A Braskem, em recuperação extrajudicial com ~R$ 60 bi em dívidas, viu o TJSP rejeitar o pedido do Banco Safra para bloquear a venda do controle à IG4 Capital, abrindo caminho para a transação avançar, ainda que assembleias de debenturistas das 16ª e 18ª emissões estejam convocadas para 30/07. A Cosan sofreu rebaixamento da S&P para B+ com outlook negativo em efeito cascata direto da reestruturação da Raízen, cujo plano de R$ 65 bi (com injeção de R$ 3,5 bi pela Shell e conversão de 45% da dívida em equity) foi aprovado por mais de 80% dos credores — mas sem participação da Cosan no aumento de capital. A Rumo também foi impactada pelo contágio, com rebaixamento para brAA- na escala nacional. No front de crédito estruturado, o pipeline de emissões segue ativo: debêntures somaram R$ 5,1 bi nos primeiros dias de julho, com novas ofertas de Engie Brasil, ISA Energia, Energisa Mato Grosso e Ascenty, entre outros. O BTG reportou resgates de quase R$ 50 bi em fundos de crédito com exposição acima de 50% nos últimos dois meses, sinalizando pressão de liquidez nos veículos mais concentrados. O cenário geopolítico — com ataques dos EUA ao Irã elevando o petróleo 6% em 08/07 e guerra na Ucrânia afetando refinarias — foi tema de abertura da reunião semanal interna. A equipe conduziu 9 reuniões no período, com média de 3,0/dia e volume médio de 73 emails/dia, refletindo uma semana operacionalmente densa e com múltiplas frentes simultâneas de monitoramento.",
+  "principais_temas": [
+    {
+      "tema": "Onda de Recuperações Judiciais e Extrajudiciais",
+      "frequencia": 12,
+      "resumo": "O tema dominante da semana foi a continuidade e expansão do ciclo de reestruturações corporativas no Brasil. Raízen (R$ 65,1 bi), Braskem (~R$ 60 bi), Oncoclínicas (RE esperada até 10/07), Lavoro (RJ em preparação), Ambipar (RJ + RSA com credores), Prime Agro (RJ deferido em 01/07) e Toppen (reestruturação operacional e financeira severa) compõem um quadro inédito. O volume total de dívidas em RE/RJ em 2026 já supera R$ 109 bi, com mais de 33 empresas. A Selic elevada (~14,25%) sobre dívidas contraídas na pandemia é o driver estrutural do ciclo.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Rebaixamentos de Rating em Cascata",
+      "frequencia": 8,
+      "resumo": "A semana concentrou múltiplos movimentos de rating negativos: S&P rebaixou Cosan de BB- para B+ (outlook negativo) e Rumo de BB- para B+ / brAA- (efeito cascata da Raízen); S&P caracterizou a tutela cautelar da Braskem como default geral, rebaixando para D (de brCCC-); Fitch e S&P já haviam rebaixado Braskem para próximo de default semanas antes. A ação do Norges Bank — reduzindo participação na Raízen para 4,47% — também sinaliza desconforto de investidores institucionais com o perfil de risco do setor.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Braskem — Venda à IG4, Debenturistas e Recuperação Extrajudicial",
+      "frequencia": 7,
+      "resumo": "A Braskem foi a empresa com maior número de eventos simultâneos na semana: (i) TJSP negou liminar do Banco Safra, permitindo avanço da venda à IG4 Capital; (ii) Pentágono convocou assembleias de debenturistas das 16ª e 18ª emissões para 30/07/2026; (iii) Citi rebaixou ação para Sell/High Risk; (iv) empresa teria encurtado prazos de pagamento a fornecedores para preservar caixa. A situação combina risco de execução da transação com IG4, risco de crédito para debenturistas e incertezas regulatórias do Evento Geológico de Alagoas.",
+      "status": "escalado"
+    },
+    {
+      "tema": "Aegea — Capitalização Emergencial e Pressão de Covenants",
+      "frequencia": 5,
+      "resumo": "A Aegea convocou assembleia para 28/07/2026 para aumento de capital entre R$ 1,5 bi e R$ 2,1 bi (preço de R$ 55,29/ação), resposta direta à alavancagem próxima dos limites de covenant e rebaixamentos de rating recentes. A Itaúsa sinaliza aporte de R$ 730 mi a R$ 1,5 bi. Bonds em USD com vencimento em 2029 reagiram positivamente, mas sem euforia. O BTG avalia a operação como não-transformadora, porém positiva para distanciar a empresa do risco de inadimplência formal.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Lavoro — RJ e Questionamento de Garantias pela UPL",
+      "frequencia": 5,
+      "resumo": "A Lavoro concentrou dois vetores de risco simultâneos: (i) preparação do pedido de recuperação judicial, conforme reportado pelo Globo Rural e confirmado por BTG e Safra; (ii) a credora UPL (R$ 372 mi em créditos) ajuizou três processos em SP alegando erosão de garantias fiduciárias após reorganização societária (transferência da Crop Care para TriAgro e venda de 53% ao FIP Capital Crescente/Pátria). O monitoramento de due diligence revela exposição de R$ 460 mi com R$ 255 mi em PEFIN, R$ 169 mi em protestos e R$ 34 mi em REFIN.",
+      "status": "escalado"
+    },
+    {
+      "tema": "Pipeline de Emissões de Renda Fixa — Julho/2026",
+      "frequencia": 9,
+      "resumo": "Apesar do ambiente de estresse, o mercado primário de renda fixa manteve atividade relevante: debêntures somaram R$ 5,1 bi nos primeiros dias de julho. Destaques: Ascenty (NC, até R$ 770,5 mi), Engie Brasil (R$ 700 mi em debêntures), ISA Energia, Energisa Mato Grosso (R$ 350 mi), FIDC Telcobank (R$ 350 mi), FIDC Risco Sacado Vibra (R$ 500 mi, estruturado pela XP), CRA EcoAgro (R$ 400 mi) e oferta Axia (CDI+0,80% a 7 anos / CDI+0,90% a 10 anos). S&P atribuiu brAAA às debêntures senior do Grupo Energisa.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico — El Niño, Data Centers e Mercado Livre de Energia",
+      "frequencia": 5,
+      "resumo": "Três vetores convergiram no setor elétrico: (i) El Niño deve forçar acionamento de termelétricas, com ONS alertando para falta de potência até 2030 e risco de cortes de até 40 GW (2027-2030); (ii) ONS projeta 3,5 GW de demanda de data centers até 2030, com BNDES financiando R$ 10,2 mi ao setor; (iii) governo prepara regras para mercado livre de energia (ACL), com ANEEL discutindo regras mais rígidas para leilões após inadimplência de comercializadoras.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Fundos de Crédito — Resgates e Absorção de Mercado",
+      "frequencia": 4,
+      "resumo": "Fundos de crédito com exposição acima de 50% em crédito privado acumularam resgates de quase R$ 50 bi em dois meses, sinalizando pressão de liquidez nos veículos mais concentrados. Paralelamente, o relatório BofA Follow The Flow aponta entradas em fundos IG pela 11ª semana consecutiva a nível global, com fundos HY também com entrada acelerada — sugerindo divergência entre o apetite global e o estresse local no Brasil.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Braskem",
+      "mencoes": 7,
+      "contexto": "Semana intensa: TJSP negou duas vezes liminar do Banco Safra para bloquear venda à IG4 Capital (via fundo Shine); Pentágono convocou assembleias de debenturistas das 16ª e 18ª emissões para 30/07/2026; S&P rebaixou para D (default); Citi rebaixou ação para Sell/High Risk com FCF negativo e riscos de cauda do Evento Geológico de Alagoas; empresa em recuperação extrajudicial com ~R$ 60 bi em dívidas e suspensão de execuções por 60 dias via tutela cautelar. Ação subiu ~6% após decisão judicial favorável à venda.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Raízen / Cosan",
+      "mencoes": 7,
+      "contexto": "S&P rebaixou Cosan de BB- para B+ (outlook negativo) em cascata após reestruturação da Raízen (plano de R$ 65,1 bi aprovado por >80% dos credores, com aporte de R$ 3,5 bi da Shell e conversão de 45% da dívida em equity). Cosan não participa do aumento de capital e zerou valor contábil da participação desde março/2026. S&P projeta interest coverage abaixo de 1,0x nos próximos dois anos. Rumo também rebaixada para B+ / brAA- por contágio. Norges Bank reduziu participação na Raízen para 4,47%.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 5,
+      "contexto": "Assembleia convocada para 28/07/2026 para capitalização emergencial de R$ 1,5 bi a R$ 2,1 bi via emissão de ações a R$ 55,29/ação. Objetivo é reduzir alavancagem próxima dos limites de covenants após rebaixamentos e dificuldades de captação. Itaúsa sinaliza aporte de R$ 730 mi a R$ 1,5 bi. Bonds em USD com vencimento 2029 reagiram positivamente, mas sem euforia. BTG avalia como operação positiva, porém não-transformadora.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 5,
+      "contexto": "Duplo risco: preparação de pedido de RJ (reportado por Globo Rural, BTG e Safra) e três processos judiciais ajuizados pela credora UPL (R$ 372 mi) questionando erosão de garantias fiduciárias após reorganização societária. Monitoramento de due diligence revela exposição de R$ 460 mi (PEFIN R$ 255 mi, protestos R$ 169 mi, REFIN R$ 34 mi). Documento protocolado no PR descreve transformação 'radical' pelos novos controladores.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Ambipar",
+      "mencoes": 4,
+      "contexto": "Encerrou 2025 com R$ 2,5 bi declarados em caixa, mas apenas R$ 295 mi em bancos de primeira linha — R$ 1,2 bi em fundo lastreado em pré-precatório federal, R$ 247 mi em Banco Master, posições em Emae e FIDC próprio. RSA assinado com parcela majoritária dos credores dos Green Notes (2031/2033). Processo ainda depende de documentos definitivos, assembleia de credores e homologação judicial.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 4,
+      "contexto": "RJ deferido em 01/07/2026. CRA024006N5: escritório Tepedino contratado pelos craistas para ação de execução extrajudicial; assembleia convocada para 20/07/2026. BNY ajustará PU par para data do vencimento antecipado (19/03/2026), com ativo marcado a 50% de provisionamento e stop accrual sobre PU de 24/06. Custas iniciais estimadas em R$ 115.260. Monitoramento revela R$ 81 mi em exposição negativa (PEFIN R$ 9 mi, REFIN R$ 42 mi, protestos R$ 30 mi).",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Toppen (GD/GC)",
+      "mencoes": 2,
+      "contexto": "Reestruturação operacional e financeira severa. Recebeu R$ 500 mi em equity há 1 ano e 3 meses (Pontal com 67%); dívida Daycoval de R$ 160 mi; apenas R$ 20 mi em caixa e R$ 200 mi em conta reserva. FTI contratada para diagnóstico e pediu suspensão de pagamentos por 3 meses. Novo CEO Ricardo Levi (histórico Carta Fabril/Eneva) contratado. Problemas operacionais em obras de rede e troca de titularidade de créditos de energia. Denham Capital descrita como fundo passivo.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Oncoclínicas",
+      "mencoes": 2,
+      "contexto": "Fontes do Valor Econômico indicavam protocolo de recuperação extrajudicial até 10/07/2026. Negociação avançada com credores. Safra Credit Research também destacou o tema. Confirmação do protocolo não consta nos briefings analisados — item a monitorar na semana seguinte.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Energisa / Grupo Energisa",
+      "mencoes": 3,
+      "contexto": "S&P atribuiu rating brAAA (escala nacional) às debêntures senior unsecured do Grupo Energisa — o teto da escala doméstica. Energisa Mato Grosso aprovou emissão de debêntures de R$ 350 mi. Posicionamento positivo no mercado primário contrasta com ambiente de estresse no setor de utilities.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Ascenty Brasil",
+      "mencoes": 2,
+      "contexto": "Empresa de data centers aprovará emissão de até R$ 770,5 mi em notas comerciais. Empresa prioritária de cobertura. Setor de data centers em aceleração, com BNDES financiando o segmento e ONS projetando 3,5 GW de demanda até 2030.",
+      "status": "positivo"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Reunião Semanal — Macroeconomia, Toppen e Estratégias de Crédito e Securitização",
+      "data": "10/07/2026",
+      "impacto": "Reunião de maior densidade analítica da semana. Abertura com análise geopolítica (petróleo +6% após ataques EUA-Irã, ataque ucraniano à maior refinaria russa). Destaque para atualização detalhada da Toppen: estrutura de capital, histórico de equity, dívidas com Daycoval e Galápagos, contratação da FTI e do novo CEO Ricardo Levi. Temas de crédito e securitização também discutidos. Rebaixamento S&P da Cosan/Rumo mencionado como tema derivado da Raízen. Reunião gerou insumos para monitoramento e posicionamento interno."
+    },
+    {
+      "titulo": "Research — Revisão Semanal de Pipeline",
+      "data": "08/07/2026 (realizada 09/07)",
+      "impacto": "Revisão do pipeline de operações em andamento pelos analistas. Theo reportou oferta da Axia (R$ 1.600, CDI+0,80% a 7 anos / CDI+0,90% a 10 anos) a ser cadastrada, com book para a semana. Reunião é insumo direto para decisões de alocação e monitoramento de novas emissões. Confirmação de que o pipeline de julho segue ativo apesar do ambiente de estresse."
+    },
+    {
+      "titulo": "Revisão Comitê de Crédito (reagendada)",
+      "data": "Prevista 07/07, reagendada para quinta-feira da semana",
+      "impacto": "Reunião originalmente marcada para 07/07 às 16h não ocorreu — Gabriela e Nikolau presos em outra reunião. Borda propôs reagendamento e Nikolau confirmou disponibilidade. Atraso pode impactar decisões de crédito dependentes do comitê. A confirmação da nova data é item a verificar."
+    },
+    {
+      "titulo": "FIAgro | Alinhamento",
+      "data": "07/07/2026 (13h30, presencial)",
+      "impacto": "Reunião presencial de alinhamento sobre FIAgro, tema relevante dado o contexto de estresse no agronegócio (Lavoro, Prime Agro). Sem transcrição Plaud disponível — conteúdo não pode ser detalhado. Sala reservada por Gisele Silva."
+    },
+    {
+      "titulo": "Reunião sobre Metas — Gabriela e Nikolau",
+      "data": "07/07/2026 (16h, Teams)",
+      "impacto": "Reunião bilateral sobre metas da equipe de Research. Sem transcrição disponível. Contexto sugere alinhamento estratégico entre Head de Research e analista sênior em semana de alta demanda operacional."
+    },
+    {
+      "titulo": "BR 163 — Reunião Interna",
+      "data": "09/07/2026 (11h)",
+      "impacto": "Gabriela aceitou convite. Sem transcrição Plaud disponível. BR 163 é ativo de infraestrutura logística relevante para o portfólio — monitorar desdobramentos na próxima semana."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Ascenty Brasil — Notas Comerciais",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Até R$ 770,5 mi em notas comerciais. Empresa de data centers e empresa prioritária de cobertura. Setor em aceleração com suporte do BNDES e demanda crescente de hyperscale e colocation."
+    },
+    {
+      "operacao": "Engie Brasil — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Pedido de registro para R$ 700 mi em debêntures. Empresa do setor de energia com perfil investment grade. Parte do radar de emissões de julho destacado pelo Safra Credit Research."
+    },
+    {
+      "operacao": "Energisa Mato Grosso — Debêntures R$ 350 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão aprovada de R$ 350 mi em debêntures. Prazo, taxa e rating específicos não divulgados no período. S&P atribuiu brAAA às debêntures senior do Grupo Energisa na mesma semana."
+    },
+    {
+      "operacao": "FIDC Telcobank II — R$ 350 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "FIDC Telcobank II Responsabilidade Limitada, volume total de R$ 350 mi. Pipeline local. Analista responsável: Antonio R. Cadastrado na semana."
+    },
+    {
+      "operacao": "FIDC Risco Sacado Vibra — R$ 500 mi (XP/Leto)",
+      "tipo": "estruturação",
+      "status": "em andamento",
+      "resumo": "XP (Guilherme Teixeira) estruturando FIDC de risco sacado para Vibra Energia. Cheque estimado de R$ 10-15 mi para Leto Capital. Vibra tem caixa disponível e pequeno estoque de recebíveis. Operação em fase de estruturação."
+    },
+    {
+      "operacao": "CRA EcoAgro — R$ 400 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "CRA da EcoAgro Securitizadora, R$ 400 mi, oferta pública em geral com bookbuilding, coordenador XP Investimentos. S&P atribuiu rating preliminar brAA- (sf) às 1ª, 2ª e 3ª séries da 453ª emissão. Risco Vale."
+    },
+    {
+      "operacao": "CRI Bari Securitizadora — R$ 200 mi",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta pública CVM 160 destinada a investidores profissionais, sem bookbuilding. Cadastrada em 09/07/2026."
+    },
+    {
+      "operacao": "Axia — CDI+0,80% (7 anos) / CDI+0,90% (10 anos)",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta reportada na revisão semanal de pipeline por Theo. Volume estimado de R$ 1.600 (unidade não especificada na transcrição). Book previsto para a semana de 09/07. A ser cadastrada formalmente."
+    },
+    {
+      "operacao": "ISA Energia — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "ISA Energia no radar de emissões de julho, destacada pelo Safra Credit Research. Detalhes de volume e taxa não especificados nos briefings do período."
+    },
+    {
+      "operacao": "Aegea — Aumento de Capital R$ 1,5 bi a R$ 2,1 bi",
+      "tipo": "reestruturação/capitalização",
+      "status": "em andamento",
+      "resumo": "Assembleia convocada para 28/07/2026. Emissão de ações ordinárias a R$ 55,29/ação. Itaúsa sinaliza aporte de R$ 730 mi a R$ 1,5 bi. Medida emergencial para afastar risco de covenant. Aprovação pendente de assembleia."
+    },
+    {
+      "operacao": "Braskem — Reestruturação Extrajudicial + Venda à IG4",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Recuperação extrajudicial com ~R$ 60 bi em dívidas. TJSP negou liminar do Safra. Assembleias de debenturistas das 16ª e 18ª emissões convocadas para 30/07/2026. Rating em D pela S&P. Transação com IG4 Capital avança sem bloqueio judicial por ora."
+    },
+    {
+      "operacao": "Raízen — Recuperação Extrajudicial R$ 65,1 bi",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Maior RE da história do Brasil. Plano aprovado por >80% dos credores: aporte de R$ 3,5 bi pela Shell e conversão de 45% da dívida em equity. Cosan zerou valor contábil da participação. Norges Bank reduiu participação para 4,47%. Processo em curso."
+    },
+    {
+      "operacao": "Ambipar — Recuperação Judicial + RSA",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "RSA assinado com maioria dos credores dos Green Notes (2031/2033). Caixa de qualidade questionável: apenas R$ 295 mi dos R$ 2,5 bi declarados em bancos de primeira linha. Processo depende de documentos definitivos, assembleia e homologação judicial."
+    },
+    {
+      "operacao": "Prime Agro — CRA em RJ (Execução em andamento)",
+      "tipo": "reestruturação/execução",
+      "status": "em andamento",
+      "resumo": "RJ deferido em 01/07. Tepedino Advogados contratado para ação de execução extrajudicial. Assembleia de craistas em 20/07/2026. BNY ajustará PU par para 19/03/2026 (vencimento antecipado). Provisão de 50% com stop accrual. Custas iniciais ~R$ 115.260."
+    },
+    {
+      "operacao": "NC Projeto NEWP — Notificação de Obrigação Vencida (Vórtx)",
+      "tipo": "inadimplência",
+      "status": "em andamento",
+      "resumo": "Vórtx enviou notificação extrajudicial sobre descumprimento de obrigações da NC Projeto NEWP 1ª Emissão Única (código VX5212755). Detalhes de valor e natureza do descumprimento não especificados no clipping."
+    },
+    {
+      "operacao": "Rio Alto — Garantia Executada pelo BTG",
+      "tipo": "execução de garantia",
+      "status": "em andamento",
+      "resumo": "BTG executou garantia relacionada à Rio Alto, que agora busca comprador. Sem detalhes adicionais de valor ou estrutura disponíveis no período. Fonte: Pipeline Valor."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 9,
+    "total_emails": 365,
+    "total_followups": 0,
+    "followups_pendentes": "Embora o sistema registre 0 follow-ups formais pendentes, identificam-se os seguintes itens que requerem acompanhamento ativo na próxima semana: (1) Confirmação do protocolo de RE da Oncoclínicas — previsto para até 10/07, não confirmado nos briefings; (2) Reagendamento e realização do Comitê de Crédito (originalmente 07/07, não realizado); (3) Assembleias de debenturistas da Braskem em 30/07 — preparação de posicionamento; (4) Assembleia de craistas da Prime Agro em 20/07 — acompanhar protocolo da ação de execução pelo Tepedino; (5) Assembleia da Aegea em 28/07 — monitorar subscrição da Itaúsa e aprovação do aumento de capital; (6) Definição do cheque final da Leto no FIDC Risco Sacado Vibra; (7) Book da oferta Axia — follow-up com Theo; (8) Desdobramentos da reunião BR 163 interno (sem transcrição disponível)",
+    "analise": "A semana apresentou volume operacional elevado, com 73 emails/dia (aprox. 365 no total da semana útil de 5 dias) e 9 reuniões em 3 dias de briefings analisados (média de 3,0/dia), o que indica agenda comprimida. A ausência de follow-ups formais registrados é um ponto de atenção: em semana com tantos eventos críticos simultâneos (Braskem, Raízen, Lavoro, Ambipar, Prime Agro, Aegea, Oncoclínicas, Toppen), a inexistência de itens de ação formalizados sugere risco de perda de tracking em um ambiente de alta complexidade. O comitê de crédito não realizado na terça (07/07) é um gargalo identificado — sua realização é crítica dado o volume de situações de crédito em monitoramento. Três reuniões do período não possuem transcrição Plaud disponível (BR 163, Alinhamento Nova, Revisão DCM, FIAgro, Metas Nik/Gabi), limitando a capacidade de registro e rastreabilidade das decisões tomadas. A semana foi operacionalmente intensa e analiticamente rica, mas a formalização de ações derivadas das reuniões e dos eventos de crédito deve ser prioridade imediata."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Oncoclínicas — Confirmação do protocolo de recuperação extrajudicial",
+      "desde": "08/07/2026",
+      "impacto": "O protocolo era esperado para até 10/07/2026 segundo fontes do Valor Econômico, mas não há confirmação nos briefings analisados até 10/07. A ausência de informação impede avaliação de impacto para a carteira e posicionamento de crédito. Empresa com exposição relevante no segmento de saúde."
+    },
+    {
+      "tema": "Comitê de Crédito — Não realizado na semana",
+      "desde": "07/07/2026",
+      "impacto": "A reunião do Comitê de Crédito prevista para 07/07 não ocorreu. Em semana com múltiplos eventos de crédito críticos (Braskem, Raízen, Lavoro, Aegea, Ambipar), a ausência do comitê implica que decisões de posicionamento e aprovação podem estar represadas. Reagendamento para a semana seguinte é urgente."
+    },
+    {
+      "tema": "Toppen — Diagnóstico FTI e definição de estratégia de crédito",
+      "desde": "09/07/2026 (reunião interna)",
+      "impacto": "A FTI foi contratada para diagnóstico financeiro e solicitou suspensão de pagamentos por 3 meses. Com apenas R$ 20 mi em caixa e R$ 200 mi em conta reserva, a empresa está em situação crítica. A ausência de um plano formalizado e a passividade da Denham Capital (fundo gestor) ampliam o risco de deterioração sem resposta adequada dos credores."
+    },
+    {
+      "tema": "Reuniões sem transcrição Plaud — perda de rastreabilidade",
+      "desde": "07-08/07/2026",
+      "impacto": "Cinco reuniões do período (BR 163 interno, Alinhamento Nova, Revisão DCM, FIAgro Alinhamento, Metas Nik/Gabi) não possuem transcrição Plaud disponível. Sem registro do conteúdo, decisões e encaminhamentos dessas reuniões não são rastreáveis, criando risco de perda de informação em temas potencialmente relevantes (especialmente FIAgro e BR 163, dados os contextos de estresse no agronegócio e infraestrutura logística)."
+    },
+    {
+      "tema": "FIDC Risco Sacado Vibra — definição do cheque Leto e formalização",
+      "desde": "09/07/2026",
+      "impacto": "Operação em fase de estruturação pela XP, com cheque estimado de R$ 10-15 mi para a Leto. Sem confirmação formal de participação, termos ou cronograma. Em ambiente de alta demanda de pipeline, o delay na formalização pode resultar em perda de janela de alocação."
+    },
+    {
+      "tema": "NC Projeto NEWP — Natureza e extensão do inadimplemento",
+      "desde": "10/07/2026",
+      "impacto": "Notificação de obrigação vencida enviada pela Vórtx sem detalhamento de valor, natureza ou exposição da JGP ao ativo. Sem informações adicionais, não é possível avaliar impacto na carteira ou definir estratégia de resposta."
+    },
+    {
+      "tema": "Rio Alto — Detalhe da execução de garantia pelo BTG e busca de comprador",
+      "desde": "10/07/2026",
+      "impacto": "BTG executou garantia e empresa busca comprador, mas sem detalhes de valor, estrutura ou exposição da JGP disponíveis no período. Necessário investigar impacto potencial na carteira."
+    }
+  ],
+  "proximas_prioridades": [
+    "1. BRASKEM: Preparar posicionamento para as assembleias de debenturistas das 16ª e 18ª emissões convocadas para 30/07/2026 — definir voto e estratégia de defesa de interesses dos debenturistas; monitorar andamento da venda à IG4 Capital.",
+    "2. AEGEA: Acompanhar assembleia de 28/07/2026 — verificar confirmação do aporte da Itaúsa (R$ 730 mi a R$ 1,5 bi) e aprovação do aumento de capital entre R$ 1,5 bi e R$ 2,1 bi; avaliar impacto nos covenants e nos bonds em USD.",
+    "3. PRIME AGRO (CRA024006N5): Acompanhar assembleia de craistas em 20/07/2026 — verificar formalização do mandato do Tepedino Advogados, protocolo da ação de execução extrajudicial e atualização do PU par pelo BNY.",
+    "4. ONCOCLÍNICAS: Confirmar se o protocolo de recuperação extrajudicial foi realizado até 10/07 conforme previsto; mapear exposição da carteira e avaliar impacto do processo em andamento.",
+    "5. COMITÊ DE CRÉDITO: Realizar urgentemente a reunião do Comitê de Crédito não realizada na semana (originalmente 07/07) — Nikolau confirmou disponibilidade para quinta-feira; semana de alta demanda de decisões de crédito.",
+    "6. LAVORO: Monitorar protocolo formal do pedido de RJ e acompanhar os três processos ajuizados pela UPL (R$ 372 mi) — verificar tese de competência (Curitiba vs. SP) e alinhamento com jurídico da XP (Kristian Orberg).",
+    "7. TOPPEN: Aguardar resultado do diagnóstico da FTI e definição de plano de reestruturação — acompanhar posição do Daycoval (R$ 160 mi) e da Galápagos (R$ 30 mi); avaliar risco de inadimplemento dentro do prazo de suspensão de pagamentos solicitado (3 meses).",
+    "8. AMBIPAR: Monitorar formalização dos documentos definitivos do RSA com credores dos Green Notes e convocação de assembleia de credores — avaliar qualidade do caixa declarado vs. real e impacto na recuperação dos créditos.",
+    "9. PIPELINE DE EMISSÕES: Dar follow-up no book da oferta Axia (CDI+0,80% / CDI+0,90%) com Theo; acompanhar CRA EcoAgro (R$ 400 mi), Energisa Mato Grosso (R$ 350 mi) e FIDC Risco Sacado Vibra (R$ 500 mi / cheque Leto R$ 10-15 mi).",
+    "10. NC PROJETO NEWP / RIO ALTO: Investigar detalhe da notificação de obrigação vencida (Vórtx/NEWP) e da execução de garantia pelo BTG na Rio Alto — mapear exposição da carteira da JGP a ambas as situações antes que os processos avancem sem posicionamento definido."
+  ]
+}
