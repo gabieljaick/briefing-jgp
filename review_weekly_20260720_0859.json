@@ -1,0 +1,304 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 15/07 a 19/07/2026",
+  "resumo_executivo": "A semana de 15 a 19 de julho de 2026 foi marcada por elevada intensidade no mercado de crédito privado brasileiro, com dois eventos de estresse de crédito dominando a agenda: a recuperação extrajudicial da Oncoclínicas (R$ 5,1 bilhões em dívida) e o default da cooperativa Languiru em seus CRAs, com risco de perda da garantia JBS — ambos com implicações sistêmicas relevantes para os mercados de debêntures/CRIs de saúde e CRAs agro, respectivamente. No setor de energia, a semana concentrou volume expressivo de emissões de debêntures (ISA Energia R$ 1,5 bi, Copel Distribuição R$ 1,3 bi, Copasa R$ 1,2 bi, Verde Transmissão R$ 1,59 bi, Engie Brasil R$ 700 mi, Energisa Mato Grosso R$ 350 mi), além de avanços operacionais relevantes na Eneva, cujo resultado do 2T26 confirmou a tese de flexibilidade térmica como driver de valor. O processo de caducidade da Enel SP entrou em fase de alegações finais, representando etapa decisiva para os papéis de crédito da distribuidora. No ambiente macro, o tarifaço americano de 25% sobre produtos brasileiros selecionados — com vigência a partir de 22 de julho — adicionou pressão sobre o agronegócio e o BRL, com impacto estimado de US$ 11 bilhões no comércio bilateral e potencial perda de até US$ 4,5 bilhões para o setor de proteína animal. A Braskem permanece sob vigilância com reestruturação de dívida considerada inevitável pelos analistas, alavancagem projetada em 11,0x para 2027 e discussões de haircut entre 10% e 30%. O tema de data centers e demanda elétrica por IA ganhou tração adicional com IPO de empresas do setor e relatório temático do BTG. A semana também registrou movimentação jurídica/documental relevante envolvendo a Lavoro (PAP em andamento via XP). Com 27 itens de renda fixa monitorados, 23 notícias processadas, 5 reuniões realizadas e média de 39 emails/dia, o período foi de alta densidade informacional sem follow-ups pendentes formalizados, mas com diversos temas abertos que demandam acompanhamento ativo na semana seguinte.",
+  "principais_temas": [
+    {
+      "tema": "Estresse de Crédito / Recuperação Extrajudicial e Default",
+      "frequencia": 4,
+      "resumo": "Dois eventos de crédito dominaram a semana: (1) Oncoclínicas protocolou recuperação extrajudicial de R$ 5,1 bilhões, com apenas 37% de adesão inicial dos credores e proposta de haircut de até 50% — evento com implicações diretas para detentores de CRIs e debêntures do setor de saúde; (2) Cooperativa Languiru entrou em default nos CRAs, colocando a Valora Gestora em risco de perder a garantia JBS, expondo fragilidade estrutural em CRAs agro com garantias de terceiros. Ambos os eventos foram simultaneamente cobertos por múltiplos clippings (BTG, Safra), indicando relevância sistêmica.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Emissões de Debêntures — Setor de Energia e Infraestrutura",
+      "frequencia": 10,
+      "resumo": "Volume expressivo de emissões no setor de energia e infraestrutura ao longo da semana: ISA Energia (R$ 1,5 bi), Verde Transmissão (R$ 1,59 bi), Copel Distribuição (R$ 1,3 bi), Copasa (R$ 1,2 bi), Engie Brasil (R$ 700 mi), Energisa Mato Grosso (R$ 350 mi), Buriti Transmissão (volume não divulgado), Taesa (aquisição de transmissoras por R$ 1,5 bi). O pipeline de crédito do setor elétrico permanece robusto, com NTN-B 10 anos em 8,0% como referência e ERPs positivos nos principais nomes do setor.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Eneva — Resultado Operacional e Tese de Crédito/Equity",
+      "frequencia": 3,
+      "resumo": "A Eneva publicou resultado operacional do 2T26 com geração bruta de 2.537 GWh (+35% vs 2T25), impulsionada por despacho térmico no mérito (47% no Parnaíba, 60% em Jaguatirica). O Itaú BBA reiterou Outperform com alvo de R$ 32,70, argumentando que o EBITDA fixo contratado sustenta o valuation isoladamente e que o despacho térmico é uma 'free option'. O início do CRCAP 2021 da UTE Luiz Oscar e a perspectiva de COD da UTE Azulão I em 01/08/26 reforçam visibilidade de caixa. Tema central para a tese de crédito da empresa.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Enel SP — Processo de Caducidade",
+      "frequencia": 2,
+      "resumo": "A ANEEL concedeu prazo de 10 dias para a Enel SP apresentar alegações finais no processo de caducidade da concessão. Trata-se de etapa decisiva — após as alegações finais, o processo estará maduro para deliberação pelo colegiado da ANEEL. O desfecho impacta diretamente os papéis de crédito da distribuidora e deve ser monitorado como prioridade na semana seguinte.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Tarifaço EUA sobre Brasil — Impacto Macro e Agronegócio",
+      "frequencia": 5,
+      "resumo": "Os EUA anunciaram tarifa de 25% sobre importações brasileiras selecionadas (café, carne bovina, etanol), com vigência a partir de 22/07/2026. O impacto no comércio bilateral é estimado em US$ 11 bilhões. O BRL enfraqueceu ~0,58% na sessão. O setor de proteína animal pode sofrer impacto de até US$ 4,5 bilhões, com redução simultânea de embarques à China. O evento é relevante para o monitoramento de emissores de CRAs agro e debêntures de frigoríficos. Vigência começa já na próxima semana.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Braskem — Reestruturação de Dívida",
+      "frequencia": 2,
+      "resumo": "Analistas (Bradesco Corretora via AlphaSense) consolidam visão de que reestruturação é inevitável: alavancagem de 11,0x projetada para 2027, EBITDA 2026 de US$ 1,40-1,70 bi insuficiente para suportar estrutura de capital, haircuts discutidos entre 10% e 30% com conversão de dívida em equity. O ciclo petroquímico fraco é o principal driver de risco. Tema de alta relevância para detentores de bonds e debêntures da companhia.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Data Centers e Demanda Elétrica por IA",
+      "frequencia": 3,
+      "resumo": "O boom de data centers emergiu como tema transversal entre energia e tecnologia: BTG publicou thematic report 'Is the Datacenter boom coming to South America?', AlphaSense noticiou aquisição da Scala pela Vertiseit, e Valor Econômico destacou IPO de empresa de energia ligada a IA. O tema tem impacto crescente na demanda elétrica e pode gerar oportunidades em crédito de infraestrutura de dados e energia associada.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Leilão de Baterias/BESS — Regulação e Marco de Mercado",
+      "frequencia": 2,
+      "resumo": "A EPE propôs elevar garantias e restringir venda de projetos no primeiro leilão de baterias (BESS) previsto para dezembro de 2026. A confirmação do leilão representa marco regulatório para o mercado de armazenamento de energia no Brasil, com implicações para o pipeline de projetos e potenciais emissões de CRIs e debêntures de infraestrutura de energia renovável.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Oncoclínicas",
+      "mencoes": 4,
+      "contexto": "Protocolou recuperação extrajudicial para negociar R$ 5,1 bilhões em dívidas. Apenas 37% do passivo (R$ 1,9 bi) com adesão inicial. Proposta inclui haircut de até 50%. Ações fecharam em alta de 26,3% (R$ 0,96). Gestora IG4 fez oferta não vinculante de R$ 500 milhões em debêntures conversíveis. O processo é descrito como 'passando raspando' e o desafio maior começa agora.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 5,
+      "contexto": "Resultado operacional 2T26 positivo: 2.537 GWh gerados (+35% vs 2T25), despacho térmico elevado (47-60%). COD da UTE Azulão I previsto para 01/08/26. Itaú BBA reitera Outperform com alvo R$ 32,70, com tese de 'free option' no despacho térmico. Empresa com visibilidade crescente de EBITDA fixo.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Enel São Paulo",
+      "mencoes": 2,
+      "contexto": "ANEEL concedeu prazo de 10 dias para alegações finais no processo de caducidade da concessão. Processo em fase decisiva — após alegações finais, o colegiado pode deliberar sobre a caducidade. Impacto relevante sobre papéis de crédito da distribuidora.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Braskem",
+      "mencoes": 2,
+      "contexto": "Reestruturação de dívida vista como inevitável por analistas. Alavancagem estimada em 11,0x para 2027. Discussões de haircut entre 10% e 30% com conversão de dívida em equity. EBITDA 2026 projetado em US$ 1,40-1,70 bi — insuficiente para sustentar a estrutura de capital sem intervenção profunda.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Engie Brasil",
+      "mencoes": 3,
+      "contexto": "Realizou follow-on de ações de R$ 8,4 bilhões (ação a R$ 30,50, desconto de 5,7%) e pediu registro para emissão de R$ 700 milhões em debêntures. IRR de 9,4% e ERP de 1,4% na tabela BTG Utilities. Dupla movimentação equity + crédito na mesma semana.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Languiru / CRAs Agro",
+      "mencoes": 2,
+      "contexto": "Cooperativa Languiru parou de pagar CRAs, colocando a Valora Gestora em risco de perder a garantia JBS. Expõe fragilidade estrutural de CRAs agro com garantias de terceiros. Destaque simultâneo no BTG e Safra, sinalizando relevância ampla para o mercado de crédito privado agro.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "ISA Energia",
+      "mencoes": 2,
+      "contexto": "Aprovada emissão de R$ 1,5 bilhão em debêntures — uma das maiores operações do radar da semana. IRR e ERP positivos conforme tabela BTG Utilities. Empresa de transmissão com perfil de crédito relevante para o portfólio.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Lavoro",
+      "mencoes": 1,
+      "contexto": "Recebido email de Kristian Orberg (jurídico XP) com referência a PAP Lavoro, copiando Beatriz Caldas. Indica movimentação jurídica/documental em andamento. Empresa classificada como prioritária — desdobramentos a acompanhar.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Copel Distribuição",
+      "mencoes": 2,
+      "contexto": "Emissão de R$ 1,3 bilhão em debêntures iniciada. Distribuidora reportou alta de 7,3% nos volumes de energia distribuída no 2T26. Perfil operacional positivo suportando a emissão.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Taesa",
+      "mencoes": 2,
+      "contexto": "Aprovou aquisição de 5 transmissoras da Energisa por R$ 1,5 bilhão. Movimento de consolidação no setor de transmissão com impacto no perfil de crédito e alavancagem da companhia adquirente.",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Comitê de Crédito — Seguradoras (JBA/Leto Capital)",
+      "data": "14/07/2026 às 10h",
+      "impacto": "Reunião de comitê com foco em seguradoras, organizada pela JBA/Leto Capital. Sem transcrição disponível (Plaud não utilizado), o que limita o registro das deliberações. Trata-se de encontro de governança relevante cujo conteúdo não foi capturado formalmente — recomendável solicitar ata ou resumo à Leto."
+    },
+    {
+      "titulo": "Reunião Mensal — Agro Jive (Jive Mauá)",
+      "data": "14/07/2026",
+      "impacto": "Encontro recorrente de acompanhamento do pipeline agro com gestores especializados da Jive Mauá. Contexto relevante dado o default da Languiru na mesma semana e as tarifas americanas sobre agronegócio. Sem transcrição, os insights do encontro com especialistas em crédito agro não foram registrados — impacto informacional relevante perdido."
+    },
+    {
+      "titulo": "Call SF e Leto (Stocche Forbes Advogados)",
+      "data": "14/07/2026 às 15h (30 min, Microsoft Teams)",
+      "impacto": "Call entre Stocche Forbes e equipe Leto Capital. A natureza jurídica da convocação sugere discussão sobre documentação ou litígio em operação de crédito. Sem transcrição disponível. Pode ter relação com o PAP Lavoro em andamento — ponto a ser esclarecido."
+    },
+    {
+      "titulo": "Leto x Hinove",
+      "data": "14/07/2026 às 11h (Teams)",
+      "impacto": "Reunião entre Leto e Hinove. Sem transcrição e sem detalhes de pauta disponíveis. Hinove não aparece em outros contextos do período — necessário identificar se há operação de crédito associada."
+    },
+    {
+      "titulo": "Reunião de Alinhamento — Nova",
+      "data": "14/07/2026 (manhã)",
+      "impacto": "Reunião de alinhamento com pauta não detalhada. Sem transcrição do Plaud. Contexto e desdobramentos indetermináveis com as informações disponíveis."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Verde Transmissão de Energia — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Oferta de R$ 1,59 bilhão em debêntures — maior operação individual do radar da semana em volume. Setor de transmissão elétrica. Detalhes de indexador, prazo e rating não divulgados nos materiais recebidos."
+    },
+    {
+      "operacao": "ISA Energia — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 1,5 bilhão aprovada. Uma das maiores operações do período. IRR e ERP positivos conforme tabela BTG Utilities. Detalhes de prazo e indexador não disponíveis."
+    },
+    {
+      "operacao": "Copel Distribuição — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 1,3 bilhão em debêntures. Distribuidora com crescimento de 7,3% nos volumes distribuídos no 2T26. Sólido perfil operacional como suporte da emissão."
+    },
+    {
+      "operacao": "Copasa — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 1,2 bilhão em debêntures. IRR de 10,6% e ERP de 2,6% (acima da média do setor) conforme tabela BTG Utilities — prêmio atrativo relativo ao setor."
+    },
+    {
+      "operacao": "Engie Brasil — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Pedido de registro para R$ 700 milhões em debêntures. IRR de 9,4% e ERP de 1,4% (BTG Utilities). Ocorre em paralelo ao follow-on de ações de R$ 8,4 bilhões realizado na mesma semana."
+    },
+    {
+      "operacao": "Dasa — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 700 milhões em debêntures. Setor de diagnósticos e saúde — monitorar com atenção elevada dado o estresse da Oncoclínicas no mesmo segmento. Detalhes de estrutura e taxa não disponíveis."
+    },
+    {
+      "operacao": "Loga — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 450 milhões em debêntures. Empresa do setor de gestão de resíduos — perfil ESG relevante. Detalhes não disponíveis nos clippings recebidos."
+    },
+    {
+      "operacao": "JBS — Debêntures de Biodiesel",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 400 milhões destinada a biodiesel e logística. Operação relevante dado o contexto de tarifas americanas sobre o setor de proteína animal e a garantia JBS em risco no caso Languiru."
+    },
+    {
+      "operacao": "Energisa Mato Grosso — Debêntures",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 350 milhões aprovada. Operação relacionada ao grupo Energisa, que também está vendendo transmissoras para a Taesa (R$ 1,5 bi). Movimento de desinvestimento no grupo associado à captação."
+    },
+    {
+      "operacao": "Bali Brasil — Notas Comerciais",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Emissão de R$ 350 milhões em notas comerciais. Prazo e taxa não disponíveis. Empresa sem histórico identificado nos materiais da semana — necessário aprofundar due diligence."
+    },
+    {
+      "operacao": "Oncoclínicas — Debêntures Conversíveis IG4",
+      "tipo": "reestruturação / aporte",
+      "status": "em andamento",
+      "resumo": "Oferta não vinculante da IG4 de R$ 500 milhões em debêntures conversíveis como parte da negociação da recuperação extrajudicial. Ainda não vinculante — evolução do processo determinará viabilidade da operação."
+    },
+    {
+      "operacao": "Oncoclínicas — Recuperação Extrajudicial (R$ 5,1 bi)",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "37% do passivo (R$ 1,9 bi) com adesão de 4 credores. Desconto de até 50% sendo negociado. Processo descrito como crítico — etapa mais difícil começa agora. Prazo e desfecho ainda indeterminados."
+    },
+    {
+      "operacao": "Braskem — Reestruturação de Dívida",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Reestruturação vista como inevitável por analistas. Alavancagem 11,0x para 2027. Haircuts discutidos de 10-30% com conversão em equity. Processo ainda em discussão de mercado sem proposta formal divulgada."
+    },
+    {
+      "operacao": "FIDC Pravaler — Crédito Universitário II",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Bookbuilding agendado para 20/07/2026 às 10h via Itaú BBA. FIDC de crédito universitário — lembrete recebido e operação a ser avaliada na semana seguinte."
+    },
+    {
+      "operacao": "Taesa — Aquisição de 5 Transmissoras Energisa (R$ 1,5 bi)",
+      "tipo": "aquisição / M&A",
+      "status": "aprovado",
+      "resumo": "Taesa aprovou a compra de 5 transmissoras da Energisa por R$ 1,5 bilhão. Transação de consolidação setorial com impacto na alavancagem e perfil de crédito da Taesa adquirente."
+    },
+    {
+      "operacao": "Marlim Azul — 2ª Emissão de Debêntures (Rating Fitch AA(bra))",
+      "tipo": "rating / emissão",
+      "status": "concluído",
+      "resumo": "Fitch atribuiu rating AA(bra) com Perspectiva Estável à 2ª emissão de debêntures da Marlim Azul. Nota elevada na escala nacional brasileira, indicando crédito de qualidade para emissão estruturada."
+    },
+    {
+      "operacao": "Travessia Securitizadora — 26ª Emissão (Rating Moody's AAA.br)",
+      "tipo": "rating / CRI",
+      "status": "concluído",
+      "resumo": "Moody's Local Brasil atribuiu rating provisório (P) AAA.br (sf) às 1ª a 6ª séries da 26ª emissão de debêntures da Travessia Securitizadora. Estrutura de securitização de alta qualidade de crédito."
+    },
+    {
+      "operacao": "Languiru — Default em CRAs (Garantia JBS em Risco)",
+      "tipo": "default",
+      "status": "em andamento",
+      "resumo": "Cooperativa Languiru em inadimplência nos CRAs com risco de perda da garantia JBS para a Valora Gestora. Situação com potencial repercussão sistêmica para o mercado de CRAs agro com garantias de terceiros."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 5,
+    "total_emails": 195,
+    "total_followups": 0,
+    "followups_pendentes": "Embora o sistema registre zero follow-ups formalizados, há ao menos 4 temas que funcionalmente exigem acompanhamento ativo e deveriam ser convertidos em follow-ups: (1) Lavoro — PAP em andamento via XP/Kristian Orberg, sem resolução ou detalhamento do instrumento; (2) Enel SP — decisão da ANEEL sobre caducidade pendente após prazo de 10 dias para alegações finais; (3) Languiru/CRAs — evolução do processo de execução da garantia JBS pela Valora; (4) Oncoclínicas — andamento das negociações da recuperação extrajudicial e da oferta IG4.",
+    "analise": "A semana apresentou elevada carga informacional com 2 briefings, 27 itens de renda fixa e 23 notícias processados, além de 5 reuniões e média de 39 emails/dia (estimativa de ~195 emails no período de 5 dias). O volume é acima da média operacional esperada para uma semana típica, concentrado principalmente em quinta-feira (17/07) com múltiplos eventos simultâneos de crédito. O ponto crítico de eficiência é a ausência de transcrições Plaud para todas as 5 reuniões realizadas — isso representa perda significativa de registro institucional e dificulta o rastreamento de decisões e compromissos assumidos. A ausência de follow-ups formalizados apesar de múltiplos temas abertos (Lavoro, Enel SP, Languiru, Oncoclínicas) é uma lacuna de governança que deve ser corrigida. O período foi denso em alertas de crédito de alto impacto (dois eventos de estresse simultâneos), exigindo capacidade de triagem e priorização elevada. A agenda de reuniões foi concentrada no dia 14/07, o que pode ter gerado sobrecarga operacional naquela data."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Ausência de transcrições Plaud para todas as 5 reuniões da semana",
+      "desde": "Semana 15/07/2026 (reuniões de 14/07)",
+      "impacto": "Perda de registro institucional de deliberações do Comitê de Crédito de Seguradoras, da reunião mensal Agro Jive (particularmente sensível dado o default Languiru na mesma semana), da call Stocche Forbes/Leto e das demais reuniões. Impossibilidade de rastrear decisões, compromissos e insights gerados nessas interações."
+    },
+    {
+      "tema": "PAP Lavoro — conteúdo e instrumento não identificados",
+      "desde": "15/07/2026",
+      "impacto": "O email de Kristian Orberg (XP) indica movimentação jurídica/documental relevante em empresa classificada como prioritária, mas sem detalhamento do instrumento ou das ações requeridas. O não acompanhamento pode gerar perda de prazo em obrigação jurídica ou oportunidade de crédito."
+    },
+    {
+      "tema": "Enel SP — desfecho do processo de caducidade sem data definida",
+      "desde": "15/07/2026",
+      "impacto": "O prazo de 10 dias para alegações finais vence na semana de 22/07. A decisão da ANEEL sobre caducidade tem impacto direto sobre os papéis de crédito da distribuidora. A ausência de monitoramento ativo pode gerar surpresa na carteira."
+    },
+    {
+      "tema": "Languiru — risco de perda de garantia JBS sem plano de ação definido",
+      "desde": "17/07/2026",
+      "impacto": "O default da Languiru e o risco de a Valora perder a garantia JBS expõe potencial precedente para outras estruturas de CRA agro com garantias de terceiros. Sem clareza sobre os próximos passos da Valora Gestora ou exposição da carteira JGP a estruturas similares."
+    },
+    {
+      "tema": "Braskem — ausência de posicionamento formal da JGP diante da reestruturação iminente",
+      "desde": "17/07/2026",
+      "impacto": "Com reestruturação considerada inevitável pelos analistas e haircuts estimados entre 10-30%, a ausência de análise formal e posicionamento da equipe de research sobre a exposição da carteira JGP representa risco de decisão tardia em evento de crédito de grande magnitude."
+    },
+    {
+      "tema": "Reunião Leto x Hinove — pauta e desdobramentos desconhecidos",
+      "desde": "15/07/2026",
+      "impacto": "Sem transcrição e sem contexto adicional, não é possível determinar se houve compromissos assumidos, operações discutidas ou alertas gerados nessa reunião. Hinove não aparece em nenhum outro contexto do período."
+    }
+  ],
+  "proximas_prioridades": [
+    "Monitorar decisão da ANEEL sobre caducidade da Enel SP — prazo de alegações finais vence na semana de 22/07/2026; posicionar avaliação de impacto nos papéis de crédito antes do desfecho",
+    "Acompanhar e detalhar o PAP Lavoro — contatar Beatriz Caldas e/ou Kristian Orberg (XP) para entender o instrumento, prazo e ação requerida pela equipe JGP",
+    "Avaliar exposição da carteira JGP a CRAs agro com garantias de terceiros estruturalmente similares ao caso Languiru/JBS, à luz do default da cooperativa",
+    "Participar do bookbuilding do FIDC Pravaler — Crédito Universitário II, agendado para 20/07/2026 às 10h via Itaú BBA",
+    "Aprofundar análise de crédito da Braskem e formalizar posicionamento da equipe de research sobre a reestruturação iminente (alavancagem 11,0x, haircut 10-30%)",
+    "Acompanhar desdobramentos da recuperação extrajudicial da Oncoclínicas — evoluções na adesão de credores, oferta IG4 (R$ 500 mi em debêntures conversíveis) e implicações para o mercado de crédito de saúde",
+    "Implementar protocolo de uso do Plaud em reuniões — nenhuma das 5 reuniões da semana teve transcrição registrada; estabelecer responsável por garantir a captura a partir da próxima semana",
+    "Formalizar follow-ups abertos como itens rastreáveis no sistema (Lavoro, Enel SP, Languiru, Braskem, Oncoclínicas) — a ausência de follow-ups registrados não reflete a realidade dos temas pendentes",
+    "Monitorar impacto das tarifas americanas (vigência a partir de 22/07) sobre emissores de CRAs agro e debêntures de frigoríficos expostos ao comércio bilateral Brasil-EUA"
+  ]
+}
