@@ -1,0 +1,309 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 29/07 a 02/08/2026",
+  "resumo_executivo": "A semana de 29/07 a 02/08/2026 foi marcada por elevada intensidade operacional na área de Research de Crédito da JGP, com destaque absoluto para o tema de reestruturações e recuperações judiciais/extrajudiciais. O cenário de crédito corporativo brasileiro seguiu sob pressão, com Braskem e Raízen dominando a agenda — a primeira caminhando para uma potencial recuperação judicial após fracasso nas negociações com bondholders de mercado secundário, e a segunda tendo seu plano de recuperação extrajudicial homologado pelo tribunal paulista, encerrando um capítulo relevante de reestruturação de R$ 61,4 bilhões em dívidas financeiras. O Grupo Belagrícola também avançou no processo extrajudicial, com depósito de planos separados para Bela Sementes e Landco. No setor elétrico, a ANEEL abriu consultas públicas para os primeiros leilões de baterias (LRCAP) do Brasil, enquanto a disputa envolvendo a Eneva nos leilões de capacidade seguiu como ponto de atenção regulatório. A Light formalizou o cronograma de conversão de debêntures em equity, evento relevante dado que a JGP figura na lista de debenturistas. No campo macroeconômico, o Fed manteve juros mas sinalizou postura mais hawkish, com mercado precificando 65% de probabilidade de alta em setembro, pressionando a curva e levando o Tesouro Nacional a encurtar emissões de prefixados e ampliar a fatia de pós-fixados. O mercado de securitização encerrou o primeiro semestre de 2026 com R$ 80,3 bilhões em emissões de CRAs, CRIs e FIDCs, demonstrando resiliência estrutural. A semana também foi operacionalmente densa, com 11 reuniões realizadas (média de 3,7/dia), 3 briefings analisados, fluxo de 70 emails/dia e movimentos de rating relevantes em múltiplos emissores. Não há follow-ups formais registrados, o que merece atenção dado o volume de temas em aberto, especialmente Braskem, CSN e Cogna.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações e Recuperações Judiciais/Extrajudiciais",
+      "frequencia": 8,
+      "resumo": "Tema dominante da semana, com três casos simultâneos em estágios distintos: (1) Braskem em situação crítica — negociações com bondholders de mercado secundário travadas, cautelar de 60 dias vencendo em ~30 dias, RJ aceita extraoficialmente pelos controladores como alternativa, títulos externos caindo acentuadamente; (2) Raízen com plano extrajudicial homologado em 30/07, reestruturando R$ 61,4 bi em dívidas com 81,6% de adesão, conversão de 45% em ações a R$ 0,25; (3) Belagrícola com planos protocolados separadamente para Bela Sementes (R$ 464 mi, 53,18% de adesão) e Landco, solicitando stay period de 180 dias. A concentração de casos simultâneos reflete o ambiente de juros elevados e ciclo de crédito sob pressão.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico — Leilões de Capacidade (LRCAP) e Energia",
+      "frequencia": 6,
+      "resumo": "A ANEEL abriu consultas públicas (nº 22 e 23/2026) para os primeiros leilões de baterias do Brasil, previstos para dezembro de 2026 com contratos de 15 anos a partir de agosto de 2028. A disputa envolvendo a Eneva nos leilões de capacidade de termelétricas seguiu sem resolução na ANEEL. Curtailment elevado (23% eólica, 30% solar) por excesso de oferta, e risco de acionamento de termelétricas por impacto do El Niño sobre hidrelétricas. Mercado livre já atinge 41% da indústria, mas há dúvidas sobre o barateamento efetivo em 2028. Ponto de insegurança jurídica: metodologia de rateio do ERCAP ainda indefinida.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Movimentos de Rating e Mercado de Crédito",
+      "frequencia": 6,
+      "resumo": "Semana intensa em ações de rating: Moody's rebaixou CRI Casa de Pedra/Thopen Energy para CCC-.br; Fitch rebaixou Thopen Solar 07 para B(bra) com Observação Negativa; Fitch elevou Agibank para AA(bra); S&P atribuiu brAA-(sf) aos CRAs da EcoAgro/Vale do Tijuco; S&P alterou perspectiva da Positivo para negativa mantendo brA; Fitch atribuiu IDR BB ao Sicoob; Moody's atribuiu AA+.br às debêntures do Aeroporto de Natal. Adicionalmente, o spread entre CRIs de maior e menor risco caiu 26% em 3 anos, sinalizando compressão de prêmio de risco no mercado de securitização.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Cenário Macro e Estratégia de Dívida Pública",
+      "frequencia": 4,
+      "resumo": "Fed manteve juros na reunião da semana mas sinalizou maior disposição para novo aperto, com mercado precificando 65% de probabilidade de alta em setembro. A inclinação da curva de Treasuries, Brent elevado e incerteza inflacionária levaram o Tesouro Nacional a encurtar emissões de prefixados e revisar o plano de financiamento para ampliar fatia de pós-fixados (LFTs). Ambiente macro permanece desafiador para emissores com dívida em moeda estrangeira e para crédito de maior risco.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Light — Conversão de Debêntures em Equity",
+      "frequencia": 3,
+      "resumo": "A Light publicou em 30/07 os avisos formais de conversão de debêntures e exercício do BSB (Anexo E), formalizando o cronograma de conversão de dívida em equity previsto no plano de reestruturação. O email foi enviado diretamente ao RI da Gabriela El Jaick, confirmando que a JGP é detentora das debêntures. Marco relevante para o acompanhamento da posição e potencial impacto patrimonial.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Mercado de Securitização — CRAs, CRIs e FIDCs",
+      "frequencia": 3,
+      "resumo": "O mercado de securitização encerrou o 1º semestre de 2026 com R$ 80,3 bilhões em emissões, com FIDCs liderando o volume. A CRA Prime Agro (103ª emissão) realizou sua AGO. O prêmio entre CRIs de maior e menor risco caiu 26% em 3 anos. Movimento de compressão de spreads no segmento reforça a necessidade de seletividade crescente na análise de novos papéis.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Infraestrutura de Dados — Data Centers e IA",
+      "frequencia": 2,
+      "resumo": "Tema emergente com potencial de investimento relevante: projeções apontam mercado brasileiro de data centers de até US$ 92 bilhões até 2031, impulsionado por demanda de IA generativa. Incentivos regulatórios via Redata (MP 1.318/2025) em implementação. Brookfield e NextEra anunciaram campus de US$ 100 bi nos EUA; Microsoft com US$ 130 bi em contratos de leasing. BTG publicou relatório temático sobre o tema na América do Sul. Contexto relevante para avaliar emissores de infraestrutura e energia no pipeline.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "CSN — Reestruturação e Emissão Internacional",
+      "frequencia": 3,
+      "resumo": "A CSN foi mencionada em dois contextos distintos: (1) emissão de US$ 1 bilhão no exterior em meio ao processo de reestruturação, conforme Estadão; (2) inclusão na pauta da reunião interna de alinhamento de 30/07 com Cenário Macro, Braskem, Belagrícola, Vital e Enel. O conteúdo discutido internamente não foi detalhado na transcrição disponível, gerando lacuna de informação.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "Braskem",
+      "mencoes": 5,
+      "contexto": "Empresa em situação de maior urgência no período. Negociações com bondholders de mercado secundário travadas — estes ampliaram exposição via secundário e têm postura mais agressiva que os bondholders originários e bancos locais. Cautelar de 60 dias obtida em junho na 2ª Vara de Falências de SP (via Câmara Wind) está próxima do fim (~30 dias restantes, vencimento ~fim de agosto). A companhia busca extensão de 90 dias adicionais. Dívida bruta de ~R$ 50 bi, com IG4 e Petrobras como controladores. Títulos externos caíram acentuadamente no dia 30/07. RJ aceita extraoficialmente pelos controladores como alternativa. Proposta inclui guardrails básicos: restrição de dividendos, negative pledge e venda de ativos. Volumes de resinas no Brasil caíram 8% no 2T26 (YoY), pressionando geração de caixa. Pauta da reunião interna de alinhamento de 30/07.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Raízen",
+      "mencoes": 3,
+      "contexto": "Plano de recuperação extrajudicial homologado em 30/07/2026 pela 3ª Vara de Falências e RJ de SP (juíza Larissa Gaspar Tunala). Reestrutura R$ 61,4 bi em dívidas financeiras mais R$ 33,49 bi intercompany. Adesão de 81,6% dos credores quirografários. Estrutura: 45% das dívidas convertidas em ações a R$ 0,25, 55% em novos títulos, aumento de capital de até R$ 4 bi (R$ 3,5 bi Shell Brasil + possível R$ 500 mi Aguassanta/Ometto). Separação de operações de combustíveis das de energia/etanol/cana com desinvestimentos planejados. Marco de resolução relevante para o mercado de crédito.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Belagrícola",
+      "mencoes": 4,
+      "contexto": "Grupo protocolou planos separados de recuperação extrajudicial para Bela Sementes (24/07, R$ 464 mi, adesão >50% liderada por Santander R$ 211 mi e Syngenta, totalizando 53,18% dos créditos votantes) e Landco (28/07). Decisão judicial impediu consolidação de grupo. Passivo total estimado em R$ 2,2 bi com ~9.700 credores. Credores não-apoiadores sofrem deságio de 75%. Planos pedem stay period de 180 dias. Impacto de quebra de safra 2023/24, queda de preços e juros altos. Mencionada na pauta da reunião interna de 30/07.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 4,
+      "contexto": "Empresa acompanhada em dois frentes simultâneas: (1) Leilões de capacidade — ANEEL negou recurso, mas Eneva pode avançar no LRCAP 2026 com nova reviravolta (NeoFeed); convocação junto com Global (Folha); (2) Solução consensual no TCU — modelo previsto para fechamento em agosto. IRR de 10,9% e ERP de 2,6% conforme BTG Utilities Weekly. Plantas térmicas da Eneva despacharam 0,66 avgGW na semana (de total de 8,3 avgGW do setor).",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Light",
+      "mencoes": 2,
+      "contexto": "Publicou em 30/07 o Aviso formal de Conversão das Debêntures e Exercício do BSB (Anexo E). A JGP consta como debenturista na lista de destinatários do email do RI. Marco formal do processo de desalavancagem via conversão de dívida em equity previsto no plano de reestruturação. Cronograma em andamento com impacto direto na posição da JGP.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "CSN",
+      "mencoes": 3,
+      "contexto": "Emissão de US$ 1 bilhão no exterior noticiada pelo Estadão em paralelo ao processo de reestruturação em curso. Mencionada na pauta da reunião interna de 30/07 (com Braskem, Belagrícola, Vital e Enel). Conteúdo da discussão interna não disponível — lacuna relevante para acompanhamento.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 2,
+      "contexto": "Aprovação de aumento de capital de até R$ 2,1 bilhões via subscrição de novas ações com objetivo declarado de acelerar desalavancagem. Movimento positivo para o perfil de crédito da companhia, especialmente em ambiente de juros elevados. Relevante para monitoramento de spreads dos papéis de Aegea no portfólio.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Gran Coffee",
+      "mencoes": 2,
+      "contexto": "Empresa da lista prioritária da JGP. Reunião de captação com Morgan Stanley e Leto Capital realizada em 30/07 às 14h via Teams. Sem transcrição disponível para detalhar conteúdo discutido. Follow-up necessário para avaliar interesse da JGP na operação.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Enel SP",
+      "mencoes": 2,
+      "contexto": "Resultado 2T26 com sentimento neutro/negativo: EBITDA de R$ 1.163 mm (+28% YoY) e lucro líquido de R$ 215 mm (+195% YoY) operacionalmente positivos, mas receita líquida ex-construção desacelerou (+4% vs +11,7% no 2T25). Principal detrator: resultado financeiro com despesa de R$ 565 mm (+26% YoY) e dívida crescendo 32,4% YoY. FCF do semestre de -R$ 2.130 mm. Queima de capital de giro de R$ 1.795 mm no semestre, principalmente por dinâmica do CVA. Mencionada na reunião interna de 30/07.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Vital",
+      "mencoes": 1,
+      "contexto": "Incluída na pauta da reunião interna de alinhamento de 30/07 (título Plaud: 'Cenário Macro, Braskem, CSN, Bela Agrícola, Vital, Enel'). Sem detalhamento do conteúdo discutido disponível na transcrição. Necessário recuperar contexto da discussão.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Prime Agro",
+      "mencoes": 2,
+      "contexto": "AGO dos titulares da 103ª emissão de CRA realizada em 29/07 (Gabriela participou). Empresa consta na lista prioritária da JGP. Sem detalhamento do conteúdo deliberado na assembleia disponível.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Cogna",
+      "mencoes": 1,
+      "contexto": "Pauta de pré-comitê de crédito realizado em 30/07. Sem transcrição disponível com o conteúdo detalhado dos pontos discutidos. Status da análise e recomendação não identificados.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Thopen Energy / Thopen Solar",
+      "mencoes": 2,
+      "contexto": "Dois rebaixamentos de rating na semana: Moody's rebaixou CRI Casa de Pedra Securitizadora (risco Thopen Energy) para CCC-.br; Fitch rebaixou Thopen Solar 07 para B(bra) com Observação Negativa. Deterioração relevante do perfil de crédito do grupo Thopen, com impacto potencial em papéis de securitização que referenciam essas entidades.",
+      "status": "alerta"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Reunião de Alinhamento Interno (Cenário Macro, Braskem, CSN, Belagrícola, Vital, Enel)",
+      "data": "2026-07-30",
+      "impacto": "Reunião central da semana, cobrindo os principais temas de crédito em monitoramento ativo. Cinco grandes temas discutidos: cenário macro (Fed hawkish, probabilidade de 65% de alta em setembro), Braskem (situação crítica de negociação), CSN (reestruturação e emissão), Belagrícola (planos extrajudiciais) e Enel (resultado 2T26). A transcrição confirmou o conteúdo da reunião do dia seguinte (31/07). Base para alinhamento da equipe de research sobre posicionamentos e prioridades."
+    },
+    {
+      "titulo": "Pré-Comitê de Crédito — Cogna",
+      "data": "2026-07-30",
+      "impacto": "Reunião de preparação para comitê de crédito sobre Cogna. Sem transcrição disponível, o que impede avaliar os pontos discutidos, eventuais recomendações e próximos passos. Necessário recuperar ata ou resumo antes do comitê formal."
+    },
+    {
+      "titulo": "Captação MS — Gran Coffee e Leto Capital",
+      "data": "2026-07-30",
+      "impacto": "Reunião de captação com Morgan Stanley sobre Gran Coffee (empresa da lista prioritária da JGP) e Leto Capital. Realizada às 14h via Teams. Sem transcrição disponível — necessário follow-up com o MS ou internamente para avaliar a oportunidade de investimento e próximos passos da operação."
+    },
+    {
+      "titulo": "Videoconferência com Daywison Guise — Telecomunicações",
+      "data": "2026-07-30",
+      "impacto": "Call com especialista de mais de 15 anos em telecomunicações, redes de fibra óptica e infraestrutura (trajetória na FiberHome). Reunião de natureza técnica/setorial, provavelmente relacionada ao acompanhamento de V.tal ou outros emissores do setor de telecom no pipeline. Conteúdo detalhado não disponível."
+    },
+    {
+      "titulo": "CRA Prime Agro (103ª emissão) — AGO",
+      "data": "2026-07-29",
+      "impacto": "Gabriela participou da Assembleia Geral Ordinária dos titulares do CRA da Prime Agro (103ª série). Prime Agro é empresa da lista prioritária. Sem detalhamento do conteúdo deliberado — necessário registrar as deliberações e eventuais impactos na posição da JGP."
+    },
+    {
+      "titulo": "FUP Term Sheet — Rota dos Sertões",
+      "data": "2026-07-30",
+      "impacto": "Follow-up sobre term sheet da Rota dos Sertões. Indica que há uma operação em negociação ativa, mas sem detalhes do estágio atual ou pendências identificadas na transcrição. Necessário monitorar andamento."
+    },
+    {
+      "titulo": "Organização — DD Funcef",
+      "data": "2026-07-30",
+      "impacto": "Reunião de organização para due diligence da Funcef. Indica processo de DD ativo com o fundo de pensão dos funcionários da Caixa, possivelmente relacionado a mandato ou alocação. Sem detalhes de conteúdo disponíveis."
+    },
+    {
+      "titulo": "Research — Revisão Semanal de Pipe",
+      "data": "2026-07-30",
+      "impacto": "Revisão semanal do pipeline de emissões da equipe de research. Reunião recorrente essencial para priorização de análises e acompanhamento de emissões em andamento. Sem transcrição — itens do pipeline não identificados para a semana."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Raízen — Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "concluído",
+      "resumo": "Plano homologado em 30/07/2026 pela 3ª Vara de Falências de SP. Reestrutura R$ 61,4 bi em dívidas financeiras e R$ 33,49 bi intercompany. 81,6% de adesão dos credores quirografários. Conversão de 45% em ações a R$ 0,25 por ação, 55% em novos títulos. Aumento de capital de até R$ 4 bi (R$ 3,5 bi Shell + possível R$ 500 mi Aguassanta). Separação de operações de combustíveis das de energia/etanol/cana com desinvestimentos planejados."
+    },
+    {
+      "operacao": "Braskem — Negociação de Reestruturação / Risco de RJ",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Negociação travada com bondholders de mercado secundário. Cautelar de 60 dias vencendo em ~30 dias (fim de agosto). Companhia busca extensão de 90 dias adicionais. Proposta inclui capitalização com oneração de ativos, guardrails básicos. Bancos locais, debenturistas e detentores de CRA alinhados; bondholders de mercado secundário são o nó. RJ aceita extraoficialmente pelos controladores como alternativa. Títulos externos caíram acentuadamente em 30/07. Dívida bruta ~R$ 50 bi."
+    },
+    {
+      "operacao": "Belagrícola — Recuperação Extrajudicial (Bela Sementes e Landco)",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Planos protocolados separadamente: Bela Sementes em 24/07 (R$ 464 mi, 53,18% de adesão — Santander R$ 211 mi e Syngenta como apoiadores), Landco em 28/07. Passivo total do grupo ~R$ 2,2 bi, ~9.700 credores. Credores não-apoiadores: deságio de 75%. Stay period de 180 dias solicitado. Decisão judicial impediu consolidação dos planos em grupo único."
+    },
+    {
+      "operacao": "Aegea — Aumento de Capital",
+      "tipo": "capitalização",
+      "status": "em andamento",
+      "resumo": "Aumento de capital aprovado de até R$ 2,1 bilhões via subscrição de novas ações com objetivo de acelerar desalavancagem. Movimento positivo para o perfil de crédito da companhia em ambiente de juros elevados."
+    },
+    {
+      "operacao": "CSN — Emissão Internacional",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "CSN deve emitir US$ 1 bilhão no exterior em meio ao processo de reestruturação da companhia, conforme Estadão. Detalhes da estrutura, prazo e uso dos recursos não identificados nos materiais disponíveis."
+    },
+    {
+      "operacao": "Light — Conversão de Debêntures em Equity",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Aviso formal publicado em 30/07 — cronograma de conversão das debêntures e exercício do BSB (Anexo E) formalizado. JGP consta como debenturista. Marco do processo de desalavancagem da Light via equity. Cronograma específico de conversão não detalhado nos materiais disponíveis."
+    },
+    {
+      "operacao": "Gran Coffee — Captação via Morgan Stanley",
+      "tipo": "captação",
+      "status": "em andamento",
+      "resumo": "Reunião de captação com Morgan Stanley e Leto Capital realizada em 30/07 às 14h. Gran Coffee é empresa da lista prioritária da JGP. Estrutura, montante e prazo da operação não disponíveis — sem transcrição da reunião."
+    },
+    {
+      "operacao": "Rota dos Sertões — Term Sheet",
+      "tipo": "emissão",
+      "status": "em andamento",
+      "resumo": "Follow-up de term sheet em andamento. Operação em negociação ativa. Sem detalhes de estrutura, montante ou prazo disponíveis nos materiais da semana."
+    },
+    {
+      "operacao": "CRA Prime Agro — 103ª Emissão (AGO)",
+      "tipo": "gestão de ativo",
+      "status": "em andamento",
+      "resumo": "AGO dos titulares realizada em 29/07 com participação de Gabriela. Empresa prioritária da JGP. Deliberações da assembleia não registradas nos materiais disponíveis."
+    },
+    {
+      "operacao": "Bradesco — Aumento de Capital",
+      "tipo": "capitalização",
+      "status": "em andamento",
+      "resumo": "Bradesco anunciou aumento de capital de R$ 10 bilhões conforme Brazil Journal. Detalhes de estrutura (preço por ação, forma de capitalização) não disponíveis nos materiais da semana."
+    },
+    {
+      "operacao": "Leilões LRCAP — Baterias (ANEEL)",
+      "tipo": "regulatório",
+      "status": "em andamento",
+      "resumo": "ANEEL aprovou abertura de consultas públicas (nº 22 e 23/2026) para os primeiros leilões de baterias do Brasil — Leilão 05/2026 (nacional, fabricação no Brasil, verificação pelo BNDES) e 06/2026 (geral), previstos para 2 e 4 de dezembro de 2026. Contratos de 15 anos a partir de agosto de 2028, potência mínima de 30 MW, duração de 4h. Audiência pública em 1º de setembro. Metodologia do ERCAP ainda indefinida — ponto de risco jurídico."
+    },
+    {
+      "operacao": "Due Diligence Funcef",
+      "tipo": "mandato",
+      "status": "em andamento",
+      "resumo": "DD organizada em reunião de 30/07. Indica processo ativo com o fundo de pensão dos funcionários da Caixa Econômica Federal. Escopo e fase do processo não detalhados nos materiais disponíveis."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 11,
+    "total_emails": 350,
+    "total_followups": 0,
+    "followups_pendentes": "Apesar de 0 follow-ups formais registrados no sistema, identificam-se ao menos 6 temas que demandam acompanhamento ativo não formalizado: (1) Gran Coffee/Leto Capital — avaliar interesse da JGP na operação após reunião com MS; (2) Cogna — recuperar conteúdo do pré-comitê de crédito e definir próximos passos; (3) Braskem — monitorar prazo da cautelar e evolução das negociações com bondholders externos; (4) Light — registrar cronograma de conversão das debêntures e impacto na posição da JGP; (5) CRA Prime Agro AGO — registrar deliberações da assembleia; (6) Vital — recuperar contexto da discussão na reunião interna de 30/07. A ausência de follow-ups formais registrados em uma semana com este volume de temas críticos é o principal ponto de atenção de gestão.",
+    "analise": "A semana foi de alta densidade operacional, com volume de trabalho acima da média: 11 reuniões (3,7/dia), estimativa de ~350 emails no período (70/dia × 5 dias), 3 briefings completos analisados, 18 highlights mapeados e 15 itens de renda fixa monitorados. O fluxo de informação foi intenso e concentrado, especialmente nos dias 30 e 31/07. O principal gap de eficiência identificado é a ausência total de follow-ups formais registrados (0 FUPs) em uma semana com múltiplos temas críticos e abertos — Braskem, CSN, Cogna, Gran Coffee, Light e Vital exigem ação concreta nas próximas sessões. Há também lacunas de documentação relevantes: pré-comitê Cogna, reunião Gabi/Romeiro, captação Gran Coffee e AGO Prime Agro não possuem transcrições disponíveis, reduzindo a rastreabilidade das decisões tomadas. A concentração de reestruturações simultâneas (Braskem, Raízen, Belagrícola, Light, CSN) eleva o risco de dispersão de atenção e demandará priorização explícita na semana seguinte."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Braskem — Negociação com Bondholders de Mercado Secundário",
+      "desde": "2026-07-28 (rodada de negociações fracassada)",
+      "impacto": "A falta de acordo mantém o risco de migração para recuperação judicial, evento que teria impacto significativo para detentores de dívida. A cautelar vence em ~30 dias (fim de agosto), criando janela crítica de resolução. Sem avanço, o gatilho de RJ se torna iminente com impactos de precificação e liquidez nos títulos."
+    },
+    {
+      "tema": "Cogna — Conteúdo do Pré-Comitê sem Documentação",
+      "desde": "2026-07-30",
+      "impacto": "Sem transcrição ou ata da reunião de pré-comitê, não é possível identificar os pontos discutidos, posicionamento da equipe, pendências analíticas ou data do comitê formal. Risco de perda de contexto antes da deliberação final."
+    },
+    {
+      "tema": "Gran Coffee — Decisão sobre Captação Morgan Stanley sem Registro",
+      "desde": "2026-07-30",
+      "impacto": "Reunião realizada sem transcrição disponível. Empresa da lista prioritária da JGP. Sem formalização do interesse ou desinteresse na operação, há risco de perda de janela de alocação ou de comunicação inadequada com a contraparte."
+    },
+    {
+      "tema": "Vital — Contexto da Discussão Interna Não Recuperado",
+      "desde": "2026-07-30",
+      "impacto": "Menção na pauta da reunião interna sem detalhamento do conteúdo discutido. Não é possível avaliar se há risco ativo, oportunidade ou pending item para a empresa."
+    },
+    {
+      "tema": "Light — Cronograma Detalhado de Conversão de Debêntures",
+      "desde": "2026-07-30",
+      "impacto": "Aviso formal publicado mas cronograma específico (datas, proporção, mecânica de conversão) não está registrado nos materiais disponíveis. JGP é debenturista — a ausência de mapeamento detalhado pode gerar surpresas operacionais."
+    },
+    {
+      "tema": "Eneva — Resolução do TCU e Desfecho do LRCAP",
+      "desde": "semana corrente",
+      "impacto": "Dois temas pendentes simultâneos: solução consensual no TCU com modelo previsto para agosto (prazo curto) e desfecho da disputa no LRCAP 2026 na ANEEL. Ambos impactam diretamente o perfil de risco e IRR da posição em Eneva."
+    },
+    {
+      "tema": "LRCAP — Metodologia de Rateio do ERCAP Indefinida",
+      "desde": "2026-07-28 (consulta pública ANEEL)",
+      "impacto": "A insegurança jurídica sobre o rateio do encargo de reserva de capacidade pode inibir participação de emissores relevantes nos leilões de dezembro ou gerar contingência regulatória pós-leilão. Relevante para análise de crédito de projetos de armazenamento."
+    }
+  ],
+  "proximas_prioridades": [
+    "URGENTE — Braskem: Monitorar diariamente o prazo da cautelar (vencimento ~fim de agosto) e evolução das negociações com bondholders de mercado secundário; preparar análise de cenários (RJ vs. extrajudicial) com impacto estimado nas posições da JGP.",
+    "URGENTE — Light: Mapear detalhadamente o cronograma de conversão das debêntures e exercício do BSB; calcular impacto patrimonial para a posição da JGP e alinhar internamente o tratamento contábil e de risco.",
+    "Cogna: Recuperar conteúdo do pré-comitê de crédito de 30/07; confirmar data do comitê formal e preparar documentação analítica necessária.",
+    "Gran Coffee: Agendar follow-up interno pós-reunião Morgan Stanley para avaliar interesse da JGP na operação de captação e comunicar posicionamento ao MS/Leto Capital.",
+    "Vital: Recuperar contexto completo da discussão na reunião interna de 30/07 com Alexandre Romeiro; avaliar se há ação pendente ou monitoramento ativo necessário.",
+    "Eneva: Acompanhar fechamento do modelo de solução consensual no TCU (previsto para agosto) e desfecho da disputa no LRCAP 2026 na ANEEL — ambos com prazo iminente.",
+    "Belagrícola: Monitorar aceitação dos planos extrajudiciais pela Justiça do Paraná e posição dos credores não-apoiadores; avaliar exposição direta ou indireta da JGP.",
+    "CSN: Recuperar conteúdo da discussão interna de 30/07; avaliar estrutura e pricing da emissão de US$ 1 bi no exterior no contexto da reestruturação em curso.",
+    "Formalizar follow-ups críticos: Registrar no sistema os ao menos 6 temas identificados como pendentes não formalizados — risco de dispersão de atenção dada a simultaneidade de reestruturações ativas.",
+    "Preparar agenda para audiência pública ANEEL sobre LRCAP (1º de setembro): levantar posicionamento da JGP sobre metodologia do ERCAP e eventuais emissores impactados pelo leilão.",
+    "Rota dos Sertões: Verificar estágio atual do term sheet e próximos passos da negociação.",
+    "Due Diligence Funcef: Consolidar escopo e cronograma do processo de DD; definir responsáveis e deliverables internos."
+  ]
+}
