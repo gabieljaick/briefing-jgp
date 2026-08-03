@@ -2,6 +2,12 @@
   "reviews": [
     {
       "tipo": "weekly",
+      "periodo": "Semana 29/07 a 02/08/2026",
+      "filename": "review_weekly_20260803_0901.json",
+      "generated_at": "2026-08-03T09:01:59.054492"
+    },
+    {
+      "tipo": "weekly",
       "periodo": "Semana 15/07 a 19/07/2026",
       "filename": "review_weekly_20260720_0859.json",
       "generated_at": "2026-07-20T08:59:34.177440"
