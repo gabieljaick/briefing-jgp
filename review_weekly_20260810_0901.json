@@ -1,0 +1,354 @@
+{
+  "tipo_review": "weekly",
+  "periodo": "Semana 05/08 a 09/08/2026",
+  "resumo_executivo": "A semana de 05 a 09 de agosto de 2026 foi marcada por elevada densidade de informação e eventos críticos para o mercado de crédito privado brasileiro. O tema dominante foi o estresse financeiro em grandes corporações, com a Raízen formalizando plano de recuperação extrajudicial para renegociar R$ 61,4 bilhões em dívidas — o maior evento de reestruturação da semana —, enquanto a CSN avançou para a reta final do desinvestimento da unidade de Cimentos, com propostas acima de R$ 15 bilhões e aproximação do quórum para acordo de reestruturação de dívida. No setor de saúde, Oncoclínicas e Alliança Saúde protagonizaram novos capítulos em suas respectivas recuperações extrajudiciais, reforçando o padrão de estresse sistêmico no segmento. No setor elétrico, a semana foi igualmente densa: a Eneva iniciou operação comercial da UTE Azulão I, o primeiro leilão de baterias (BESS) registrou números recordes de projetos cadastrados, o governo federal reduziu a geração hídrica por conta do El Niño, e o ONS emitiu alerta de contingência para gerenciar excedentes de geração renovável no Dia dos Pais. O tema de data centers ganhou relevância crescente, com 7.040 MW já selecionados na rodada PNAST/ONS e investimentos de R$ 159 bilhões estimados. No mercado de capitais de dívida, o pipeline de emissões manteve-se robusto, com destaques para o bond de US$ 350 milhões da Alloha, o financiamento de R$ 300 milhões da Jalles com BNDES e múltiplas atribuições de rating por S&P, Fitch e Moody's. A semana também concentrou volume expressivo de reuniões — 17 no total, média de 5,7 por dia —, incluindo o encontro presencial com a Fitch para apresentação da metodologia global de corporates, comitês de crédito (BBM Logística e Crédito Imobiliário) e reunião com o consórcio da Rota dos Sertões. A ausência de follow-ups formalizados, dado o volume de eventos, é um ponto de atenção para a semana seguinte.",
+  "principais_temas": [
+    {
+      "tema": "Reestruturações e Recuperações Extrajudiciais",
+      "frequencia": 6,
+      "resumo": "A semana concentrou ao menos quatro processos simultâneos de reestruturação: Raízen (RE com R$ 61,4 bi em dívidas, conversão de 45% em ações e cisão operacional prevista para 2027), CSN (aproximação do quórum para acordo de dívida), Oncoclínicas (RE aceita pela Justiça de SP, passivo de R$ 5,1 bi, blindagem de 180 dias) e Alliança Saúde (RE com dívida de R$ 1,1 bi e proposta de conversão enquanto busca comprador). O ambiente de estresse é sistêmico e afeta diretamente o portfólio de crédito monitorado.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Elétrico — BESS, Hidrologia e Geração Distribuída",
+      "frequencia": 7,
+      "resumo": "O setor elétrico dominou o fluxo informacional da semana sob três ângulos: (1) o leilão de baterias (BESS) com 10.030 projetos inscritos e 542.411 MW cadastrados, regulamentação do encargo sendo finalizada pela ANEEL antes de dezembro; (2) a redução da geração hídrica pelo governo em resposta ao El Niño, com reservatórios projetados em 66,9% ao final de agosto e curtailment de julho em 23% (eólica) e 30% (solar); (3) o alerta do ONS para ativação de plano emergencial de gestão de excedentes de MMGD em 9/ago (Dia dos Pais). A Eneva recebeu autorização para operar a UTE Azulão I e sinalizou adição de 800 MW ao portfólio.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "CSN Cimentos — Processo de Venda",
+      "frequencia": 4,
+      "resumo": "A venda da CSN Cimentos entrou na semana decisiva com prazo de ofertas vinculantes em 7/ago. A empresa busca ao menos R$ 15 bilhões, com a Huaxin liderando (proposta de ~R$ 12 bi) e o consórcio Votorantim+Cementir oferecendo ~R$ 10 bi. A operação é condicionante de um empréstimo de US$ 1,2 bi da Morgan Stanley para evitar default. A Fitch rebaixou CRIs da Riza lastreados em risco CSN Cimentos para 'CCC+sf(bra)'. Em paralelo, a Bloomberg Linea reportou que a CSN se aproxima do quórum para acordo de reestruturação da dívida corporativa.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Data Centers e Demanda de Energia",
+      "frequencia": 3,
+      "resumo": "O crescimento de data centers impulsionado por IA e cloud computing emerge como tema estrutural relevante para o setor de energia. Na primeira rodada de 2026 da PNAST/ONS, data centers representaram 38 das 43 aplicações, totalizando 7.040 MW e R$ 159 bi em investimentos estimados. Projetos em destaque: Ascenty (PPA com Casa dos Ventos, 110 MW médio, R$ 2,5 bi) e Scala (AI City em Eldorado do Sul/RS, R$ 3 bi iniciais, potencial de 4.750 MW). O BTG publicou relatório temático dedicado ao tema.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Pipeline de Emissões — Mercado Doméstico e Externo",
+      "frequencia": 8,
+      "resumo": "O mercado primário de dívida manteve ritmo robusto: bond de US$ 350 mi da Alloha (Giga Mais Fibra) colocado no mercado externo; revolving credit facility de US$ 2,65 bi da JBS com vencimento em 2031; financiamento de R$ 300 mi da Jalles com BNDES; emissões mapeadas de Loga (R$ 450 mi), IHS Brasil (R$ 400 mi), entre outras. Agências de rating ativas: Fitch atribuiu 'AAAsf(bra)' à Vert (risco J&F), 'AA-(bra)' à Pague Menos e afirmou Samarco em 'B'; S&P atribuiu 'brAAA' à YDUQS e 'brAA+' à Movida; Moody's elevou Unidas para 'AA+.br' e Bemol para 'A-.br'. S&P alterou perspectiva da Cemig de positiva para estável.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Aegea — Reestruturação e Performance de Crédito",
+      "frequencia": 3,
+      "resumo": "A Aegea apareceu em múltiplas fontes ao longo da semana: redução de prejuízo no 2T26, avanço no plano de reestruturação financeira e desempenho robusto dos bonds no mercado secundário (compressão de spreads). A empresa é prioritária na cobertura e deve ter os resultados completos do 2T26 monitorados.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Setor Agro — Custo de Dívida e CRAs de Proteínas",
+      "frequencia": 3,
+      "resumo": "Dois vetores relevantes para o agro: (1) empresas de middle market captam em mediana a CDI+4,7%, acima de saúde, varejo e saneamento, com inadimplência no crédito rural prevista para subir; (2) relatório temático do Santander (Francisco Lobo) sobre reprecificação dos CRAs de proteínas, avaliando a abertura de spreads no segmento. A Minerva tem preview do 2T26 previsto para 12/ago com EBITDA esperado de R$ 1,27 bi, mas perspectiva mais desafiadora no 2S26 após preenchimento da cota de exportação para a China.",
+      "status": "em andamento"
+    },
+    {
+      "tema": "Regulação e Marco Regulatório — ANEEL, ONS e Mercado de Capitais",
+      "frequencia": 4,
+      "resumo": "A ANEEL pautou para 11/ago (última reunião do mandato do diretor Fernando Mosna) o processo da Enel SP e a situação da TermoG no LRCAP 2026. O Diretor-Geral Sandoval Feitosa confirmou que a regulamentação do encargo de BESS será concluída antes dos leilões de dezembro. No mercado de capitais: patrimônio de ETFs de renda fixa supera renda variável pela 1ª vez no Brasil; Tesouro Nacional planeja emissão de panda bonds em 2026.",
+      "status": "em andamento"
+    }
+  ],
+  "empresas_destaque": [
+    {
+      "empresa": "CSN / CSN Cimentos",
+      "mencoes": 5,
+      "contexto": "Semana decisiva para a venda da unidade de cimentos, com prazo de ofertas vinculantes em 7/ago e alvo de R$ 15 bi. Huaxin lidera com ~R$ 12 bi. Operação condicionante de empréstimo de US$ 1,2 bi da Morgan Stanley. Fitch rebaixou rating do grupo para CCC e CRIs da Riza lastreados em risco CSN para 'CCC+sf(bra)'. Paralelamente, Bloomberg Linea reportou aproximação do quórum para acordo de reestruturação de dívida corporativa.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Raízen",
+      "mencoes": 3,
+      "contexto": "Formalizou plano de recuperação extrajudicial para renegociar R$ 61,4 bi em dívidas. Credores e debenturistas converterão ~45% da dívida em novas ações. Shell injetará R$ 3,5 bi em capital novo recebendo 14 bi de ações a R$ 0,25/ação. Cisão operacional entre Açúcar/Etanol e Distribuição prevista para até final de 2027. Alta diluição de minoritários. Ativo migrou para classificação distressed.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Aegea",
+      "mencoes": 4,
+      "contexto": "Reduziu prejuízo no 2T26 e avança no plano de reestruturação financeira. Bonds apresentam desempenho robusto no mercado secundário com compressão de spreads. Empresa prioritária na cobertura — aguardar divulgação completa dos resultados e comunicados de RI sobre o plano de reestruturação.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Oncoclínicas",
+      "mencoes": 2,
+      "contexto": "Justiça de SP aceitou o pedido de recuperação extrajudicial. A decisão não homologa o plano, mas autoriza a fase de negociação com credores, com blindagem de execução de dívidas por 180 dias. Passivo total de R$ 5,1 bi.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "Eneva",
+      "mencoes": 2,
+      "contexto": "Recebeu autorização da ANEEL para iniciar operação comercial da UTE Azulão I (Silves/AM), abastecida por gás da Bacia do Amazonas. Obteve sinalização regulatória positiva que pode destravar adição de 800 MW ao portfólio.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Alloha / Giga Mais Fibra",
+      "mencoes": 3,
+      "contexto": "Emitiu bond de US$ 350 mi no mercado externo via Giga Mais Fibra Telecomunicações S.A. (antiga Sumicity). Trade idea também circulou no mercado local. eB Capital reportada em conversas com a companhia. Nova emissão bem-sucedida em contexto de retomada de emissões externas por empresas brasileiras.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Alliança Saúde",
+      "mencoes": 2,
+      "contexto": "Protocolou pedido de recuperação extrajudicial com dívidas totais de R$ 1,1 bi. Propõe conversão de dívida e busca comprador para a companhia. Caso relevante para monitoramento do estresse no setor de saúde.",
+      "status": "alerta"
+    },
+    {
+      "empresa": "JBS",
+      "mencoes": 2,
+      "contexto": "Assinou nova revolving credit facility de US$ 2,65 bi com vencimento em 2031 (Sexta Emenda ao Credit Agreement). Preview 2T26 da Minerva (divulgação 12/ago) indica expectativa de receita líquida de R$ 14,6 bi com EBITDA de R$ 1,27 bi, mas perspectiva desafiadora no 2S26.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Minerva",
+      "mencoes": 2,
+      "contexto": "Preview 2T26 pelo Bradesco BBI aponta receita líquida de R$ 14,6 bi (+5% YoY), EBITDA de R$ 1,27 bi (-3% YoY; margem 8,7%) e lucro líquido de R$ 203 mi. Brasil como principal driver via exportações para China. Cenário mais desafiador no 2S26 após preenchimento da cota de exportação. Resultado a ser divulgado em 12/ago.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Highline do Brasil",
+      "mencoes": 2,
+      "contexto": "Reunião de update Highline x Leto realizada em 06/ago. Gabriela enviou consulta via CVM a Daniel Lafer (CFO da Highline) em contexto pré-reunião. Desdobramentos da reunião sem transcrição disponível.",
+      "status": "normal"
+    },
+    {
+      "empresa": "Creditas",
+      "mencoes": 1,
+      "contexto": "Reportou resultado 2Q26 com originações recordes de R$ 1,14 bi (+34% a/a) pelo terceiro trimestre consecutivo e melhora de alavancagem operacional. Desempenho positivo no segmento de crédito digital.",
+      "status": "positivo"
+    },
+    {
+      "empresa": "Copel",
+      "mencoes": 2,
+      "contexto": "Presidente declarou que a empresa não vê vantagem competitiva no leilão de BESS, citando competição acirrada e retornos abaixo das expectativas. Foca em usinas reversíveis e adicionou R$ 5 bi em investimentos via leilão de reserva de capacidade de março.",
+      "status": "normal"
+    }
+  ],
+  "reunioes_relevantes": [
+    {
+      "titulo": "Leto Capital & Fitch — Apresentação Metodologia Global de Corporates",
+      "data": "05/08/2026 (16h, presencial Rio — Rua Humaitá 275, 11º andar)",
+      "impacto": "A Fitch apresentou as principais mudanças e updates da sua Metodologia Global de Corporates. Catarina Oltramar enviou links para acesso à documentação após a reunião. Participação de Gabriela El Jaick, Nikolau Muller, Julia Bretz, Gisele Silva e Antonio Pedro Leão Teixeira. Impacto direto nos critérios de análise de crédito corporativo utilizados internamente — recomenda-se que a equipe atualize os modelos de avaliação com base na nova metodologia."
+    },
+    {
+      "titulo": "Comitê de Crédito — BBM Logística",
+      "data": "06/08/2026 (10h)",
+      "impacto": "Comitê formal de crédito organizado pelo JBA para deliberação sobre a BBM Logística. Sem transcrição Plaud disponível — decisões e direcionamentos tomados na reunião não foram capturados. Requer follow-up para registro das deliberações."
+    },
+    {
+      "titulo": "Rota dos Sertões | Leto <> Consórcio",
+      "data": "06/08/2026 (14h)",
+      "impacto": "Reunião com consórcio da Rota dos Sertões organizada pela Vallya (Lucas Tanihira) com múltiplos representantes. Seguida de sessão de alinhamento interno às 15h45. Sem transcrição disponível. Ativo em análise ativa — requer registro das discussões e próximos passos definidos com o consórcio."
+    },
+    {
+      "titulo": "Pré-Comitê de Crédito — Crédito Imobiliário",
+      "data": "06/08/2026 (15h)",
+      "impacto": "Reunião preparatória para comitê formal de crédito imobiliário organizada pelo JBA. Sem transcrição Plaud. Deliberações e parecer preliminar da equipe de research não capturados — requer follow-up para formalização das conclusões."
+    },
+    {
+      "titulo": "Update Highline x Leto",
+      "data": "06/08/2026",
+      "impacto": "Reunião de atualização do relacionamento com Highline do Brasil. Gabriela havia enviado consulta via CVM ao CFO Daniel Lafer em contexto pré-reunião. Sem transcrição Plaud disponível — conclusões e encaminhamentos não capturados. Potencial implicação regulatória dado o uso de consulta via CVM."
+    },
+    {
+      "titulo": "Discussão sobre Estrutura Societária — Mota em Gil",
+      "data": "05/08/2026 (17h46, capturado via Plaud)",
+      "impacto": "Discussão descrita como envolvendo estrutura societária 'bem complexa' da Mota em Gil. Reunião capturada via Plaud mas sem correspondente no calendário formal. Sugere análise de crédito em curso para possível operação ou monitoramento de ativo existente."
+    },
+    {
+      "titulo": "Almoço | XP Institucional & Leto Capital",
+      "data": "06/08/2026 (12h, presencial)",
+      "impacto": "Reunião de relacionamento institucional entre equipes da XP e Leto Capital, organizada por Augusto Moraes (XP). Sem transcrição disponível. Potencial para alinhamento sobre operações de distribuição ou originação conjunta."
+    },
+    {
+      "titulo": "Pipe — Vertical Esporte / Entretenimento",
+      "data": "06/08/2026 (16h30)",
+      "impacto": "Reunião de pipeline para nova vertical de Esporte e Entretenimento. Indica exploração de nova frente de originação pela Leto. Sem detalhes de ativos ou operações discutidas disponíveis."
+    }
+  ],
+  "pipeline_credito": [
+    {
+      "operacao": "Alloha / Giga Mais Fibra — Senior Secured Bond",
+      "tipo": "emissão externa",
+      "status": "concluído",
+      "resumo": "Bond de US$ 350 milhões colocado com sucesso no mercado externo via Giga Mais Fibra Telecomunicações S.A. (antiga Sumicity). Alloha é uma das maiores operadoras independentes de FTTH do Brasil. Trade idea também circulou no mercado local. eB Capital em conversas com a companhia."
+    },
+    {
+      "operacao": "JBS — Revolving Credit Facility",
+      "tipo": "refinanciamento / facility bancária",
+      "status": "concluído",
+      "resumo": "JBS N.V. assinou Sexta Emenda ao Credit Agreement, estabelecendo nova revolving credit facility de US$ 2,65 bilhões com vencimento em 2031, reforçando a liquidez do grupo."
+    },
+    {
+      "operacao": "Jalles — Financiamento BNDES",
+      "tipo": "financiamento bilateral",
+      "status": "aprovado / em contratação",
+      "resumo": "Conselho de administração aprovou em 31/jul contratação de financiamento de R$ 300 milhões junto ao BNDES. Operação com condições a serem detalhadas nos comunicados subsequentes."
+    },
+    {
+      "operacao": "Loga — Debêntures",
+      "tipo": "emissão doméstica",
+      "status": "em andamento",
+      "resumo": "Loga anuncia emissão de R$ 450 milhões em debêntures conforme radar do Safra Credit Research para agosto de 2026."
+    },
+    {
+      "operacao": "IHS Brasil — Debêntures",
+      "tipo": "emissão doméstica",
+      "status": "em andamento",
+      "resumo": "IHS Brasil inicia emissão de R$ 400 milhões em debêntures conforme radar do Safra Credit Research para agosto de 2026."
+    },
+    {
+      "operacao": "Raízen — Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Plano de RE para renegociar R$ 61,4 bi em dívidas. Conversão de ~45% da dívida em ações. Shell injeta R$ 3,5 bi em capital. Cisão operacional prevista até fim de 2027. Ativo classificado como distressed."
+    },
+    {
+      "operacao": "CSN — Reestruturação de Dívida + Venda de Cimentos",
+      "tipo": "reestruturação + desinvestimento",
+      "status": "em andamento",
+      "resumo": "Grupo CSN avança em duas frentes simultâneas: (1) venda da CSN Cimentos por ao menos R$ 15 bi, com Huaxin na liderança e prazo de propostas em 7/ago; (2) aproximação do quórum para acordo de reestruturação de dívida corporativa. Operação de venda é condicionante de empréstimo de US$ 1,2 bi da Morgan Stanley."
+    },
+    {
+      "operacao": "Oncoclínicas — Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Justiça de SP aceitou o pedido de RE. Empresa entra em fase de negociação com credores, blindada de execuções por 180 dias. Passivo total de R$ 5,1 bi."
+    },
+    {
+      "operacao": "Alliança Saúde — Recuperação Extrajudicial",
+      "tipo": "reestruturação",
+      "status": "em andamento",
+      "resumo": "Protocolou pedido de RE com dívidas de R$ 1,1 bi. Propõe conversão de dívida e busca comprador para a companhia simultaneamente."
+    },
+    {
+      "operacao": "Fitch — Rating 'AAAsf(bra)' Debêntures Vert (risco J&F)",
+      "tipo": "rating / emissão estruturada",
+      "status": "concluído",
+      "resumo": "Fitch atribuiu 'AAAsf(bra)' às séries seniores da 42ª emissão de debêntures da Vert com risco J&F, na escala nacional brasileira."
+    },
+    {
+      "operacao": "S&P — Rating 'brAAA' Debêntures YDUQS (13ª emissão)",
+      "tipo": "rating / emissão",
+      "status": "concluído",
+      "resumo": "S&P atribuiu 'brAAA' à 13ª emissão de debêntures senior unsecured da YDUQS, com rating de recuperação 'br3'."
+    },
+    {
+      "operacao": "Moody's — Elevação de Rating Unidas para AA+.br",
+      "tipo": "ação de rating",
+      "status": "concluído",
+      "resumo": "Moody's Local Brasil elevou ratings da Unidas para AA+.br com perspectiva estável, sinalizando melhora no perfil de crédito da locadora."
+    },
+    {
+      "operacao": "Fitch — Rating 'AA-(bra)' Debêntures Pague Menos (9ª emissão)",
+      "tipo": "rating / emissão",
+      "status": "concluído",
+      "resumo": "Fitch atribuiu 'AA-(bra)' à proposta de 9ª emissão de debêntures da Pague Menos."
+    },
+    {
+      "operacao": "S&P — Rating 'brAA+' Debêntures Movida (28ª emissão)",
+      "tipo": "rating / emissão",
+      "status": "concluído",
+      "resumo": "S&P atribuiu 'brAA+' à 28ª emissão de debêntures da Movida com rating de recuperação 'br3 (60%)'."
+    },
+    {
+      "operacao": "Fitch — Afirmação Samarco em 'B' e Rebaixamento do Rating Nacional",
+      "tipo": "ação de rating",
+      "status": "concluído",
+      "resumo": "Fitch afirmou rating global da Samarco em 'B' e rebaixou o rating nacional para corrigir erro anterior, mantendo perspectiva positiva."
+    },
+    {
+      "operacao": "Moody's — Elevação de Rating Bemol para A-.br",
+      "tipo": "ação de rating",
+      "status": "concluído",
+      "resumo": "Moody's Local Brasil elevou rating da Bemol para 'A-.br' com perspectiva positiva, refletindo melhora na avaliação de crédito."
+    },
+    {
+      "operacao": "S&P — Alteração de Perspectiva da Cemig para Estável",
+      "tipo": "ação de rating",
+      "status": "concluído",
+      "resumo": "S&P alterou perspectiva da nota global da Cemig de positiva para estável, citando melhora limitada das métricas de crédito no curto prazo."
+    },
+    {
+      "operacao": "Fitch — Rebaixamento CRIs Riza (risco CSN Cimentos) para 'CCC+sf(bra)'",
+      "tipo": "ação de rating / CRI",
+      "status": "concluído",
+      "resumo": "Fitch rebaixou CRIs da Riza lastreados em risco CSN Cimentos para 'CCC+sf(bra)', refletindo o grau de atenção do mercado à conclusão do processo de venda da unidade."
+    },
+    {
+      "operacao": "Itaú — MegaFiagro de ~R$ 5 bilhões",
+      "tipo": "estruturação de fundo / fiagro",
+      "status": "em andamento",
+      "resumo": "Itaú está estruturando fundo de fiagro de quase R$ 5 bilhões, replicando estratégia de fundos de infraestrutura. Monitorar para avaliação de impacto no mercado de crédito agro."
+    },
+    {
+      "operacao": "Tesouro Nacional — Panda Bonds",
+      "tipo": "emissão soberana / mercado externo",
+      "status": "em andamento",
+      "resumo": "Tesouro Nacional sinalizou intenção de emitir panda bonds (títulos em renminbi no mercado chinês) ainda em 2026, sujeito a condições de mercado."
+    }
+  ],
+  "eficiencia": {
+    "total_reunioes": 17,
+    "total_emails": 335,
+    "total_followups": 0,
+    "followups_pendentes": "Identificados como pendentes de formalização: (1) Deliberações do Comitê de Crédito BBM Logística — sem registro das decisões tomadas; (2) Deliberações do Pré-Comitê de Crédito Imobiliário — sem formalização do parecer preliminar; (3) Encaminhamentos da reunião Rota dos Sertões (Leto x Consórcio) — próximos passos não registrados; (4) Desdobramentos da reunião Highline x Leto — incluindo resposta à consulta via CVM; (5) Análise da estrutura societária Mota em Gil — conclusões da reunião Plaud não formalizadas; (6) Monitoramento de resultados 2T26 da Aegea — divulgação completa pendente; (7) Resultado 2T26 da Minerva — divulgação em 12/ago, requer análise pós-release; (8) Validação interna das mudanças na Metodologia Global de Corporates da Fitch apresentadas em 05/ago.",
+    "analise": "A semana foi de alta intensidade operacional: 17 reuniões em 4 dias úteis efetivos (média de 5,7/dia) representam carga acima do padrão sustentável para uma equipe de research de crédito com função analítica. O volume de emails — estimado em 335 para a semana (67/dia x 5 dias) — reforça a pressão informacional. A cobertura de temas foi ampla e diversificada, com destaque para a qualidade dos briefings produzidos (3 briefings, 17 highlights, 42 notícias e 28 itens de renda fixa processados). O ponto crítico da semana é a ausência total de follow-ups formalizados (0 registrados), apesar de pelo menos 8 ações identificáveis como pendentes. A maioria das reuniões críticas — comitês de crédito, encontro com consórcio da Rota dos Sertões, update Highline — não possui transcrição Plaud disponível, criando risco de perda de informação decisória. Recomenda-se priorizar, na semana seguinte, a captura e formalização dos encaminhamentos dessas reuniões antes que o distanciamento temporal comprometa a memória das deliberações."
+  },
+  "problemas_nao_resolvidos": [
+    {
+      "tema": "Deliberações de comitês de crédito sem registro formal (BBM Logística e Crédito Imobiliário)",
+      "desde": "06/08/2026",
+      "impacto": "Risco de perda de memória das decisões tomadas em fóruns formais de crédito, potencialmente comprometendo rastreabilidade de aprovações e condicionantes estabelecidos. Impacto na governança do processo de investimento."
+    },
+    {
+      "tema": "Ausência de transcrição/registro das reuniões Rota dos Sertões e Highline x Leto",
+      "desde": "06/08/2026",
+      "impacto": "Próximos passos com o consórcio da Rota dos Sertões e desdobramentos da consulta via CVM à Highline não capturados. Risco de desalinhamento interno e descontinuidade no acompanhamento de ativos em análise."
+    },
+    {
+      "tema": "Estrutura societária Mota em Gil — análise pendente de conclusão e formalização",
+      "desde": "05/08/2026",
+      "impacto": "Reunião Plaud indica complexidade da estrutura. Sem formalização das conclusões, a análise de crédito ou due diligence relacionada à Mota em Gil fica incompleta, podendo atrasar decisão de investimento ou monitoramento."
+    },
+    {
+      "tema": "Venda CSN Cimentos — desfecho ainda não confirmado",
+      "desde": "05/08/2026",
+      "impacto": "Prazo de propostas era 7/ago. Resultado ainda não confirmado nas fontes disponíveis. A conclusão (ou não conclusão) da venda é condicionante do empréstimo de US$ 1,2 bi da Morgan Stanley e determinante para o rating do grupo. A Leto precisa monitorar o desfecho para reavaliação de posições e ratings dos CRIs afetados."
+    },
+    {
+      "tema": "Raízen — avaliação de impacto em portfólio de debêntures e bonds",
+      "desde": "05/08/2026",
+      "impacto": "A formalização do plano de recuperação extrajudicial transforma a Raízen em ativo distressed. Detentores de debêntures e bonds precisam avaliar o impacto do plano de conversão de 45% da dívida em ações. Não há registro de análise interna de impacto no portfólio da Leto."
+    },
+    {
+      "tema": "Regulamentação do encargo de BESS — prazo de conclusão pela ANEEL indefinido",
+      "desde": "07/08/2026",
+      "impacto": "ANEEL confirmou que concluirá a regulamentação antes dos leilões de dezembro, mas sem data específica. A incerteza regulatória é o principal fator de risco para os projetos cadastrados (542.411 MW) e para a segurança jurídica dos contratos de 15 anos dos vencedores."
+    },
+    {
+      "tema": "Plano emergencial ONS para geração MMGD em 9/ago — resultado não capturado",
+      "desde": "07/08/2026",
+      "impacto": "O ONS emitiu alerta para possível ativação do plano de contingência para o Dia dos Pais (9/ago). A programação final seria definida no sábado 8/ago. O resultado real do evento (se houve ativação, volume gerenciado, impacto nas distribuidoras) não foi capturado dentro do período do review."
+    },
+    {
+      "tema": "Integração das mudanças da Metodologia Global de Corporates da Fitch nos modelos internos",
+      "desde": "05/08/2026",
+      "impacto": "A Fitch apresentou as principais mudanças metodológicas em 05/ago. Catarina Oltramar enviou os links para a documentação, mas não há registro de que a equipe tenha iniciado a revisão e adaptação dos critérios internos de análise. A ausência de atualização metodológica pode gerar inconsistências nas análises de crédito corporativo."
+    }
+  ],
+  "proximas_prioridades": [
+    "Acompanhar e registrar o desfecho da venda da CSN Cimentos (prazo era 7/ago) — confirmar o vencedor, valor final e impacto imediato nos ratings do grupo e dos CRIs da Riza; reavaliar posições expostas ao risco CSN",
+    "Analisar o resultado completo do 2T26 da Aegea assim que divulgado — avaliar se a melhora de crédito sinalizada pelos bonds no secundário é sustentada pelos fundamentos e pelo plano de reestruturação",
+    "Formalizar análise de impacto da recuperação extrajudicial da Raízen no portfólio da Leto — mapear exposição em debêntures e bonds, modelar cenários do plano de conversão de 45% da dívida em ações e da cisão operacional prevista para 2027",
+    "Acompanhar divulgação do 2T26 da Minerva em 12/ago e produzir análise de crédito pós-release, com foco na dinâmica de exportações para a China e no cenário mais desafiador do 2S26",
+    "Formalizar os encaminhamentos das reuniões sem registro: Comitê de Crédito BBM Logística, Pré-Comitê de Crédito Imobiliário, Rota dos Sertões (Leto x Consórcio) e Highline x Leto — contatar responsáveis para capturar as deliberações antes que o distanciamento temporal comprometa a memória das decisões",
+    "Revisar a análise da estrutura societária da Mota em Gil com base nos insumos da reunião Plaud de 05/ago e definir próximo passo (aprovação para pipeline, monitoramento ou descarte)",
+    "Integrar as mudanças da Metodologia Global de Corporates da Fitch (apresentada em 05/ago) nos critérios e modelos internos de análise de crédito corporativo — designar responsável e prazo",
+    "Monitorar a conclusão da regulamentação do encargo de BESS pela ANEEL e acompanhar os desdobramentos da reunião do colegiado de 11/ago (última de Fernando Mosna), incluindo processo da Enel SP e situação da TermoG no LRCAP 2026",
+    "Avaliar impacto do El Niño na geração hídrica e no setor elétrico — acompanhar evolução dos reservatórios (projetados em 66,9% ao final de agosto) e os preços spot e DCIDE, com atenção especial a emissores do portfólio com geração hidrelétrica",
+    "Criar e formalizar sistema de registro de follow-ups para a semana — a semana encerrou com 0 follow-ups registrados apesar de ao menos 8 ações identificáveis como pendentes, criando risco operacional e de governança"
+  ]
+}
